@@ -1,0 +1,184 @@
+{
+  "desafios": [
+    { "groups": [
+      { "lvl": 1, "name": "Mecanismos de defesa", "words": ["PROJEÇÃO", "NEGAÇÃO", "REPRESSÃO", "SUBLIMAÇÃO"], "note": "Processos inconscientes que protegem o ego da ansiedade, sistematizados por Anna Freud." },
+      { "lvl": 2, "name": "Traços dos Cinco Grandes", "words": ["ABERTURA", "CONSCIENCIOSIDADE", "EXTROVERSÃO", "AMABILIDADE"], "note": "Quatro dos cinco grandes fatores de personalidade. O quinto é o neuroticismo." },
+      { "lvl": 3, "name": "Estádios de Piaget", "words": ["SENSÓRIO-MOTOR", "PRÉ-OPERATÓRIO", "OPERATÓRIO CONCRETO", "OPERATÓRIO FORMAL"], "note": "Os quatro estádios do desenvolvimento cognitivo." },
+      { "lvl": 4, "name": "Fases psicossexuais de Freud", "words": ["ORAL", "ANAL", "FÁLICA", "GENITAL"], "note": "A latência fica entre a fálica e a genital. A pegadinha: Piaget também tem estádios." }
+    ] },
+    { "groups": [
+      { "lvl": 1, "name": "Lobos cerebrais", "words": ["FRONTAL", "PARIETAL", "TEMPORAL", "OCCIPITAL"], "note": "Os quatro lobos do córtex cerebral." },
+      { "lvl": 2, "name": "Neurotransmissores", "words": ["DOPAMINA", "SEROTONINA", "GABA", "ACETILCOLINA"], "note": "Mensageiros químicos entre neurónios." },
+      { "lvl": 3, "name": "Behavioristas", "words": ["SKINNER", "WATSON", "PAVLOV", "THORNDIKE"], "note": "Nomes centrais do estudo do comportamento observável." },
+      { "lvl": 4, "name": "Tipos de memória", "words": ["EPISÓDICA", "SEMÂNTICA", "PROCEDURAL", "OPERATÓRIA"], "note": "Episódica e semântica são declarativas, a procedural é implícita e a operatória é a memória de trabalho." }
+    ] },
+    { "groups": [
+      { "lvl": 1, "name": "Abordagens da psicologia", "words": ["PSICANÁLISE", "BEHAVIORISMO", "GESTALT", "HUMANISMO"], "note": "Grandes escolas teóricas." },
+      { "lvl": 2, "name": "Leis da Gestalt", "words": ["PROXIMIDADE", "SEMELHANÇA", "FECHO", "CONTINUIDADE"], "note": "Princípios de organização percetiva. A pegadinha: Gestalt também é uma abordagem." },
+      { "lvl": 3, "name": "Humanistas e existenciais", "words": ["ROGERS", "MASLOW", "FRANKL", "YALOM"], "note": "Autores que colocaram o sentido, a liberdade e o crescimento no centro da psicologia." },
+      { "lvl": 4, "name": "Níveis da pirâmide de Maslow", "words": ["FISIOLÓGICAS", "SEGURANÇA", "ESTIMA", "AUTORREALIZAÇÃO"], "note": "Quatro dos cinco níveis. Falta o de amor e pertença." }
+    ] },
+    { "groups": [
+      { "lvl": 1, "name": "Fobias específicas", "words": ["ACROFOBIA", "CLAUSTROFOBIA", "ARACNOFOBIA", "HEMATOFOBIA"], "note": "Medo de alturas, de lugares fechados, de aranhas e de sangue." },
+      { "lvl": 2, "name": "Sintomas positivos da esquizofrenia", "words": ["DELÍRIOS", "ALUCINAÇÕES", "DESORGANIZAÇÃO", "CATATONIA"], "note": "Sintomas que “acrescentam” algo à experiência habitual." },
+      { "lvl": 3, "name": "Sintomas negativos da esquizofrenia", "words": ["AVOLIÇÃO", "ALOGIA", "ANEDONIA", "EMBOTAMENTO"], "note": "Sintomas que “retiram” algo: motivação, fala, prazer e expressão afetiva." },
+      { "lvl": 4, "name": "Síndromes neuropsicológicas com “A-”", "words": ["AFASIA", "AGNOSIA", "APRAXIA", "ATAXIA"], "note": "Linguagem, reconhecimento, movimento intencional e coordenação. A pegadinha: alogia e anedonia também começam por A." }
+    ] },
+    { "groups": [
+      { "lvl": 1, "name": "Estilos de vinculação", "words": ["SEGURO", "ANSIOSO", "EVITANTE", "DESORGANIZADO"], "note": "Padrões descritos por Ainsworth e Main a partir da teoria de Bowlby." },
+      { "lvl": 2, "name": "Estilos parentais (Baumrind)", "words": ["AUTORITÁRIO", "AUTORITATIVO", "PERMISSIVO", "NEGLIGENTE"], "note": "Autoritativo combina exigência e afeto. Autoritário só exigência." },
+      { "lvl": 3, "name": "Emoções básicas (Ekman)", "words": ["ALEGRIA", "TRISTEZA", "NOJO", "SURPRESA"], "note": "Quatro das seis emoções universais. As outras são o medo e a raiva." },
+      { "lvl": 4, "name": "Inteligências de Gardner", "words": ["LINGUÍSTICA", "ESPACIAL", "MUSICAL", "NATURALISTA"], "note": "Quatro das oito inteligências múltiplas. Os termos “seguro” e “ansioso” são da vinculação, não da inteligência." }
+    ] },
+    { "groups": [
+      { "lvl": 1, "name": "Fases do luto (Kübler-Ross)", "words": ["RAIVA", "NEGOCIAÇÃO", "DEPRESSÃO", "ACEITAÇÃO"], "note": "Quatro das cinco fases propostas em 1969. A quinta é a negação." },
+      { "lvl": 2, "name": "Mecanismos de defesa", "words": ["PROJEÇÃO", "REGRESSÃO", "RACIONALIZAÇÃO", "DESLOCAMENTO"], "note": "Processos inconscientes que protegem o ego da ansiedade." },
+      { "lvl": 3, "name": "Termos da psicanálise", "words": ["LIBIDO", "TRANSFERÊNCIA", "CATARSE", "LAPSO"], "note": "Conceitos que vêm de Freud e de Breuer." },
+      { "lvl": 4, "name": "Arquétipos de Jung", "words": ["PERSONA", "SOMBRA", "ANIMA", "HERÓI"], "note": "Imagens universais do inconsciente coletivo." }
+    ] },
+    { "groups": [
+      { "lvl": 1, "name": "Testes psicológicos", "words": ["RORSCHACH", "MMPI", "WISC", "WAIS"], "note": "Dois de personalidade e dois de inteligência (para crianças e para adultos)." },
+      { "lvl": 2, "name": "Psicólogos sociais", "words": ["MILGRAM", "ASCH", "ZIMBARDO", "SHERIF"], "note": "Obediência, conformidade, papéis e conflito entre grupos." },
+      { "lvl": 3, "name": "Nomes ligados ao cérebro", "words": ["BROCA", "WERNICKE", "GAGE", "PENFIELD"], "note": "Linguagem, o caso de Phineas Gage e o mapa do córtex." },
+      { "lvl": 4, "name": "Estruturas do sistema límbico", "words": ["AMÍGDALA", "HIPOCAMPO", "TÁLAMO", "HIPOTÁLAMO"], "note": "Emoção, memória e regulação do corpo." }
+    ] },
+    { "groups": [
+      { "lvl": 1, "name": "Perturbações alimentares", "words": ["ANOREXIA", "BULIMIA", "PICA", "RUMINAÇÃO"], "note": "Quatro perturbações do grupo da alimentação e ingestão no DSM-5-TR." },
+      { "lvl": 2, "name": "Perturbações da personalidade do grupo B", "words": ["ANTISSOCIAL", "BORDERLINE", "HISTRIÓNICA", "NARCÍSICA"], "note": "O grupo dramático, emocional ou errático." },
+      { "lvl": 3, "name": "Perturbações do sono", "words": ["INSÓNIA", "NARCOLEPSIA", "APNEIA", "SONAMBULISMO"], "note": "Dormir pouco, dormir de repente, respirar mal e andar a dormir." },
+      { "lvl": 4, "name": "Tipos de atenção", "words": ["SELETIVA", "SUSTENTADA", "DIVIDIDA", "ALTERNADA"], "note": "Escolher, manter, repartir e mudar o foco." }
+    ] },
+    { "groups": [
+      { "lvl": 1, "name": "Vieses cognitivos", "words": ["ANCORAGEM", "CONFIRMAÇÃO", "ENQUADRAMENTO", "DISPONIBILIDADE"], "note": "Atalhos mentais que distorcem o julgamento." },
+      { "lvl": 2, "name": "Efeitos psicológicos", "words": ["HALO", "PLACEBO", "BARNUM", "PIGMALIÃO"], "note": "Nomes de efeitos famosos. A pegadinha: ancoragem e enquadramento também são efeitos." },
+      { "lvl": 3, "name": "Métodos de recolha de dados", "words": ["OBSERVAÇÃO", "ENTREVISTA", "QUESTIONÁRIO", "ESTUDO DE CASO"], "note": "Instrumentos usados na investigação e na prática clínica." },
+      { "lvl": 4, "name": "Medidas estatísticas", "words": ["MÉDIA", "MEDIANA", "MODA", "DESVIO PADRÃO"], "note": "Duas de tendência central, uma de moda (o valor mais frequente) e uma de dispersão." }
+    ] },
+    { "groups": [
+      { "lvl": 1, "name": "Os cinco sentidos", "words": ["VISÃO", "AUDIÇÃO", "PALADAR", "TATO"], "note": "Os sentidos clássicos." },
+      { "lvl": 2, "name": "Psicólogos britânicos", "words": ["WINNICOTT", "BOWLBY", "BION", "SPEARMAN"], "note": "Psicanálise, vinculação e inteligência geral (g)." },
+      { "lvl": 3, "name": "Psicólogos austríacos", "words": ["FREUD", "ADLER", "FRANKL", "KLEIN"], "note": "Melanie Klein nasceu em Viena, mas fez carreira em Londres." },
+      { "lvl": 4, "name": "Psicólogos suíços", "words": ["JUNG", "PIAGET", "RORSCHACH", "KÜBLER-ROSS"], "note": "Hermann Rorschach era psiquiatra suíço. Elisabeth Kübler-Ross nasceu em Zurique." }
+    ] },
+    { "groups": [
+      { "lvl": 1, "name": "Perturbações de ansiedade", "words": ["PÂNICO", "AGORAFOBIA", "FOBIA ESPECÍFICA", "ANSIEDADE SOCIAL"], "note": "Quatro perturbações de ansiedade do DSM-5-TR." },
+      { "lvl": 2, "name": "Termos do humor", "words": ["DISTIMIA", "CICLOTIMIA", "HIPOMANIA", "MANIA"], "note": "Quadros crónicos e episódios de humor elevado." },
+      { "lvl": 3, "name": "Perturbações do espetro do TOC", "words": ["ACUMULAÇÃO", "TRICOTILOMANIA", "ESCORIAÇÃO", "DISMORFIA"], "note": "Perturbações relacionadas com o TOC no DSM-5-TR." },
+      { "lvl": 4, "name": "Neurodesenvolvimento", "words": ["AUTISMO", "PHDA", "DISLEXIA", "TOURETTE"], "note": "Perturbações que começam cedo no desenvolvimento." }
+    ] },
+    { "groups": [
+      { "lvl": 1, "name": "Conceitos do condicionamento", "words": ["REFORÇO", "EXTINÇÃO", "GENERALIZAÇÃO", "DISCRIMINAÇÃO"], "note": "Processos básicos de aprendizagem associativa." },
+      { "lvl": 2, "name": "Planos de investigação", "words": ["LONGITUDINAL", "TRANSVERSAL", "EXPERIMENTAL", "CORRELACIONAL"], "note": "Formas de organizar um estudo." },
+      { "lvl": 3, "name": "Qualidades de um teste", "words": ["VALIDADE", "FIDELIDADE", "NORMAS", "ESTANDARDIZAÇÃO"], "note": "Propriedades da psicometria." },
+      { "lvl": 4, "name": "Tipos de variáveis", "words": ["INDEPENDENTE", "DEPENDENTE", "MODERADORA", "MEDIADORA"], "note": "A moderadora muda a força da relação. A mediadora explica o processo." }
+    ] },
+    { "groups": [
+      { "lvl": 1, "name": "Figuras da mitologia na psicanálise", "words": ["ÉDIPO", "ELETRA", "NARCISO", "EROS"], "note": "Mitos gregos usados por Freud e Jung." },
+      { "lvl": 2, "name": "Inteligências de Gardner", "words": ["LINGUÍSTICA", "MUSICAL", "CINESTÉSICA", "NATURALISTA"], "note": "Quatro das oito inteligências múltiplas." },
+      { "lvl": 3, "name": "Abordagens terapêuticas", "words": ["TCC", "EMDR", "PSICODRAMA", "LOGOTERAPIA"], "note": "Cognitivo-comportamental, trauma, grupo e sentido de vida." },
+      { "lvl": 4, "name": "Substâncias no uso problemático", "words": ["ÁLCOOL", "OPIÁCEOS", "CANÁBIS", "ESTIMULANTES"], "note": "Grupos de substâncias das perturbações por uso." }
+    ] },
+    { "groups": [
+      { "lvl": 1, "name": "Estruturas do encéfalo", "words": ["CEREBELO", "CÓRTEX", "BULBO", "PONTE"], "note": "Coordenação, pensamento e funções vitais." },
+      { "lvl": 2, "name": "Doenças neurodegenerativas", "words": ["ALZHEIMER", "PARKINSON", "HUNTINGTON", "ESCLEROSE"], "note": "Quadros em que os neurónios se perdem progressivamente (“esclerose” aqui é a lateral amiotrófica ou a múltipla)." },
+      { "lvl": 3, "name": "Crises psicossociais de Erikson", "words": ["CONFIANÇA", "AUTONOMIA", "INICIATIVA", "INDUSTRIOSIDADE"], "note": "As quatro primeiras das oito crises." },
+      { "lvl": 4, "name": "Teorias da emoção", "words": ["JAMES-LANGE", "CANNON-BARD", "SCHACHTER-SINGER", "LAZARUS"], "note": "Corpo primeiro, corpo e mente em simultâneo, dois fatores e avaliação cognitiva." }
+    ] },
+    { "groups": [
+      { "lvl": 1, "name": "Neurónio", "words": ["AXÓNIO", "DENDRITE", "SINAPSE", "MIELINA"], "note": "Partes e estruturas associadas ao neurónio." },
+      { "lvl": 2, "name": "Fases do sono", "words": ["N1", "N2", "N3", "REM"], "note": "Sono leve, intermédio, profundo e o sono dos sonhos." },
+      { "lvl": 3, "name": "Hormonas", "words": ["MELATONINA", "CORTISOL", "ADRENALINA", "OXITOCINA"], "note": "Sono, stresse, alerta e vinculação." },
+      { "lvl": 4, "name": "Sistemas do corpo", "words": ["LÍMBICO", "SIMPÁTICO", "PARASSIMPÁTICO", "ENDÓCRINO"], "note": "Emoção, ativação, repouso e hormonas." }
+    ] },
+    { "groups": [
+      { "lvl": 1, "name": "Atitudes do terapeuta (Rogers)", "words": ["EMPATIA", "CONGRUÊNCIA", "AUTENTICIDADE", "ACEITAÇÃO"], "note": "Condições da abordagem centrada na pessoa." },
+      { "lvl": 2, "name": "Técnicas da TCC", "words": ["REESTRUTURAÇÃO", "EXPOSIÇÃO", "ATIVAÇÃO COMPORTAMENTAL", "REGISTO DE PENSAMENTOS"], "note": "Intervenções da terapia cognitivo-comportamental." },
+      { "lvl": 3, "name": "Técnicas da psicanálise", "words": ["ASSOCIAÇÃO LIVRE", "INTERPRETAÇÃO", "ANÁLISE DE SONHOS", "ATENÇÃO FLUTUANTE"], "note": "O paciente diz tudo e o analista escuta de modo igualmente aberto." },
+      { "lvl": 4, "name": "Conceitos da terapia sistémica", "words": ["GENOGRAMA", "TRIANGULAÇÃO", "HOMEOSTASE", "CIRCULARIDADE"], "note": "A família vista como sistema." }
+    ] },
+    { "groups": [
+      { "lvl": 1, "name": "Tipos de brincadeira", "words": ["SIMBÓLICO", "SOLITÁRIO", "PARALELO", "COOPERATIVO"], "note": "Formas de jogo ao longo do desenvolvimento." },
+      { "lvl": 2, "name": "Reflexos do recém-nascido", "words": ["SUCÇÃO", "PREENSÃO", "MORO", "BABINSKI"], "note": "Respostas automáticas dos bebés." },
+      { "lvl": 3, "name": "Marcos da linguagem", "words": ["BALBUCIO", "HOLOFRASE", "VOCABULÁRIO", "SINTAXE"], "note": "Dos primeiros sons às frases completas." },
+      { "lvl": 4, "name": "Teóricos do desenvolvimento", "words": ["PIAGET", "VIGOTSKI", "ERIKSON", "BRONFENBRENNER"], "note": "Cognição, cultura, crises psicossociais e contextos ecológicos." }
+    ] },
+    { "groups": [
+      { "lvl": 1, "name": "Alterações da perceção", "words": ["DELÍRIO", "ALUCINAÇÃO", "ILUSÃO", "PARANOIA"], "note": "Termos usados na descrição de quadros psicóticos." },
+      { "lvl": 2, "name": "Exame do estado mental", "words": ["AFETO", "HUMOR", "INSIGHT", "JUÍZO"], "note": "Áreas que o clínico observa na consulta." },
+      { "lvl": 3, "name": "Perturbações dissociativas", "words": ["DESPERSONALIZAÇÃO", "DESREALIZAÇÃO", "AMNÉSIA DISSOCIATIVA", "IDENTIDADE DISSOCIATIVA"], "note": "Experiências de desligamento do eu, do mundo e da memória." },
+      { "lvl": 4, "name": "Sintomas da depressão", "words": ["HIPERSÓNIA", "AGITAÇÃO", "LENTIFICAÇÃO", "IDEAÇÃO"], "note": "Sono em excesso, inquietação, abrandamento e pensamentos de morte." }
+    ] },
+    { "groups": [
+      { "lvl": 1, "name": "Testes projetivos", "words": ["TAT", "HTP", "FIGURA HUMANA", "RORSCHACH"], "note": "O paciente projeta o seu mundo interno em imagens ambíguas ou desenhos." },
+      { "lvl": 2, "name": "Provas de inteligência", "words": ["WISC", "WAIS", "RAVEN", "BINET"], "note": "Escalas de crianças e de adultos, matrizes e o primeiro teste." },
+      { "lvl": 3, "name": "Inventários de personalidade", "words": ["MMPI", "NEO-PI", "16PF", "EYSENCK"], "note": "Questionários de autorresposta." },
+      { "lvl": 4, "name": "Escalas de depressão e ansiedade", "words": ["BECK", "HAMILTON", "HADS", "PHQ-9"], "note": "Instrumentos de rastreio e de acompanhamento." }
+    ] },
+    { "groups": [
+      { "lvl": 1, "name": "Escolas pioneiras", "words": ["ESTRUTURALISMO", "FUNCIONALISMO", "REFLEXOLOGIA", "ASSOCIACIONISMO"], "note": "Primeiras correntes da psicologia científica." },
+      { "lvl": 2, "name": "Psicofísica", "words": ["WUNDT", "FECHNER", "WEBER", "HELMHOLTZ"], "note": "Medir a relação entre estímulo e sensação." },
+      { "lvl": 3, "name": "Fundadores da Gestalt", "words": ["WERTHEIMER", "KOFFKA", "KÖHLER", "LEWIN"], "note": "Os três fundadores e Lewin, ligado à teoria de campo." },
+      { "lvl": 4, "name": "Aprendizagem social", "words": ["MODELAÇÃO", "IMITAÇÃO", "REFORÇO VICÁRIO", "AUTOEFICÁCIA"], "note": "Conceitos de Bandura." }
+    ] },
+    { "groups": [
+      { "lvl": 1, "name": "Comportamentos sociais", "words": ["CONFORMIDADE", "OBEDIÊNCIA", "ALTRUÍSMO", "AGRESSÃO"], "note": "Objetos clássicos de estudo da psicologia social." },
+      { "lvl": 2, "name": "Cognição social", "words": ["ATRIBUIÇÃO", "DISSONÂNCIA", "ESTEREÓTIPO", "PRECONCEITO"], "note": "Formas como interpretamos os outros." },
+      { "lvl": 3, "name": "Estilos de liderança (Lewin)", "words": ["AUTOCRÁTICO", "DEMOCRÁTICO", "LAISSEZ-FAIRE", "TRANSACIONAL"], "note": "Três estilos clássicos de Lewin e um de Burns." },
+      { "lvl": 4, "name": "Fases do grupo (Tuckman)", "words": ["FORMAÇÃO", "CONFLITO", "NORMALIZAÇÃO", "EXECUÇÃO"], "note": "Forming, storming, norming e performing." }
+    ] },
+    { "groups": [
+      { "lvl": 1, "name": "Princípios éticos", "words": ["CONFIDENCIALIDADE", "CONSENTIMENTO", "SIGILO", "BENEFICÊNCIA"], "note": "Base do código deontológico." },
+      { "lvl": 2, "name": "Etapas da avaliação", "words": ["ANAMNESE", "EXAME", "DIAGNÓSTICO", "PROGNÓSTICO"], "note": "Do histórico à previsão da evolução." },
+      { "lvl": 3, "name": "Tipos de entrevista", "words": ["ESTRUTURADA", "SEMIESTRUTURADA", "LIVRE", "MOTIVACIONAL"], "note": "Níveis de estrutura e uma técnica própria." },
+      { "lvl": 4, "name": "Relação terapêutica", "words": ["ALIANÇA", "RAPPORT", "CONTRATRANSFERÊNCIA", "SETTING"], "note": "Ingredientes comuns às várias abordagens." }
+    ] },
+    { "groups": [
+      { "lvl": 1, "name": "Respostas à ameaça", "words": ["LUTA", "FUGA", "PARALISIA", "SUBMISSÃO"], "note": "Os “4 F” da resposta ao perigo." },
+      { "lvl": 2, "name": "Hormonas do stresse", "words": ["CORTISOL", "ADRENALINA", "NORADRENALINA", "ACTH"], "note": "Eixo hipotálamo-hipófise-suprarrenal." },
+      { "lvl": 3, "name": "Estratégias de coping", "words": ["EVITAMENTO", "REAVALIAÇÃO", "SUPRESSÃO", "RESOLUÇÃO"], "note": "Formas de lidar com o stresse." },
+      { "lvl": 4, "name": "Dimensões do burnout", "words": ["EXAUSTÃO", "CINISMO", "INEFICÁCIA", "ENVOLVIMENTO"], "note": "Maslach e Leiter: a exaustão, o cinismo e a ineficácia, e o seu oposto, o envolvimento." }
+    ] },
+    { "groups": [
+      { "lvl": 1, "name": "Ilusões de ótica", "words": ["MÜLLER-LYER", "PONZO", "EBBINGHAUS", "NECKER"], "note": "Figuras que enganam a perceção." },
+      { "lvl": 2, "name": "Constâncias percetivas", "words": ["TAMANHO", "FORMA", "COR", "BRILHO"], "note": "O objeto parece o mesmo, mesmo quando a imagem muda." },
+      { "lvl": 3, "name": "Pistas de profundidade", "words": ["PERSPETIVA", "SOBREPOSIÇÃO", "GRADIENTE", "PARALAXE"], "note": "Como o cérebro estima a distância." },
+      { "lvl": 4, "name": "Sentidos", "words": ["OLFATO", "AUDIÇÃO", "VISÃO", "PROPRIOCEÇÃO"], "note": "Propriocepção: sentido da posição do corpo." }
+    ] },
+    { "groups": [
+      { "lvl": 1, "name": "Resolução de problemas", "words": ["ALGORITMO", "HEURÍSTICA", "INSIGHT", "TENTATIVA E ERRO"], "note": "Formas de chegar a uma solução." },
+      { "lvl": 2, "name": "Criatividade", "words": ["DIVERGENTE", "CONVERGENTE", "FLUIDEZ", "FLEXIBILIDADE"], "note": "Guilford e Torrance." },
+      { "lvl": 3, "name": "Tipos de raciocínio", "words": ["DEDUTIVO", "INDUTIVO", "ABDUTIVO", "ANALÓGICO"], "note": "Do geral ao particular, do particular ao geral, melhor explicação e comparação." },
+      { "lvl": 4, "name": "Falácias do pensamento", "words": ["APOSTADOR", "CUSTO IRRECUPERÁVEL", "PLANEAMENTO", "CONJUNÇÃO"], "note": "Falácias do apostador, do custo irrecuperável, do planeamento e da conjunção." }
+    ] },
+    { "groups": [
+      { "lvl": 1, "name": "Impulsos primários", "words": ["FOME", "SEDE", "SONO", "SEXO"], "note": "Necessidades biológicas." },
+      { "lvl": 2, "name": "Emoções autoconscientes", "words": ["CULPA", "VERGONHA", "ORGULHO", "INVEJA"], "note": "Dependem de como a pessoa se vê perante os outros." },
+      { "lvl": 3, "name": "Dimensões da atribuição", "words": ["INTERNA", "EXTERNA", "ESTÁVEL", "INSTÁVEL"], "note": "Modelo de Weiner." },
+      { "lvl": 4, "name": "Constructos do self", "words": ["AUTOEFICÁCIA", "AUTOESTIMA", "AUTOCONCEITO", "AUTOIMAGEM"], "note": "Da confiança numa tarefa à imagem que temos de nós." }
+    ] },
+    { "groups": [
+      { "lvl": 1, "name": "Profissionais", "words": ["PSICÓLOGO", "PSIQUIATRA", "PSICANALISTA", "NEUROLOGISTA"], "note": "Cada um com uma formação e um âmbito diferentes." },
+      { "lvl": 2, "name": "Níveis de prevenção", "words": ["PRIMÁRIA", "SECUNDÁRIA", "TERCIÁRIA", "UNIVERSAL"], "note": "Evitar, detetar cedo e reduzir danos." },
+      { "lvl": 3, "name": "Contextos de atuação", "words": ["CLÍNICO", "ESCOLAR", "ORGANIZACIONAL", "FORENSE"], "note": "Áreas da psicologia aplicada." },
+      { "lvl": 4, "name": "Modelos de saúde mental", "words": ["BIOMÉDICO", "BIOPSICOSSOCIAL", "SALUTOGÉNICO", "ECOLÓGICO"], "note": "Formas diferentes de explicar a saúde e a doença." }
+    ] },
+    { "groups": [
+      { "lvl": 1, "name": "Hábitos de bem-estar", "words": ["GRATIDÃO", "MEDITAÇÃO", "EXERCÍCIO", "SOCIALIZAÇÃO"], "note": "Práticas com evidência de benefício." },
+      { "lvl": 2, "name": "Elementos do PERMA", "words": ["EMOÇÕES POSITIVAS", "ENVOLVIMENTO", "RELAÇÕES", "SENTIDO"], "note": "Quatro dos cinco elementos do modelo de Seligman. Falta a realização." },
+      { "lvl": 3, "name": "Virtudes (Peterson e Seligman)", "words": ["SABEDORIA", "CORAGEM", "HUMANIDADE", "JUSTIÇA"], "note": "Quatro de seis virtudes. Faltam a temperança e a transcendência." },
+      { "lvl": 4, "name": "Terapias de terceira vaga", "words": ["ACT", "DBT", "MBCT", "TERAPIA DO ESQUEMA"], "note": "Aceitação e compromisso, dialética, mindfulness e esquemas." }
+    ] },
+    { "groups": [
+      { "lvl": 1, "name": "Áreas e estruturas ligadas à memória e à linguagem", "words": ["ÁREA DE BROCA", "ÁREA DE WERNICKE", "CORPO CALOSO", "HIPOCAMPO"], "note": "Produção e compreensão da fala, ligação entre hemisférios e memória." },
+      { "lvl": 2, "name": "Funções executivas", "words": ["PLANEAMENTO", "INIBIÇÃO", "FLEXIBILIDADE", "MEMÓRIA OPERATÓRIA"], "note": "Controlam o comportamento dirigido a um objetivo." },
+      { "lvl": 3, "name": "Provas neuropsicológicas", "words": ["STROOP", "WISCONSIN", "TORRE DE LONDRES", "TRAIL MAKING"], "note": "Atenção, flexibilidade e planeamento." },
+      { "lvl": 4, "name": "Síndromes raras com nome próprio", "words": ["CAPGRAS", "COTARD", "KORSAKOFF", "FREGOLI"], "note": "Impostores, cadáver vivo, amnésia por álcool e perseguidor disfarçado." }
+    ] },
+    { "groups": [
+      { "lvl": 1, "name": "Dificuldades de aprendizagem", "words": ["DISLEXIA", "DISGRAFIA", "DISCALCULIA", "DISORTOGRAFIA"], "note": "Leitura, escrita, cálculo e ortografia." },
+      { "lvl": 2, "name": "Tipos de luto", "words": ["ANTECIPATÓRIO", "COMPLICADO", "PROLONGADO", "AMBÍGUO"], "note": "Antes da morte, intenso e persistente, e perda sem confirmação." },
+      { "lvl": 3, "name": "Fases da separação (Bowlby)", "words": ["PROTESTO", "DESESPERO", "DESLIGAMENTO", "REORGANIZAÇÃO"], "note": "Reação da criança à separação prolongada da mãe." },
+      { "lvl": 4, "name": "Cuidados paliativos", "words": ["DIGNIDADE", "CONFORTO", "DESPEDIDA", "ALÍVIO"], "note": "Valores centrais do cuidado ao fim da vida." }
+    ] }
+  ]
+}
