@@ -820,3 +820,8 @@ button.tile{font:inherit;font-family:var(--font-body);font-weight:700;font-size:
 button.tile.sel{border-color:var(--g);box-shadow:0 0 0 2px color-mix(in srgb,var(--g) 45%,transparent)}
 button.tile:focus-visible{outline:2px solid var(--g);outline-offset:2px}
 .helper-c{text-align:center;margin:10px 0 0;font-size:14px}
+/* cabeçalho do jogo em ecrãs estreitos: o título cede espaço ao botão de ajuda */
+.ghead{gap:10px}
+.ghead .titles{flex:1 1 auto}
+.ghead h2{font-size:clamp(24px,7.4vw,42px);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+@media (max-width:420px){.ghead .glyph,.ghead .gbadge{flex:0 0 auto}.ghead .meta{white-space:normal}}

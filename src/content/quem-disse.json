@@ -1,933 +1,1061 @@
 {
-  "autores": [
-    {
-      "id": "freud",
-      "nome": "Sigmund Freud",
-      "aliases": [],
-      "nacionalidade": "Austríaca",
-      "nascimento": 1856,
-      "escola": "Psicanálise",
-      "familia": "dinamica"
-    },
-    {
-      "id": "anna",
-      "nome": "Anna Freud",
-      "aliases": [],
-      "nacionalidade": "Austríaca",
-      "nascimento": 1895,
-      "escola": "Psicanálise",
-      "familia": "dinamica"
-    },
-    {
-      "id": "jung",
-      "nome": "Carl Gustav Jung",
-      "aliases": [
-        "c g jung"
-      ],
-      "nacionalidade": "Suíça",
-      "nascimento": 1875,
-      "escola": "Psicologia analítica",
-      "familia": "dinamica"
-    },
-    {
-      "id": "adler",
-      "nome": "Alfred Adler",
-      "aliases": [],
-      "nacionalidade": "Austríaca",
-      "nascimento": 1870,
-      "escola": "Psicologia individual",
-      "familia": "dinamica"
-    },
-    {
-      "id": "lacan",
-      "nome": "Jacques Lacan",
-      "aliases": [],
-      "nacionalidade": "Francesa",
-      "nascimento": 1901,
-      "escola": "Psicanálise",
-      "familia": "dinamica"
-    },
-    {
-      "id": "klein",
-      "nome": "Melanie Klein",
-      "aliases": [],
-      "nacionalidade": "Austríaca",
-      "nascimento": 1882,
-      "escola": "Psicanálise",
-      "familia": "dinamica"
-    },
-    {
-      "id": "winnicott",
-      "nome": "Donald Winnicott",
-      "aliases": [],
-      "nacionalidade": "Britânica",
-      "nascimento": 1896,
-      "escola": "Psicanálise",
-      "familia": "dinamica"
-    },
-    {
-      "id": "bion",
-      "nome": "Wilfred Bion",
-      "aliases": [],
-      "nacionalidade": "Britânica",
-      "nascimento": 1897,
-      "escola": "Psicanálise",
-      "familia": "dinamica"
-    },
-    {
-      "id": "bowlby",
-      "nome": "John Bowlby",
-      "aliases": [],
-      "nacionalidade": "Britânica",
-      "nascimento": 1907,
-      "escola": "Teoria da vinculação",
-      "familia": "dinamica"
-    },
-    {
-      "id": "horney",
-      "nome": "Karen Horney",
-      "aliases": [],
-      "nacionalidade": "Alemã",
-      "nascimento": 1885,
-      "escola": "Psicanálise",
-      "familia": "dinamica"
-    },
-    {
-      "id": "fromm",
-      "nome": "Erich Fromm",
-      "aliases": [],
-      "nacionalidade": "Alemã",
-      "nascimento": 1900,
-      "escola": "Psicanálise",
-      "familia": "dinamica"
-    },
-    {
-      "id": "erikson",
-      "nome": "Erik Erikson",
-      "aliases": [],
-      "nacionalidade": "Norte-americana",
-      "nascimento": 1902,
-      "escola": "Psicanálise",
-      "familia": "dinamica"
-    },
-    {
-      "id": "nise",
-      "nome": "Nise da Silveira",
-      "aliases": [],
-      "nacionalidade": "Brasileira",
-      "nascimento": 1905,
-      "escola": "Psicologia analítica",
-      "familia": "dinamica"
-    },
-    {
-      "id": "rogers",
-      "nome": "Carl Rogers",
-      "aliases": [],
-      "nacionalidade": "Norte-americana",
-      "nascimento": 1902,
-      "escola": "Humanismo",
-      "familia": "humanista"
-    },
-    {
-      "id": "maslow",
-      "nome": "Abraham Maslow",
-      "aliases": [],
-      "nacionalidade": "Norte-americana",
-      "nascimento": 1908,
-      "escola": "Humanismo",
-      "familia": "humanista"
-    },
-    {
-      "id": "may",
-      "nome": "Rollo May",
-      "aliases": [],
-      "nacionalidade": "Norte-americana",
-      "nascimento": 1909,
-      "escola": "Existencialismo",
-      "familia": "humanista"
-    },
-    {
-      "id": "frankl",
-      "nome": "Viktor Frankl",
-      "aliases": [],
-      "nacionalidade": "Austríaca",
-      "nascimento": 1905,
-      "escola": "Existencialismo",
-      "familia": "humanista"
-    },
-    {
-      "id": "yalom",
-      "nome": "Irvin Yalom",
-      "aliases": [],
-      "nacionalidade": "Norte-americana",
-      "nascimento": 1931,
-      "escola": "Existencialismo",
-      "familia": "humanista"
-    },
-    {
-      "id": "perls",
-      "nome": "Fritz Perls",
-      "aliases": [
-        "frederick perls"
-      ],
-      "nacionalidade": "Alemã",
-      "nascimento": 1893,
-      "escola": "Gestalt-terapia",
-      "familia": "humanista"
-    },
-    {
-      "id": "seligman",
-      "nome": "Martin Seligman",
-      "aliases": [],
-      "nacionalidade": "Norte-americana",
-      "nascimento": 1942,
-      "escola": "Psicologia positiva",
-      "familia": "humanista"
-    },
-    {
-      "id": "csikszentmihalyi",
-      "nome": "Mihaly Csikszentmihalyi",
-      "aliases": [
-        "flow",
-        "csikszentmihaly"
-      ],
-      "nacionalidade": "Húngara",
-      "nascimento": 1934,
-      "escola": "Psicologia positiva",
-      "familia": "humanista"
-    },
-    {
-      "id": "skinner",
-      "nome": "B. F. Skinner",
-      "aliases": [
-        "burrhus skinner"
-      ],
-      "nacionalidade": "Norte-americana",
-      "nascimento": 1904,
-      "escola": "Behaviorismo",
-      "familia": "comportamental"
-    },
-    {
-      "id": "watson",
-      "nome": "John B. Watson",
-      "aliases": [],
-      "nacionalidade": "Norte-americana",
-      "nascimento": 1878,
-      "escola": "Behaviorismo",
-      "familia": "comportamental"
-    },
-    {
-      "id": "pavlov",
-      "nome": "Ivan Pavlov",
-      "aliases": [],
-      "nacionalidade": "Russa",
-      "nascimento": 1849,
-      "escola": "Behaviorismo",
-      "familia": "comportamental"
-    },
-    {
-      "id": "thorndike",
-      "nome": "Edward Thorndike",
-      "aliases": [],
-      "nacionalidade": "Norte-americana",
-      "nascimento": 1874,
-      "escola": "Behaviorismo",
-      "familia": "comportamental"
-    },
-    {
-      "id": "bandura",
-      "nome": "Albert Bandura",
-      "aliases": [],
-      "nacionalidade": "Canadiana",
-      "nascimento": 1925,
-      "escola": "Cognitivo-social",
-      "familia": "cognitiva"
-    },
-    {
-      "id": "beck",
-      "nome": "Aaron Beck",
-      "aliases": [],
-      "nacionalidade": "Norte-americana",
-      "nascimento": 1921,
-      "escola": "Terapia cognitiva",
-      "familia": "cognitiva"
-    },
-    {
-      "id": "ellis",
-      "nome": "Albert Ellis",
-      "aliases": [],
-      "nacionalidade": "Norte-americana",
-      "nascimento": 1913,
-      "escola": "Terapia racional-emotiva",
-      "familia": "cognitiva"
-    },
-    {
-      "id": "kahneman",
-      "nome": "Daniel Kahneman",
-      "aliases": [],
-      "nacionalidade": "Israelita",
-      "nascimento": 1934,
-      "escola": "Cognitivismo",
-      "familia": "cognitiva"
-    },
-    {
-      "id": "piaget",
-      "nome": "Jean Piaget",
-      "aliases": [],
-      "nacionalidade": "Suíça",
-      "nascimento": 1896,
-      "escola": "Construtivismo",
-      "familia": "desenvolvimento"
-    },
-    {
-      "id": "vigotski",
-      "nome": "Lev Vigotski",
-      "aliases": [
-        "vygotsky",
-        "vigotsky"
-      ],
-      "nacionalidade": "Russa",
-      "nascimento": 1896,
-      "escola": "Histórico-cultural",
-      "familia": "desenvolvimento"
-    },
-    {
-      "id": "james",
-      "nome": "William James",
-      "aliases": [],
-      "nacionalidade": "Norte-americana",
-      "nascimento": 1842,
-      "escola": "Funcionalismo",
-      "familia": "fundadores"
-    },
-    {
-      "id": "wundt",
-      "nome": "Wilhelm Wundt",
-      "aliases": [],
-      "nacionalidade": "Alemã",
-      "nascimento": 1832,
-      "escola": "Estruturalismo",
-      "familia": "fundadores"
-    },
-    {
-      "id": "kubler",
-      "nome": "Elisabeth Kübler-Ross",
-      "aliases": [
-        "kubler ross"
-      ],
-      "nacionalidade": "Suíça",
-      "nascimento": 1926,
-      "escola": "Psiquiatria",
-      "familia": "clinica"
-    },
-    {
-      "id": "milgram",
-      "nome": "Stanley Milgram",
-      "aliases": [],
-      "nacionalidade": "Norte-americana",
-      "nascimento": 1933,
-      "escola": "Psicologia social",
-      "familia": "social"
-    }
-  ],
-  "citacoes": [
-    {
-      "answer": "winnicott",
-      "near": [
-        "bowlby",
-        "klein",
-        "anna"
-      ],
-      "quote": "Não existe tal coisa como um bebé.",
-      "hints": [
-        "Pediatra e psicanalista inglês (1896–1971).",
-        "Fez parte do chamado Grupo Independente da psicanálise britânica.",
-        "A frase diz que o bebé só existe em relação com quem cuida dele.",
-        "Conceitos: objeto transicional e holding.",
-        "Criou a ideia da “mãe suficientemente boa”."
-      ],
-      "explain": "Donald Winnicott quis dizer que não se pode descrever um bebé sem descrever também o ambiente de cuidado: o par bebé-cuidador é a unidade. A ideia está na base dos seus conceitos de holding e de ambiente facilitador.",
-      "ref": "Winnicott, D. W. (1957). The Child, the Family, and the Outside World. Penguin."
-    },
-    {
-      "answer": "rogers",
-      "near": [
-        "maslow",
-        "may",
-        "frankl"
-      ],
-      "quote": "O curioso paradoxo é que, quando me aceito como sou, então posso mudar.",
-      "hints": [
-        "Psicólogo norte-americano do século XX.",
-        "Escola: psicologia humanista, a chamada “terceira força”.",
-        "Criou uma abordagem terapêutica centrada na pessoa (antes, “centrada no cliente”).",
-        "A frase está no livro Tornar-se Pessoa (1961).",
-        "Defendia a empatia, a congruência e a consideração positiva incondicional."
-      ],
-      "explain": "Carl Rogers acreditava que a mudança terapêutica nasce da aceitação, e não da autocrítica. Na abordagem centrada na pessoa, o terapeuta oferece empatia, congruência e consideração positiva incondicional, criando condições para que o cliente se desenvolva.",
-      "ref": "Rogers, C. R. (1961). On Becoming a Person. Houghton Mifflin."
-    },
-    {
-      "answer": "frankl",
-      "near": [
-        "rogers",
-        "may",
-        "yalom"
-      ],
-      "quote": "Tudo pode ser tirado a um ser humano, exceto uma coisa: a última das liberdades humanas, escolher a sua atitude em qualquer circunstância.",
-      "hints": [
-        "Psiquiatra e neurologista austríaco do século XX.",
-        "Escola: análise existencial.",
-        "Sobreviveu a campos de concentração nazis, incluindo Auschwitz.",
-        "A frase está no livro Em Busca de Sentido (1946).",
-        "Fundador da logoterapia, a “terceira escola vienense de psicoterapia”."
-      ],
-      "explain": "Viktor Frankl escreveu sobre a sua experiência nos campos de concentração e concluiu que a busca de sentido é a motivação humana central. A logoterapia ajuda a pessoa a encontrar sentido mesmo perante o sofrimento inevitável.",
-      "ref": "Frankl, V. E. (1946/1959). Man’s Search for Meaning. Beacon Press."
-    },
-    {
-      "answer": "jung",
-      "near": [
-        "freud",
-        "adler",
-        "lacan"
-      ],
-      "quote": "Quem olha para fora sonha; quem olha para dentro desperta.",
-      "hints": [
-        "Psiquiatra suíço, nascido em 1875.",
-        "Foi tratado como “príncipe herdeiro” de um movimento, até romper com ele em 1913.",
-        "Escola: psicologia analítica.",
-        "Conceitos: inconsciente coletivo, arquétipos, persona e sombra.",
-        "Iniciais: C. G."
-      ],
-      "explain": "A frase, de uma carta de Carl Gustav Jung (1916), resume a ideia de que o autoconhecimento exige voltar-se para o mundo interior e para o inconsciente. Para Jung, esse caminho leva à individuação, o processo de nos tornarmos quem somos.",
-      "ref": "Jung, C. G. (1973). Letters, vol. 1. Princeton University Press."
-    },
-    {
-      "answer": "maslow",
-      "near": [
-        "rogers",
-        "frankl",
-        "may"
-      ],
-      "quote": "Suponho que é tentador, se a única ferramenta que temos é um martelo, tratar tudo como se fosse um prego.",
-      "hints": [
-        "Psicólogo norte-americano (1908–1970).",
-        "Uma das figuras centrais da psicologia humanista.",
-        "Estudou pessoas que considerava exemplares, como Einstein e Eleanor Roosevelt.",
-        "Conceito-chave: autorrealização.",
-        "Famoso por uma hierarquia de necessidades, muitas vezes desenhada em pirâmide."
-      ],
-      "explain": "Abraham Maslow usou a imagem do martelo para criticar a ciência que molda os problemas ao seu método preferido. Ficou conhecida como o “martelo de Maslow” ou lei do instrumento.",
-      "ref": "Maslow, A. H. (1966). The Psychology of Science. Harper & Row."
-    },
-    {
-      "answer": "skinner",
-      "near": [
-        "watson",
-        "pavlov",
-        "thorndike"
-      ],
-      "quote": "A educação é o que sobrevive quando o que foi aprendido foi esquecido.",
-      "hints": [
-        "Psicólogo norte-americano, professor em Harvard.",
-        "Escola: behaviorismo radical.",
-        "Escreveu um romance sobre uma comunidade utópica: Walden Dois (1948).",
-        "Conceitos: reforço, esquemas de reforço e condicionamento operante.",
-        "Uma caixa experimental leva o seu nome."
-      ],
-      "explain": "Para B. F. Skinner, o que fica da educação não são factos decorados, mas repertórios de comportamento: maneiras de pensar, investigar e agir. A frase foi publicada na revista New Scientist em 1964.",
-      "ref": "Skinner, B. F. (1964). New Scientist, 21 de maio."
-    },
-    {
-      "answer": "freud",
-      "near": [
-        "jung",
-        "lacan",
-        "anna"
-      ],
-      "quote": "O ego não é senhor na sua própria casa.",
-      "hints": [
-        "Neurologista austríaco (1856–1939).",
-        "A frase descreve a “terceira ferida narcísica” da humanidade, depois de Copérnico e Darwin.",
-        "Obra famosa: A Interpretação dos Sonhos (1900).",
-        "Conceitos: id, ego, superego e inconsciente.",
-        "Fundador da psicanálise."
-      ],
-      "explain": "Sigmund Freud comparou a descoberta do inconsciente às revoluções de Copérnico (a Terra não é o centro) e de Darwin (o ser humano descende de outros animais). A psicanálise mostraria que nem dentro de nós próprios temos controlo total.",
-      "ref": "Freud, S. (1917). Uma dificuldade da psicanálise."
-    },
-    {
-      "answer": "piaget",
-      "near": [
-        "vigotski",
-        "erikson",
-        "bandura"
-      ],
-      "quote": "Cada vez que ensinamos prematuramente a uma criança algo que ela poderia ter descoberto sozinha, impedimo-la de o inventar e, por isso, de o compreender por completo.",
-      "hints": [
-        "Biólogo e epistemólogo suíço (1896–1980).",
-        "Estudou a forma como o conhecimento se constrói, observando, entre outros, os próprios filhos.",
-        "Escola: epistemologia genética, ou construtivismo.",
-        "Conceitos: assimilação, acomodação e equilibração.",
-        "Propôs quatro estádios do desenvolvimento cognitivo."
-      ],
-      "explain": "Jean Piaget via a criança como construtora ativa do próprio conhecimento. Para ele, descobrir por conta própria leva a uma compreensão mais profunda do que receber respostas prontas, ideia central do construtivismo na educação.",
-      "ref": "Piaget, J. (1970). Piaget’s theory. In Carmichael’s Manual of Child Psychology."
-    },
-    {
-      "answer": "james",
-      "near": [
-        "wundt",
-        "watson",
-        "thorndike"
-      ],
-      "quote": "A minha experiência é aquilo a que eu aceito prestar atenção.",
-      "hints": [
-        "Filósofo e psicólogo norte-americano do século XIX.",
-        "Foi professor em Harvard e irmão de um célebre escritor.",
-        "Escola: funcionalismo.",
-        "Obra: Os Princípios da Psicologia (1890).",
-        "Descreveu o “fluxo da consciência”."
-      ],
-      "explain": "William James defendia que a atenção constrói a experiência: aquilo a que prestamos atenção torna-se a nossa realidade vivida. A ideia antecipou grande parte da psicologia cognitiva da atenção.",
-      "ref": "James, W. (1890). The Principles of Psychology. Henry Holt.",
-      "verificar": true
-    },
-    {
-      "answer": "pavlov",
-      "near": [
-        "skinner",
-        "watson",
-        "thorndike"
-      ],
-      "quote": "Não te tornes um mero arquivista de factos. Procura penetrar no mistério da sua origem.",
-      "hints": [
-        "Fisiologista russo (1849–1936).",
-        "Ganhou o Prémio Nobel em 1904 pelos seus estudos sobre a digestão.",
-        "Descobriu o condicionamento clássico por acaso, ao notar uma reação nos seus cães.",
-        "A frase vem de uma mensagem à juventude da Rússia, escrita pouco antes de morrer.",
-        "Uma campainha e a salivação entraram para a história do seu nome."
-      ],
-      "explain": "Ivan Pavlov, o fisiologista que descreveu o condicionamento clássico, deixou aos jovens cientistas um conselho: não basta recolher factos, é preciso procurar compreender a sua origem. A frase faz parte do seu “Testamento à juventude académica russa”, de 1936.",
-      "ref": "Pavlov, I. P. (1936). Bequest to the Academic Youth of Russia."
-    },
-    {
-      "answer": "kahneman",
-      "near": [
-        "seligman",
-        "bandura",
-        "beck"
-      ],
-      "quote": "Nada na vida é tão importante como pensamos que é enquanto estamos a pensar nisso.",
-      "hints": [
-        "Psicólogo israelita-americano (1934–2024).",
-        "Ganhou o Nobel de Economia em 2002, apesar de ser psicólogo.",
-        "Trabalhou durante décadas com Amos Tversky.",
-        "Livro: Pensar, Depressa e Devagar (2011).",
-        "A ideia ficou conhecida como a “ilusão de foco”."
-      ],
-      "explain": "Daniel Kahneman descreveu a ilusão de foco: quando pensamos numa coisa, tendemos a sobrestimar o seu impacto na nossa vida e na nossa felicidade. É um dos temas do livro Pensar, Depressa e Devagar.",
-      "ref": "Kahneman, D. (2011). Thinking, Fast and Slow. Farrar, Straus and Giroux."
-    },
-    {
-      "answer": "bowlby",
-      "near": [
-        "winnicott",
-        "klein",
-        "erikson"
-      ],
-      "quote": "O que se considera essencial para a saúde mental é que o bebé e a criança pequena vivam uma relação calorosa, íntima e contínua com a mãe, ou com uma substituta permanente.",
-      "hints": [
-        "Psiquiatra e psicanalista britânico (1907–1990).",
-        "A frase vem de um relatório para a Organização Mundial da Saúde, de 1951.",
-        "Estudou os efeitos da separação precoce entre crianças e cuidadores.",
-        "Trabalhou depois com Mary Ainsworth.",
-        "Fundador da teoria da vinculação."
-      ],
-      "explain": "John Bowlby defendeu que o vínculo precoce e estável com um cuidador é a base da saúde emocional. Esta ideia deu origem à teoria da vinculação e influenciou a forma como hospitais e instituições passaram a tratar as crianças.",
-      "ref": "Bowlby, J. (1951). Maternal Care and Mental Health. World Health Organization."
-    },
-    {
-      "answer": "watson",
-      "near": [
-        "skinner",
-        "pavlov",
-        "thorndike"
-      ],
-      "quote": "Dêem-me uma dúzia de crianças saudáveis, bem formadas, e o meu próprio mundo para as criar, e garanto que faço de qualquer uma o tipo de especialista que eu escolher.",
-      "hints": [
-        "Psicólogo norte-americano (1878–1958).",
-        "Fundou o behaviorismo com um manifesto de 1913.",
-        "Realizou a experiência do “Pequeno Albert”.",
-        "A frase é do livro Behaviorism (1924).",
-        "Foi crítico da introspeção e defendia estudar apenas o comportamento observável."
-      ],
-      "explain": "John B. Watson usou esta frase para defender que o ambiente molda o comportamento, mais do que a hereditariedade. Foi a afirmação mais célebre do behaviorismo clássico e depois muito criticada pelo seu determinismo ambiental extremo.",
-      "ref": "Watson, J. B. (1924). Behaviorism. Norton."
-    },
-    {
-      "answer": "fromm",
-      "near": [
-        "horney",
-        "adler",
-        "rogers"
-      ],
-      "quote": "O amor imaturo diz: “Amo-te porque preciso de ti.” O amor maduro diz: “Preciso de ti porque te amo.”",
-      "hints": [
-        "Psicanalista e filósofo social alemão (1900–1980).",
-        "Teve de deixar a Alemanha nazi e viveu nos Estados Unidos e no México.",
-        "Ligado à Escola de Frankfurt.",
-        "Livro: A Arte de Amar (1956).",
-        "Escreveu também O Medo da Liberdade."
-      ],
-      "explain": "Em A Arte de Amar, Erich Fromm defende que o amor não é só um sentimento: é uma prática que exige cuidado, respeito, responsabilidade e conhecimento. O amor imaturo procura satisfazer a necessidade própria; o maduro afirma o outro.",
-      "ref": "Fromm, E. (1956). The Art of Loving. Harper & Row."
-    },
-    {
-      "answer": "lacan",
-      "near": [
-        "freud",
-        "jung",
-        "klein"
-      ],
-      "quote": "Amar é dar o que não se tem a alguém que não o quer.",
-      "hints": [
-        "Psicanalista francês (1901–1981).",
-        "Propôs um “retorno a Freud”.",
-        "Os seus seminários tornaram-se famosos em Paris.",
-        "Conceitos: o real, o simbólico e o imaginário.",
-        "Disse que o inconsciente está estruturado como uma linguagem."
-      ],
-      "explain": "Para Jacques Lacan, o amor nasce da falta: damos algo que não possuímos (o que nos falta) a quem não o pediu nem o pode receber. A frase é uma das mais citadas do seu Seminário e reflete a ideia lacaniana de que o desejo e o amor assentam numa ausência.",
-      "ref": "Lacan, J. (1960–61). Le Séminaire, livre VIII: Le transfert."
-    },
-    {
-      "answer": "horney",
-      "near": [
-        "fromm",
-        "anna",
-        "klein"
-      ],
-      "quote": "A própria vida continua a ser o mais eficaz dos terapeutas.",
-      "hints": [
-        "Psicanalista alemã (1885–1952).",
-        "Foi uma das primeiras mulheres a criticar a teoria de Freud sobre a sexualidade feminina.",
-        "Viveu nos Estados Unidos depois de deixar a Alemanha.",
-        "Escreveu Neurose e Crescimento Humano (1950).",
-        "Falou da “tirania dos deveres” e da ansiedade básica."
-      ],
-      "explain": "Karen Horney sugeriu que as experiências da vida podem ter um efeito terapêutico, mesmo sem tratamento formal. A frase aparece em Neurose e Crescimento Humano e reflete a sua confiança nas forças de crescimento da pessoa.",
-      "ref": "Horney, K. (1950). Neurosis and Human Growth. Norton."
-    },
-    {
-      "answer": "yalom",
-      "near": [
-        "frankl",
-        "may",
-        "rogers"
-      ],
-      "quote": "Embora a realidade física da morte nos destrua, a ideia da morte pode salvar-nos.",
-      "hints": [
-        "Psiquiatra norte-americano nascido em 1931.",
-        "Escola: psicoterapia existencial.",
-        "Escreve também romances sobre terapia.",
-        "Livro: Olhar o Sol de Frente.",
-        "Escreveu O Carrasco do Amor."
-      ],
-      "explain": "Irvin Yalom defende que a consciência da morte, longe de ser só uma fonte de angústia, pode levar-nos a viver com mais autenticidade e a valorizar o que realmente importa. É um tema central do livro Olhar o Sol de Frente.",
-      "ref": "Yalom, I. D. (2008). Staring at the Sun. Jossey-Bass."
-    },
-    {
-      "answer": "csikszentmihalyi",
-      "near": [
-        "seligman",
-        "maslow",
-        "rogers"
-      ],
-      "quote": "Os melhores momentos acontecem, em geral, quando o corpo ou a mente de uma pessoa são levados ao limite, num esforço voluntário para realizar algo difícil e que valha a pena.",
-      "hints": [
-        "Psicólogo húngaro-americano (1934–2021).",
-        "Cresceu na Europa durante a Segunda Guerra Mundial.",
-        "Escola: psicologia positiva.",
-        "Livro: Flow (1990).",
-        "Estudou o estado de imersão total numa atividade, a que chamou “fluxo”."
-      ],
-      "explain": "Mihaly Csikszentmihalyi estudou o “fluxo” (flow): o estado de absorção total em que as exigências do desafio estão bem ajustadas às nossas capacidades. Segundo ele, é nesses momentos que as pessoas se sentem mais felizes.",
-      "ref": "Csikszentmihalyi, M. (1990). Flow: The Psychology of Optimal Experience. Harper & Row."
-    },
-    {
-      "answer": "seligman",
-      "near": [
-        "csikszentmihalyi",
-        "maslow",
-        "beck"
-      ],
-      "quote": "A psicologia não é só o estudo da doença, da fraqueza e do dano; é também o estudo da força e da virtude.",
-      "hints": [
-        "Psicólogo norte-americano nascido em 1942.",
-        "Foi presidente da Associação Americana de Psicologia.",
-        "Começou por estudar a “impotência aprendida”.",
-        "Lançou um movimento no ano 2000, com um colega húngaro.",
-        "Escola: psicologia positiva."
-      ],
-      "explain": "Martin Seligman, ex-presidente da Associação Americana de Psicologia, defendeu uma psicologia que se preocupa também com o florescimento humano, e não só com a patologia. Esta é a ideia fundadora da psicologia positiva.",
-      "ref": "Seligman, M. E. P. & Csikszentmihalyi, M. (2000). Positive psychology. American Psychologist, 55(1)."
-    },
-    {
-      "answer": "vigotski",
-      "near": [
-        "piaget",
-        "bandura",
-        "erikson"
-      ],
-      "quote": "Aquilo que a criança consegue fazer hoje com ajuda, amanhã conseguirá fazer sozinha.",
-      "hints": [
-        "Psicólogo russo (1896–1934), morreu com 37 anos.",
-        "Foi muito censurado na União Soviética durante anos.",
-        "Escola: psicologia histórico-cultural.",
-        "Conceito: zona de desenvolvimento proximal.",
-        "Obra: Pensamento e Linguagem."
-      ],
-      "explain": "Lev Vigotski defendia que o desenvolvimento é social: a criança aprende primeiro com ajuda de outros e só depois interioriza a capacidade. A distância entre o que faz sozinha e o que faz com apoio é a zona de desenvolvimento proximal.",
-      "ref": "Vygotsky, L. S. (1934/1986). Thought and Language. MIT Press."
-    },
-    {
-      "answer": "perls",
-      "near": [
-        "rogers",
-        "yalom",
-        "may"
-      ],
-      "quote": "Eu faço as minhas coisas e tu fazes as tuas. Não estou neste mundo para corresponder às tuas expectativas, e tu não estás neste mundo para corresponder às minhas.",
-      "hints": [
-        "Psiquiatra e psicoterapeuta alemão (1893–1970).",
-        "Fundou uma abordagem terapêutica com a mulher, Laura.",
-        "Escola: Gestalt-terapia.",
-        "A frase é conhecida como a “Oração da Gestalt”.",
-        "Valorizava o “aqui e agora” e a responsabilidade pessoal."
-      ],
-      "explain": "A “Oração da Gestalt” de Fritz Perls resume o ideal de responsabilidade e autonomia da Gestalt-terapia: cada pessoa vive a sua vida, sem se moldar às expectativas dos outros. Tem sido criticada por poder ser lida de forma individualista.",
-      "ref": "Perls, F. (1969). Gestalt Therapy Verbatim. Real People Press."
-    },
-    {
-      "answer": "milgram",
-      "near": [
-        "watson",
-        "kahneman",
-        "bandura"
-      ],
-      "quote": "Pessoas comuns, que só cumprem as suas funções, sem qualquer hostilidade especial, podem tornar-se agentes de um terrível processo destrutivo.",
-      "hints": [
-        "Psicólogo social norte-americano (1933–1984).",
-        "Foi aluno de um célebre investigador da conformidade.",
-        "A experiência mais famosa foi feita em Yale, no início dos anos 1960.",
-        "O estudo envolvia choques elétricos supostamente aplicados a um “aluno”.",
-        "Foi motivado pelo julgamento de um oficial nazi."
-      ],
-      "explain": "Stanley Milgram resumiu a conclusão dos seus estudos sobre obediência: quando recebem ordens de uma autoridade, pessoas comuns podem prejudicar outras, sem serem sádicas. A experiência levantou também questões éticas que mudaram as regras da investigação em psicologia.",
-      "ref": "Milgram, S. (1974). Obedience to Authority. Harper & Row."
-    },
-    {
-      "answer": "freud",
-      "near": [
-        "jung",
-        "anna",
-        "adler"
-      ],
-      "quote": "Onde estava o id, deve ficar o ego.",
-      "hints": [
-        "Neurologista austríaco nascido na Morávia (1856–1939).",
-        "Morreu em Londres, depois de fugir dos nazis.",
-        "A frase é a conclusão de uma das suas últimas conferências.",
-        "Resume o objetivo da psicanálise.",
-        "Também tem o seu nome numa famosa sala de consultório, com um divã."
-      ],
-      "explain": "A frase (“Wo Es war, soll Ich werden”) de Sigmund Freud resume o objetivo da psicanálise: tornar consciente o que estava inconsciente, para que o ego ganhe liberdade face aos impulsos. Aparece nas Novas Conferências de Introdução à Psicanálise (1933).",
-      "ref": "Freud, S. (1933). New Introductory Lectures on Psycho-Analysis."
-    },
-    {
-      "answer": "jung",
-      "near": [
-        "freud",
-        "fromm",
-        "nise"
-      ],
-      "quote": "O encontro de duas personalidades é como o contacto de duas substâncias químicas: se houver alguma reação, ambas se transformam.",
-      "hints": [
-        "Psiquiatra suíço (1875–1961).",
-        "Iniciou-se como colaborador de Freud, antes de seguir caminho próprio.",
-        "Escola: psicologia analítica.",
-        "Conceito: individuação.",
-        "Livro: O Homem à Descoberta da sua Alma."
-      ],
-      "explain": "Carl Gustav Jung usou a imagem da química para falar da relação terapêutica: duas pessoas que se encontram de verdade mudam-se mutuamente. Defendia que o terapeuta também é transformado pelo processo.",
-      "ref": "Jung, C. G. (1933). Modern Man in Search of a Soul. Harcourt."
-    },
-    {
-      "answer": "rogers",
-      "near": [
-        "maslow",
-        "frankl",
-        "yalom"
-      ],
-      "quote": "O que é mais pessoal é o mais universal.",
-      "hints": [
-        "Psicólogo norte-americano nascido no Illinois, em 1902.",
-        "Foi presidente da Associação Americana de Psicologia.",
-        "Fundador da abordagem centrada na pessoa.",
-        "A frase vem do livro Tornar-se Pessoa.",
-        "Gravou sessões de terapia para as estudar, algo raro na sua época."
-      ],
-      "explain": "Carl Rogers observou que, quando alguém se expressa de forma verdadeira sobre a sua experiência singular, os outros reconhecem-se nela. Para Rogers, a autenticidade pessoal é, por isso, o caminho para a compreensão do que é comum a todos.",
-      "ref": "Rogers, C. R. (1961). On Becoming a Person. Houghton Mifflin.",
-      "verificar": true
-    },
-    {
-      "answer": "skinner",
-      "near": [
-        "watson",
-        "bandura",
-        "pavlov"
-      ],
-      "quote": "O verdadeiro problema não é saber se as máquinas pensam, mas se os homens pensam.",
-      "hints": [
-        "Psicólogo norte-americano (1904–1990).",
-        "Inventou uma câmara de condicionamento para ratos e pombos.",
-        "Escola: behaviorismo.",
-        "Livro de ficção: Walden Dois.",
-        "Defendia o “condicionamento operante”."
-      ],
-      "explain": "B. F. Skinner usou esta frase para provocar o leitor: mais importante do que perguntar se uma máquina pode pensar é perguntar se as pessoas pensam de facto, em vez de agirem por hábito. A frase é de Contingencies of Reinforcement (1969).",
-      "ref": "Skinner, B. F. (1969). Contingencies of Reinforcement. Appleton-Century-Crofts."
-    },
-    {
-      "answer": "kahneman",
-      "near": [
-        "seligman",
-        "milgram",
-        "beck"
-      ],
-      "quote": "Podemos estar cegos para o óbvio e também estamos cegos para a nossa cegueira.",
-      "hints": [
-        "Psicólogo israelita-americano.",
-        "Ganhou o Nobel de Economia em 2002.",
-        "Foi colega de Amos Tversky durante décadas.",
-        "Explicou o “Sistema 1” e o “Sistema 2”.",
-        "Livro: Pensar, Depressa e Devagar."
-      ],
-      "explain": "Daniel Kahneman resumiu uma das lições dos seus estudos sobre os vieses: não só cometemos erros de julgamento, como tendemos a não os ver. Por isso é tão difícil corrigi-los só com força de vontade.",
-      "ref": "Kahneman, D. (2011). Thinking, Fast and Slow. Farrar, Straus and Giroux."
-    },
-    {
-      "answer": "frankl",
-      "near": [
-        "yalom",
-        "may",
-        "kubler"
-      ],
-      "quote": "Quando já não somos capazes de mudar uma situação, somos desafiados a mudar-nos a nós próprios.",
-      "hints": [
-        "Psiquiatra austríaco (1905–1997).",
-        "Perdeu a família no Holocausto.",
-        "Escola: logoterapia.",
-        "Livro: Em Busca de Sentido.",
-        "Dizia que o ser humano procura “vontade de sentido”."
-      ],
-      "explain": "Viktor Frankl, que sobreviveu a quatro campos de concentração, defendeu que o sofrimento que não se pode evitar pode ser transformado em realização humana, se for vivido com sentido.",
-      "ref": "Frankl, V. E. (1946/1959). Man’s Search for Meaning. Beacon Press."
-    },
-    {
-      "answer": "maslow",
-      "near": [
-        "rogers",
-        "perls",
-        "seligman"
-      ],
-      "quote": "O que um homem pode ser, tem de ser.",
-      "hints": [
-        "Psicólogo norte-americano.",
-        "Nasceu em Brooklyn, filho de imigrantes.",
-        "Escola: psicologia humanista.",
-        "A frase vem do artigo onde propôs a hierarquia das necessidades (1943).",
-        "Chamou “autorrealização” a este impulso."
-      ],
-      "explain": "Abraham Maslow usou esta frase para descrever a autorrealização: a necessidade de cada pessoa se desenvolver ao máximo do seu potencial. Apareceu no artigo de 1943 em que propôs a hierarquia das necessidades.",
-      "ref": "Maslow, A. H. (1943). A theory of human motivation. Psychological Review, 50(4)."
-    },
-    {
-      "answer": "winnicott",
-      "near": [
-        "bion",
-        "klein",
-        "bowlby"
-      ],
-      "quote": "É um prazer estar escondido e um desastre não ser encontrado.",
-      "hints": [
-        "Pediatra e psicanalista britânico.",
-        "Atendeu milhares de mães e crianças num hospital de Londres.",
-        "Falava do “verdadeiro self” e do “falso self”.",
-        "Ideia-chave: o brincar é essencial ao desenvolvimento.",
-        "Criou o conceito de “mãe suficientemente boa”."
-      ],
-      "explain": "Donald Winnicott usou a brincadeira do esconde-esconde para falar do desejo humano de ter um mundo interno privado, mas também de ser procurado e reconhecido. Alerta para o risco de um isolamento total.",
-      "ref": "Winnicott, D. W. (1963). Communicating and not communicating. In The Maturational Processes and the Facilitating Environment."
-    },
-    {
-      "answer": "james",
-      "near": [
-        "wundt",
-        "maslow",
-        "frankl"
-      ],
-      "quote": "O maior uso da vida é gastá-la em algo que a ultrapasse.",
-      "hints": [
-        "Médico, filósofo e psicólogo norte-americano.",
-        "Nasceu em Nova Iorque, em 1842.",
-        "Escola: funcionalismo e pragmatismo.",
-        "Escreveu As Variedades da Experiência Religiosa.",
-        "Obra: Os Princípios da Psicologia."
-      ],
-      "explain": "William James escreveu esta frase numa carta, e ela tornou-se um lema sobre o sentido da vida: dedicar-se a algo maior do que nós, que continue depois de nós.",
-      "ref": "James, W. (c. 1900). Citado em The Letters of William James.",
-      "verificar": true
-    },
-    {
-      "answer": "freud",
-      "near": [
-        "jung",
-        "lacan",
-        "erikson"
-      ],
-      "quote": "A anatomia é o destino.",
-      "hints": [
-        "Neurologista austríaco.",
-        "A expressão é uma adaptação de uma frase de Napoleão.",
-        "Foi usada num texto sobre o desenvolvimento sexual.",
-        "Foi muito criticada pelas feministas.",
-        "Fundador da psicanálise."
-      ],
-      "explain": "Sigmund Freud adaptou uma frase de Napoleão para sugerir que as diferenças anatómicas entre homens e mulheres moldam o desenvolvimento psíquico. A ideia foi muito criticada, nomeadamente por Karen Horney.",
-      "ref": "Freud, S. (1924). The Dissolution of the Oedipus Complex."
-    },
-    {
-      "answer": "piaget",
-      "near": [
-        "vigotski",
-        "bandura",
-        "bowlby"
-      ],
-      "quote": "O principal objetivo da educação é criar pessoas capazes de fazer coisas novas, e não simplesmente repetir o que outras gerações fizeram.",
-      "hints": [
-        "Suíço, nascido em 1896.",
-        "Começou por estudar moluscos, antes de se dedicar à psicologia.",
-        "Escola: construtivismo.",
-        "Descreveu os estádios sensório-motor, pré-operatório, operatório concreto e operatório formal.",
-        "Fundou o Centro Internacional de Epistemologia Genética, em Genebra."
-      ],
-      "explain": "Jean Piaget defendeu uma educação que desenvolva a capacidade de criar e inventar, e não apenas a de reproduzir conhecimentos. A frase aparece numa entrevista dos anos 1960 e resume a sua visão da escola.",
-      "ref": "Piaget, J. (c. 1964). Entrevista a Jean-Claude Bringuier. Conversations libres avec Jean Piaget.",
-      "verificar": true
-    }
-  ]
+ "autores": [
+  {
+   "id": "freud",
+   "nome": "Sigmund Freud",
+   "aliases": [],
+   "nacionalidade": "Austríaca",
+   "nascimento": 1856,
+   "escola": "Psicanálise",
+   "familia": "dinamica"
+  },
+  {
+   "id": "anna",
+   "nome": "Anna Freud",
+   "aliases": [],
+   "nacionalidade": "Austríaca",
+   "nascimento": 1895,
+   "escola": "Psicanálise",
+   "familia": "dinamica"
+  },
+  {
+   "id": "jung",
+   "nome": "Carl Gustav Jung",
+   "aliases": [
+    "c g jung"
+   ],
+   "nacionalidade": "Suíça",
+   "nascimento": 1875,
+   "escola": "Psicologia analítica",
+   "familia": "dinamica"
+  },
+  {
+   "id": "adler",
+   "nome": "Alfred Adler",
+   "aliases": [],
+   "nacionalidade": "Austríaca",
+   "nascimento": 1870,
+   "escola": "Psicologia individual",
+   "familia": "dinamica"
+  },
+  {
+   "id": "lacan",
+   "nome": "Jacques Lacan",
+   "aliases": [],
+   "nacionalidade": "Francesa",
+   "nascimento": 1901,
+   "escola": "Psicanálise",
+   "familia": "dinamica"
+  },
+  {
+   "id": "klein",
+   "nome": "Melanie Klein",
+   "aliases": [],
+   "nacionalidade": "Austríaca",
+   "nascimento": 1882,
+   "escola": "Psicanálise",
+   "familia": "dinamica"
+  },
+  {
+   "id": "winnicott",
+   "nome": "Donald Winnicott",
+   "aliases": [],
+   "nacionalidade": "Britânica",
+   "nascimento": 1896,
+   "escola": "Psicanálise",
+   "familia": "dinamica"
+  },
+  {
+   "id": "bion",
+   "nome": "Wilfred Bion",
+   "aliases": [],
+   "nacionalidade": "Britânica",
+   "nascimento": 1897,
+   "escola": "Psicanálise",
+   "familia": "dinamica"
+  },
+  {
+   "id": "bowlby",
+   "nome": "John Bowlby",
+   "aliases": [],
+   "nacionalidade": "Britânica",
+   "nascimento": 1907,
+   "escola": "Teoria da vinculação",
+   "familia": "dinamica"
+  },
+  {
+   "id": "horney",
+   "nome": "Karen Horney",
+   "aliases": [],
+   "nacionalidade": "Alemã",
+   "nascimento": 1885,
+   "escola": "Psicanálise",
+   "familia": "dinamica"
+  },
+  {
+   "id": "fromm",
+   "nome": "Erich Fromm",
+   "aliases": [],
+   "nacionalidade": "Alemã",
+   "nascimento": 1900,
+   "escola": "Psicanálise",
+   "familia": "dinamica"
+  },
+  {
+   "id": "erikson",
+   "nome": "Erik Erikson",
+   "aliases": [],
+   "nacionalidade": "Norte-americana",
+   "nascimento": 1902,
+   "escola": "Psicanálise",
+   "familia": "dinamica"
+  },
+  {
+   "id": "nise",
+   "nome": "Nise da Silveira",
+   "aliases": [],
+   "nacionalidade": "Brasileira",
+   "nascimento": 1905,
+   "escola": "Psicologia analítica",
+   "familia": "dinamica"
+  },
+  {
+   "id": "rogers",
+   "nome": "Carl Rogers",
+   "aliases": [],
+   "nacionalidade": "Norte-americana",
+   "nascimento": 1902,
+   "escola": "Humanismo",
+   "familia": "humanista"
+  },
+  {
+   "id": "maslow",
+   "nome": "Abraham Maslow",
+   "aliases": [],
+   "nacionalidade": "Norte-americana",
+   "nascimento": 1908,
+   "escola": "Humanismo",
+   "familia": "humanista"
+  },
+  {
+   "id": "may",
+   "nome": "Rollo May",
+   "aliases": [],
+   "nacionalidade": "Norte-americana",
+   "nascimento": 1909,
+   "escola": "Existencialismo",
+   "familia": "humanista"
+  },
+  {
+   "id": "frankl",
+   "nome": "Viktor Frankl",
+   "aliases": [],
+   "nacionalidade": "Austríaca",
+   "nascimento": 1905,
+   "escola": "Existencialismo",
+   "familia": "humanista"
+  },
+  {
+   "id": "yalom",
+   "nome": "Irvin Yalom",
+   "aliases": [],
+   "nacionalidade": "Norte-americana",
+   "nascimento": 1931,
+   "escola": "Existencialismo",
+   "familia": "humanista"
+  },
+  {
+   "id": "perls",
+   "nome": "Fritz Perls",
+   "aliases": [
+    "frederick perls"
+   ],
+   "nacionalidade": "Alemã",
+   "nascimento": 1893,
+   "escola": "Gestalt-terapia",
+   "familia": "humanista"
+  },
+  {
+   "id": "seligman",
+   "nome": "Martin Seligman",
+   "aliases": [],
+   "nacionalidade": "Norte-americana",
+   "nascimento": 1942,
+   "escola": "Psicologia positiva",
+   "familia": "humanista"
+  },
+  {
+   "id": "csikszentmihalyi",
+   "nome": "Mihaly Csikszentmihalyi",
+   "aliases": [
+    "flow",
+    "csikszentmihaly"
+   ],
+   "nacionalidade": "Húngara",
+   "nascimento": 1934,
+   "escola": "Psicologia positiva",
+   "familia": "humanista"
+  },
+  {
+   "id": "skinner",
+   "nome": "B. F. Skinner",
+   "aliases": [
+    "burrhus skinner"
+   ],
+   "nacionalidade": "Norte-americana",
+   "nascimento": 1904,
+   "escola": "Behaviorismo",
+   "familia": "comportamental"
+  },
+  {
+   "id": "watson",
+   "nome": "John B. Watson",
+   "aliases": [],
+   "nacionalidade": "Norte-americana",
+   "nascimento": 1878,
+   "escola": "Behaviorismo",
+   "familia": "comportamental"
+  },
+  {
+   "id": "pavlov",
+   "nome": "Ivan Pavlov",
+   "aliases": [],
+   "nacionalidade": "Russa",
+   "nascimento": 1849,
+   "escola": "Behaviorismo",
+   "familia": "comportamental"
+  },
+  {
+   "id": "thorndike",
+   "nome": "Edward Thorndike",
+   "aliases": [],
+   "nacionalidade": "Norte-americana",
+   "nascimento": 1874,
+   "escola": "Behaviorismo",
+   "familia": "comportamental"
+  },
+  {
+   "id": "bandura",
+   "nome": "Albert Bandura",
+   "aliases": [],
+   "nacionalidade": "Canadiana",
+   "nascimento": 1925,
+   "escola": "Cognitivo-social",
+   "familia": "cognitiva"
+  },
+  {
+   "id": "beck",
+   "nome": "Aaron Beck",
+   "aliases": [],
+   "nacionalidade": "Norte-americana",
+   "nascimento": 1921,
+   "escola": "Terapia cognitiva",
+   "familia": "cognitiva"
+  },
+  {
+   "id": "ellis",
+   "nome": "Albert Ellis",
+   "aliases": [],
+   "nacionalidade": "Norte-americana",
+   "nascimento": 1913,
+   "escola": "Terapia racional-emotiva",
+   "familia": "cognitiva"
+  },
+  {
+   "id": "kahneman",
+   "nome": "Daniel Kahneman",
+   "aliases": [],
+   "nacionalidade": "Israelita",
+   "nascimento": 1934,
+   "escola": "Cognitivismo",
+   "familia": "cognitiva"
+  },
+  {
+   "id": "piaget",
+   "nome": "Jean Piaget",
+   "aliases": [],
+   "nacionalidade": "Suíça",
+   "nascimento": 1896,
+   "escola": "Construtivismo",
+   "familia": "desenvolvimento"
+  },
+  {
+   "id": "vigotski",
+   "nome": "Lev Vigotski",
+   "aliases": [
+    "vygotsky",
+    "vigotsky"
+   ],
+   "nacionalidade": "Russa",
+   "nascimento": 1896,
+   "escola": "Histórico-cultural",
+   "familia": "desenvolvimento"
+  },
+  {
+   "id": "james",
+   "nome": "William James",
+   "aliases": [],
+   "nacionalidade": "Norte-americana",
+   "nascimento": 1842,
+   "escola": "Funcionalismo",
+   "familia": "fundadores"
+  },
+  {
+   "id": "wundt",
+   "nome": "Wilhelm Wundt",
+   "aliases": [],
+   "nacionalidade": "Alemã",
+   "nascimento": 1832,
+   "escola": "Estruturalismo",
+   "familia": "fundadores"
+  },
+  {
+   "id": "kubler",
+   "nome": "Elisabeth Kübler-Ross",
+   "aliases": [
+    "kubler ross"
+   ],
+   "nacionalidade": "Suíça",
+   "nascimento": 1926,
+   "escola": "Psiquiatria",
+   "familia": "clinica"
+  },
+  {
+   "id": "milgram",
+   "nome": "Stanley Milgram",
+   "aliases": [],
+   "nacionalidade": "Norte-americana",
+   "nascimento": 1933,
+   "escola": "Psicologia social",
+   "familia": "social"
+  }
+ ],
+ "citacoes": [
+  {
+   "answer": "winnicott",
+   "near": [
+    "bowlby",
+    "klein",
+    "anna"
+   ],
+   "quote": "Não existe tal coisa como um bebé.",
+   "hints": [
+    "Pediatra e psicanalista inglês (1896–1971).",
+    "Fez parte do chamado Grupo Independente da psicanálise britânica.",
+    "A frase diz que o bebé só existe em relação com quem cuida dele.",
+    "Conceitos: objeto transicional e holding.",
+    "Criou a ideia da “mãe suficientemente boa”."
+   ],
+   "explain": "Donald Winnicott quis dizer que não se pode descrever um bebé sem descrever também o ambiente de cuidado: o par bebé-cuidador é a unidade. A ideia está na base dos seus conceitos de holding e de ambiente facilitador.",
+   "ref": "Winnicott, D. W. (1957). The Child, the Family, and the Outside World. Penguin."
+  },
+  {
+   "answer": "rogers",
+   "near": [
+    "maslow",
+    "may",
+    "frankl"
+   ],
+   "quote": "O curioso paradoxo é que, quando me aceito como sou, então posso mudar.",
+   "hints": [
+    "Psicólogo norte-americano do século XX.",
+    "Escola: psicologia humanista, a chamada “terceira força”.",
+    "Criou uma abordagem terapêutica centrada na pessoa (antes, “centrada no cliente”).",
+    "A frase está no livro Tornar-se Pessoa (1961).",
+    "Defendia a empatia, a congruência e a consideração positiva incondicional."
+   ],
+   "explain": "Carl Rogers acreditava que a mudança terapêutica nasce da aceitação, e não da autocrítica. Na abordagem centrada na pessoa, o terapeuta oferece empatia, congruência e consideração positiva incondicional, criando condições para que o cliente se desenvolva.",
+   "ref": "Rogers, C. R. (1961). On Becoming a Person. Houghton Mifflin."
+  },
+  {
+   "answer": "frankl",
+   "near": [
+    "rogers",
+    "may",
+    "yalom"
+   ],
+   "quote": "Tudo pode ser tirado a um ser humano, exceto uma coisa: a última das liberdades humanas, escolher a sua atitude em qualquer circunstância.",
+   "hints": [
+    "Psiquiatra e neurologista austríaco do século XX.",
+    "Escola: análise existencial.",
+    "Sobreviveu a campos de concentração nazis, incluindo Auschwitz.",
+    "A frase está no livro Em Busca de Sentido (1946).",
+    "Fundador da logoterapia, a “terceira escola vienense de psicoterapia”."
+   ],
+   "explain": "Viktor Frankl escreveu sobre a sua experiência nos campos de concentração e concluiu que a busca de sentido é a motivação humana central. A logoterapia ajuda a pessoa a encontrar sentido mesmo perante o sofrimento inevitável.",
+   "ref": "Frankl, V. E. (1946/1959). Man’s Search for Meaning. Beacon Press."
+  },
+  {
+   "answer": "jung",
+   "near": [
+    "freud",
+    "adler",
+    "lacan"
+   ],
+   "quote": "Quem olha para fora sonha; quem olha para dentro desperta.",
+   "hints": [
+    "Psiquiatra suíço, nascido em 1875.",
+    "Foi tratado como “príncipe herdeiro” de um movimento, até romper com ele em 1913.",
+    "Escola: psicologia analítica.",
+    "Conceitos: inconsciente coletivo, arquétipos, persona e sombra.",
+    "Iniciais: C. G."
+   ],
+   "explain": "A frase, de uma carta de Carl Gustav Jung (1916), resume a ideia de que o autoconhecimento exige voltar-se para o mundo interior e para o inconsciente. Para Jung, esse caminho leva à individuação, o processo de nos tornarmos quem somos.",
+   "ref": "Jung, C. G. (1973). Letters, vol. 1. Princeton University Press."
+  },
+  {
+   "answer": "maslow",
+   "near": [
+    "rogers",
+    "frankl",
+    "may"
+   ],
+   "quote": "Suponho que é tentador, se a única ferramenta que temos é um martelo, tratar tudo como se fosse um prego.",
+   "hints": [
+    "Psicólogo norte-americano (1908–1970).",
+    "Uma das figuras centrais da psicologia humanista.",
+    "Estudou pessoas que considerava exemplares, como Einstein e Eleanor Roosevelt.",
+    "Conceito-chave: autorrealização.",
+    "Famoso por uma hierarquia de necessidades, muitas vezes desenhada em pirâmide."
+   ],
+   "explain": "Abraham Maslow usou a imagem do martelo para criticar a ciência que molda os problemas ao seu método preferido. Ficou conhecida como o “martelo de Maslow” ou lei do instrumento.",
+   "ref": "Maslow, A. H. (1966). The Psychology of Science. Harper & Row."
+  },
+  {
+   "answer": "skinner",
+   "near": [
+    "watson",
+    "pavlov",
+    "thorndike"
+   ],
+   "quote": "A educação é o que sobrevive quando o que foi aprendido foi esquecido.",
+   "hints": [
+    "Psicólogo norte-americano, professor em Harvard.",
+    "Escola: behaviorismo radical.",
+    "Escreveu um romance sobre uma comunidade utópica: Walden Dois (1948).",
+    "Conceitos: reforço, esquemas de reforço e condicionamento operante.",
+    "Uma caixa experimental leva o seu nome."
+   ],
+   "explain": "Para B. F. Skinner, o que fica da educação não são factos decorados, mas repertórios de comportamento: maneiras de pensar, investigar e agir. A frase foi publicada na revista New Scientist em 1964.",
+   "ref": "Skinner, B. F. (1964). New Scientist, 21 de maio."
+  },
+  {
+   "answer": "freud",
+   "near": [
+    "jung",
+    "lacan",
+    "anna"
+   ],
+   "quote": "O ego não é senhor na sua própria casa.",
+   "hints": [
+    "Neurologista austríaco (1856–1939).",
+    "A frase descreve a “terceira ferida narcísica” da humanidade, depois de Copérnico e Darwin.",
+    "Obra famosa: A Interpretação dos Sonhos (1900).",
+    "Conceitos: id, ego, superego e inconsciente.",
+    "Fundador da psicanálise."
+   ],
+   "explain": "Sigmund Freud comparou a descoberta do inconsciente às revoluções de Copérnico (a Terra não é o centro) e de Darwin (o ser humano descende de outros animais). A psicanálise mostraria que nem dentro de nós próprios temos controlo total.",
+   "ref": "Freud, S. (1917). Uma dificuldade da psicanálise."
+  },
+  {
+   "answer": "piaget",
+   "near": [
+    "vigotski",
+    "erikson",
+    "bandura"
+   ],
+   "quote": "Cada vez que ensinamos prematuramente a uma criança algo que ela poderia ter descoberto sozinha, impedimo-la de o inventar e, por isso, de o compreender por completo.",
+   "hints": [
+    "Biólogo e epistemólogo suíço (1896–1980).",
+    "Estudou a forma como o conhecimento se constrói, observando, entre outros, os próprios filhos.",
+    "Escola: epistemologia genética, ou construtivismo.",
+    "Conceitos: assimilação, acomodação e equilibração.",
+    "Propôs quatro estádios do desenvolvimento cognitivo."
+   ],
+   "explain": "Jean Piaget via a criança como construtora ativa do próprio conhecimento. Para ele, descobrir por conta própria leva a uma compreensão mais profunda do que receber respostas prontas, ideia central do construtivismo na educação.",
+   "ref": "Piaget, J. (1970). Piaget’s theory. In Carmichael’s Manual of Child Psychology."
+  },
+  {
+   "answer": "james",
+   "near": [
+    "wundt",
+    "watson",
+    "thorndike"
+   ],
+   "quote": "A minha experiência é aquilo a que eu aceito prestar atenção.",
+   "hints": [
+    "Filósofo e psicólogo norte-americano do século XIX.",
+    "Foi professor em Harvard e irmão de um célebre escritor.",
+    "Escola: funcionalismo.",
+    "Obra: Os Princípios da Psicologia (1890).",
+    "Descreveu o “fluxo da consciência”."
+   ],
+   "explain": "William James defendia que a atenção constrói a experiência: aquilo a que prestamos atenção torna-se a nossa realidade vivida. A ideia antecipou grande parte da psicologia cognitiva da atenção.",
+   "ref": "James, W. (1890). The Principles of Psychology. Henry Holt.",
+   "verificar": true
+  },
+  {
+   "answer": "pavlov",
+   "near": [
+    "skinner",
+    "watson",
+    "thorndike"
+   ],
+   "quote": "Não te tornes um mero arquivista de factos. Procura penetrar no mistério da sua origem.",
+   "hints": [
+    "Fisiologista russo (1849–1936).",
+    "Ganhou o Prémio Nobel em 1904 pelos seus estudos sobre a digestão.",
+    "Descobriu o condicionamento clássico por acaso, ao notar uma reação nos seus cães.",
+    "A frase vem de uma mensagem à juventude da Rússia, escrita pouco antes de morrer.",
+    "Uma campainha e a salivação entraram para a história do seu nome."
+   ],
+   "explain": "Ivan Pavlov, o fisiologista que descreveu o condicionamento clássico, deixou aos jovens cientistas um conselho: não basta recolher factos, é preciso procurar compreender a sua origem. A frase faz parte do seu “Testamento à juventude académica russa”, de 1936.",
+   "ref": "Pavlov, I. P. (1936). Bequest to the Academic Youth of Russia."
+  },
+  {
+   "answer": "kahneman",
+   "near": [
+    "seligman",
+    "bandura",
+    "beck"
+   ],
+   "quote": "Nada na vida é tão importante como pensamos que é enquanto estamos a pensar nisso.",
+   "hints": [
+    "Psicólogo israelita-americano (1934–2024).",
+    "Ganhou o Nobel de Economia em 2002, apesar de ser psicólogo.",
+    "Trabalhou durante décadas com Amos Tversky.",
+    "Livro: Pensar, Depressa e Devagar (2011).",
+    "A ideia ficou conhecida como a “ilusão de foco”."
+   ],
+   "explain": "Daniel Kahneman descreveu a ilusão de foco: quando pensamos numa coisa, tendemos a sobrestimar o seu impacto na nossa vida e na nossa felicidade. É um dos temas do livro Pensar, Depressa e Devagar.",
+   "ref": "Kahneman, D. (2011). Thinking, Fast and Slow. Farrar, Straus and Giroux."
+  },
+  {
+   "answer": "bowlby",
+   "near": [
+    "winnicott",
+    "klein",
+    "erikson"
+   ],
+   "quote": "O que se considera essencial para a saúde mental é que o bebé e a criança pequena vivam uma relação calorosa, íntima e contínua com a mãe, ou com uma substituta permanente.",
+   "hints": [
+    "Psiquiatra e psicanalista britânico (1907–1990).",
+    "A frase vem de um relatório para a Organização Mundial da Saúde, de 1951.",
+    "Estudou os efeitos da separação precoce entre crianças e cuidadores.",
+    "Trabalhou depois com Mary Ainsworth.",
+    "Fundador da teoria da vinculação."
+   ],
+   "explain": "John Bowlby defendeu que o vínculo precoce e estável com um cuidador é a base da saúde emocional. Esta ideia deu origem à teoria da vinculação e influenciou a forma como hospitais e instituições passaram a tratar as crianças.",
+   "ref": "Bowlby, J. (1951). Maternal Care and Mental Health. World Health Organization."
+  },
+  {
+   "answer": "watson",
+   "near": [
+    "skinner",
+    "pavlov",
+    "thorndike"
+   ],
+   "quote": "Dêem-me uma dúzia de crianças saudáveis, bem formadas, e o meu próprio mundo para as criar, e garanto que faço de qualquer uma o tipo de especialista que eu escolher.",
+   "hints": [
+    "Psicólogo norte-americano (1878–1958).",
+    "Fundou o behaviorismo com um manifesto de 1913.",
+    "Realizou a experiência do “Pequeno Albert”.",
+    "A frase é do livro Behaviorism (1924).",
+    "Foi crítico da introspeção e defendia estudar apenas o comportamento observável."
+   ],
+   "explain": "John B. Watson usou esta frase para defender que o ambiente molda o comportamento, mais do que a hereditariedade. Foi a afirmação mais célebre do behaviorismo clássico e depois muito criticada pelo seu determinismo ambiental extremo.",
+   "ref": "Watson, J. B. (1924). Behaviorism. Norton."
+  },
+  {
+   "answer": "fromm",
+   "near": [
+    "horney",
+    "adler",
+    "rogers"
+   ],
+   "quote": "O amor imaturo diz: “Amo-te porque preciso de ti.” O amor maduro diz: “Preciso de ti porque te amo.”",
+   "hints": [
+    "Psicanalista e filósofo social alemão (1900–1980).",
+    "Teve de deixar a Alemanha nazi e viveu nos Estados Unidos e no México.",
+    "Ligado à Escola de Frankfurt.",
+    "Livro: A Arte de Amar (1956).",
+    "Escreveu também O Medo da Liberdade."
+   ],
+   "explain": "Em A Arte de Amar, Erich Fromm defende que o amor não é só um sentimento: é uma prática que exige cuidado, respeito, responsabilidade e conhecimento. O amor imaturo procura satisfazer a necessidade própria; o maduro afirma o outro.",
+   "ref": "Fromm, E. (1956). The Art of Loving. Harper & Row."
+  },
+  {
+   "answer": "lacan",
+   "near": [
+    "freud",
+    "jung",
+    "klein"
+   ],
+   "quote": "Amar é dar o que não se tem a alguém que não o quer.",
+   "hints": [
+    "Psicanalista francês (1901–1981).",
+    "Propôs um “retorno a Freud”.",
+    "Os seus seminários tornaram-se famosos em Paris.",
+    "Conceitos: o real, o simbólico e o imaginário.",
+    "Disse que o inconsciente está estruturado como uma linguagem."
+   ],
+   "explain": "Para Jacques Lacan, o amor nasce da falta: damos algo que não possuímos (o que nos falta) a quem não o pediu nem o pode receber. A frase é uma das mais citadas do seu Seminário e reflete a ideia lacaniana de que o desejo e o amor assentam numa ausência.",
+   "ref": "Lacan, J. (1960–61). Le Séminaire, livre VIII: Le transfert."
+  },
+  {
+   "answer": "horney",
+   "near": [
+    "fromm",
+    "anna",
+    "klein"
+   ],
+   "quote": "A própria vida continua a ser o mais eficaz dos terapeutas.",
+   "hints": [
+    "Psicanalista alemã (1885–1952).",
+    "Foi uma das primeiras mulheres a criticar a teoria de Freud sobre a sexualidade feminina.",
+    "Viveu nos Estados Unidos depois de deixar a Alemanha.",
+    "Escreveu Neurose e Crescimento Humano (1950).",
+    "Falou da “tirania dos deveres” e da ansiedade básica."
+   ],
+   "explain": "Karen Horney sugeriu que as experiências da vida podem ter um efeito terapêutico, mesmo sem tratamento formal. A frase aparece em Neurose e Crescimento Humano e reflete a sua confiança nas forças de crescimento da pessoa.",
+   "ref": "Horney, K. (1950). Neurosis and Human Growth. Norton."
+  },
+  {
+   "answer": "yalom",
+   "near": [
+    "frankl",
+    "may",
+    "rogers"
+   ],
+   "quote": "Embora a realidade física da morte nos destrua, a ideia da morte pode salvar-nos.",
+   "hints": [
+    "Psiquiatra norte-americano nascido em 1931.",
+    "Escola: psicoterapia existencial.",
+    "Escreve também romances sobre terapia.",
+    "Livro: Olhar o Sol de Frente.",
+    "Escreveu O Carrasco do Amor."
+   ],
+   "explain": "Irvin Yalom defende que a consciência da morte, longe de ser só uma fonte de angústia, pode levar-nos a viver com mais autenticidade e a valorizar o que realmente importa. É um tema central do livro Olhar o Sol de Frente.",
+   "ref": "Yalom, I. D. (2008). Staring at the Sun. Jossey-Bass."
+  },
+  {
+   "answer": "csikszentmihalyi",
+   "near": [
+    "seligman",
+    "maslow",
+    "rogers"
+   ],
+   "quote": "Os melhores momentos acontecem, em geral, quando o corpo ou a mente de uma pessoa são levados ao limite, num esforço voluntário para realizar algo difícil e que valha a pena.",
+   "hints": [
+    "Psicólogo húngaro-americano (1934–2021).",
+    "Cresceu na Europa durante a Segunda Guerra Mundial.",
+    "Escola: psicologia positiva.",
+    "Livro: Flow (1990).",
+    "Estudou o estado de imersão total numa atividade, a que chamou “fluxo”."
+   ],
+   "explain": "Mihaly Csikszentmihalyi estudou o “fluxo” (flow): o estado de absorção total em que as exigências do desafio estão bem ajustadas às nossas capacidades. Segundo ele, é nesses momentos que as pessoas se sentem mais felizes.",
+   "ref": "Csikszentmihalyi, M. (1990). Flow: The Psychology of Optimal Experience. Harper & Row."
+  },
+  {
+   "answer": "seligman",
+   "near": [
+    "csikszentmihalyi",
+    "maslow",
+    "beck"
+   ],
+   "quote": "A psicologia não é só o estudo da doença, da fraqueza e do dano; é também o estudo da força e da virtude.",
+   "hints": [
+    "Psicólogo norte-americano nascido em 1942.",
+    "Foi presidente da Associação Americana de Psicologia.",
+    "Começou por estudar a “impotência aprendida”.",
+    "Lançou um movimento no ano 2000, com um colega húngaro.",
+    "Escola: psicologia positiva."
+   ],
+   "explain": "Martin Seligman, ex-presidente da Associação Americana de Psicologia, defendeu uma psicologia que se preocupa também com o florescimento humano, e não só com a patologia. Esta é a ideia fundadora da psicologia positiva.",
+   "ref": "Seligman, M. E. P. & Csikszentmihalyi, M. (2000). Positive psychology. American Psychologist, 55(1)."
+  },
+  {
+   "answer": "vigotski",
+   "near": [
+    "piaget",
+    "bandura",
+    "erikson"
+   ],
+   "quote": "Aquilo que a criança consegue fazer hoje com ajuda, amanhã conseguirá fazer sozinha.",
+   "hints": [
+    "Psicólogo russo (1896–1934), morreu com 37 anos.",
+    "Foi muito censurado na União Soviética durante anos.",
+    "Escola: psicologia histórico-cultural.",
+    "Conceito: zona de desenvolvimento proximal.",
+    "Obra: Pensamento e Linguagem."
+   ],
+   "explain": "Lev Vigotski defendia que o desenvolvimento é social: a criança aprende primeiro com ajuda de outros e só depois interioriza a capacidade. A distância entre o que faz sozinha e o que faz com apoio é a zona de desenvolvimento proximal.",
+   "ref": "Vygotsky, L. S. (1934/1986). Thought and Language. MIT Press."
+  },
+  {
+   "answer": "perls",
+   "near": [
+    "rogers",
+    "yalom",
+    "may"
+   ],
+   "quote": "Eu faço as minhas coisas e tu fazes as tuas. Não estou neste mundo para corresponder às tuas expectativas, e tu não estás neste mundo para corresponder às minhas.",
+   "hints": [
+    "Psiquiatra e psicoterapeuta alemão (1893–1970).",
+    "Fundou uma abordagem terapêutica com a mulher, Laura.",
+    "Escola: Gestalt-terapia.",
+    "A frase é conhecida como a “Oração da Gestalt”.",
+    "Valorizava o “aqui e agora” e a responsabilidade pessoal."
+   ],
+   "explain": "A “Oração da Gestalt” de Fritz Perls resume o ideal de responsabilidade e autonomia da Gestalt-terapia: cada pessoa vive a sua vida, sem se moldar às expectativas dos outros. Tem sido criticada por poder ser lida de forma individualista.",
+   "ref": "Perls, F. (1969). Gestalt Therapy Verbatim. Real People Press."
+  },
+  {
+   "answer": "milgram",
+   "near": [
+    "watson",
+    "kahneman",
+    "bandura"
+   ],
+   "quote": "Pessoas comuns, que só cumprem as suas funções, sem qualquer hostilidade especial, podem tornar-se agentes de um terrível processo destrutivo.",
+   "hints": [
+    "Psicólogo social norte-americano (1933–1984).",
+    "Foi aluno de um célebre investigador da conformidade.",
+    "A experiência mais famosa foi feita em Yale, no início dos anos 1960.",
+    "O estudo envolvia choques elétricos supostamente aplicados a um “aluno”.",
+    "Foi motivado pelo julgamento de um oficial nazi."
+   ],
+   "explain": "Stanley Milgram resumiu a conclusão dos seus estudos sobre obediência: quando recebem ordens de uma autoridade, pessoas comuns podem prejudicar outras, sem serem sádicas. A experiência levantou também questões éticas que mudaram as regras da investigação em psicologia.",
+   "ref": "Milgram, S. (1974). Obedience to Authority. Harper & Row."
+  },
+  {
+   "answer": "freud",
+   "near": [
+    "jung",
+    "anna",
+    "adler"
+   ],
+   "quote": "Onde estava o id, deve ficar o ego.",
+   "hints": [
+    "Neurologista austríaco nascido na Morávia (1856–1939).",
+    "Morreu em Londres, depois de fugir dos nazis.",
+    "A frase é a conclusão de uma das suas últimas conferências.",
+    "Resume o objetivo da psicanálise.",
+    "Também tem o seu nome numa famosa sala de consultório, com um divã."
+   ],
+   "explain": "A frase (“Wo Es war, soll Ich werden”) de Sigmund Freud resume o objetivo da psicanálise: tornar consciente o que estava inconsciente, para que o ego ganhe liberdade face aos impulsos. Aparece nas Novas Conferências de Introdução à Psicanálise (1933).",
+   "ref": "Freud, S. (1933). New Introductory Lectures on Psycho-Analysis."
+  },
+  {
+   "answer": "jung",
+   "near": [
+    "freud",
+    "fromm",
+    "nise"
+   ],
+   "quote": "O encontro de duas personalidades é como o contacto de duas substâncias químicas: se houver alguma reação, ambas se transformam.",
+   "hints": [
+    "Psiquiatra suíço (1875–1961).",
+    "Iniciou-se como colaborador de Freud, antes de seguir caminho próprio.",
+    "Escola: psicologia analítica.",
+    "Conceito: individuação.",
+    "Livro: O Homem à Descoberta da sua Alma."
+   ],
+   "explain": "Carl Gustav Jung usou a imagem da química para falar da relação terapêutica: duas pessoas que se encontram de verdade mudam-se mutuamente. Defendia que o terapeuta também é transformado pelo processo.",
+   "ref": "Jung, C. G. (1933). Modern Man in Search of a Soul. Harcourt."
+  },
+  {
+   "answer": "rogers",
+   "near": [
+    "maslow",
+    "frankl",
+    "yalom"
+   ],
+   "quote": "O que é mais pessoal é o mais universal.",
+   "hints": [
+    "Psicólogo norte-americano nascido no Illinois, em 1902.",
+    "Foi presidente da Associação Americana de Psicologia.",
+    "Fundador da abordagem centrada na pessoa.",
+    "A frase vem do livro Tornar-se Pessoa.",
+    "Gravou sessões de terapia para as estudar, algo raro na sua época."
+   ],
+   "explain": "Carl Rogers observou que, quando alguém se expressa de forma verdadeira sobre a sua experiência singular, os outros reconhecem-se nela. Para Rogers, a autenticidade pessoal é, por isso, o caminho para a compreensão do que é comum a todos.",
+   "ref": "Rogers, C. R. (1961). On Becoming a Person. Houghton Mifflin.",
+   "verificar": true
+  },
+  {
+   "answer": "skinner",
+   "near": [
+    "watson",
+    "bandura",
+    "pavlov"
+   ],
+   "quote": "O verdadeiro problema não é saber se as máquinas pensam, mas se os homens pensam.",
+   "hints": [
+    "Psicólogo norte-americano (1904–1990).",
+    "Inventou uma câmara de condicionamento para ratos e pombos.",
+    "Escola: behaviorismo.",
+    "Livro de ficção: Walden Dois.",
+    "Defendia o “condicionamento operante”."
+   ],
+   "explain": "B. F. Skinner usou esta frase para provocar o leitor: mais importante do que perguntar se uma máquina pode pensar é perguntar se as pessoas pensam de facto, em vez de agirem por hábito. A frase é de Contingencies of Reinforcement (1969).",
+   "ref": "Skinner, B. F. (1969). Contingencies of Reinforcement. Appleton-Century-Crofts."
+  },
+  {
+   "answer": "kahneman",
+   "near": [
+    "seligman",
+    "milgram",
+    "beck"
+   ],
+   "quote": "Podemos estar cegos para o óbvio e também estamos cegos para a nossa cegueira.",
+   "hints": [
+    "Psicólogo israelita-americano.",
+    "Ganhou o Nobel de Economia em 2002.",
+    "Foi colega de Amos Tversky durante décadas.",
+    "Explicou o “Sistema 1” e o “Sistema 2”.",
+    "Livro: Pensar, Depressa e Devagar."
+   ],
+   "explain": "Daniel Kahneman resumiu uma das lições dos seus estudos sobre os vieses: não só cometemos erros de julgamento, como tendemos a não os ver. Por isso é tão difícil corrigi-los só com força de vontade.",
+   "ref": "Kahneman, D. (2011). Thinking, Fast and Slow. Farrar, Straus and Giroux."
+  },
+  {
+   "answer": "frankl",
+   "near": [
+    "yalom",
+    "may",
+    "kubler"
+   ],
+   "quote": "Quando já não somos capazes de mudar uma situação, somos desafiados a mudar-nos a nós próprios.",
+   "hints": [
+    "Psiquiatra austríaco (1905–1997).",
+    "Perdeu a família no Holocausto.",
+    "Escola: logoterapia.",
+    "Livro: Em Busca de Sentido.",
+    "Dizia que o ser humano procura “vontade de sentido”."
+   ],
+   "explain": "Viktor Frankl, que sobreviveu a quatro campos de concentração, defendeu que o sofrimento que não se pode evitar pode ser transformado em realização humana, se for vivido com sentido.",
+   "ref": "Frankl, V. E. (1946/1959). Man’s Search for Meaning. Beacon Press."
+  },
+  {
+   "answer": "maslow",
+   "near": [
+    "rogers",
+    "perls",
+    "seligman"
+   ],
+   "quote": "O que um homem pode ser, tem de ser.",
+   "hints": [
+    "Psicólogo norte-americano.",
+    "Nasceu em Brooklyn, filho de imigrantes.",
+    "Escola: psicologia humanista.",
+    "A frase vem do artigo onde propôs a hierarquia das necessidades (1943).",
+    "Chamou “autorrealização” a este impulso."
+   ],
+   "explain": "Abraham Maslow usou esta frase para descrever a autorrealização: a necessidade de cada pessoa se desenvolver ao máximo do seu potencial. Apareceu no artigo de 1943 em que propôs a hierarquia das necessidades.",
+   "ref": "Maslow, A. H. (1943). A theory of human motivation. Psychological Review, 50(4)."
+  },
+  {
+   "answer": "winnicott",
+   "near": [
+    "bion",
+    "klein",
+    "bowlby"
+   ],
+   "quote": "É um prazer estar escondido e um desastre não ser encontrado.",
+   "hints": [
+    "Pediatra e psicanalista britânico.",
+    "Atendeu milhares de mães e crianças num hospital de Londres.",
+    "Falava do “verdadeiro self” e do “falso self”.",
+    "Ideia-chave: o brincar é essencial ao desenvolvimento.",
+    "Criou o conceito de “mãe suficientemente boa”."
+   ],
+   "explain": "Donald Winnicott usou a brincadeira do esconde-esconde para falar do desejo humano de ter um mundo interno privado, mas também de ser procurado e reconhecido. Alerta para o risco de um isolamento total.",
+   "ref": "Winnicott, D. W. (1963). Communicating and not communicating. In The Maturational Processes and the Facilitating Environment."
+  },
+  {
+   "answer": "james",
+   "near": [
+    "wundt",
+    "maslow",
+    "frankl"
+   ],
+   "quote": "O maior uso da vida é gastá-la em algo que a ultrapasse.",
+   "hints": [
+    "Médico, filósofo e psicólogo norte-americano.",
+    "Nasceu em Nova Iorque, em 1842.",
+    "Escola: funcionalismo e pragmatismo.",
+    "Escreveu As Variedades da Experiência Religiosa.",
+    "Obra: Os Princípios da Psicologia."
+   ],
+   "explain": "William James escreveu esta frase numa carta, e ela tornou-se um lema sobre o sentido da vida: dedicar-se a algo maior do que nós, que continue depois de nós.",
+   "ref": "James, W. (c. 1900). Citado em The Letters of William James.",
+   "verificar": true
+  },
+  {
+   "answer": "freud",
+   "near": [
+    "jung",
+    "lacan",
+    "erikson"
+   ],
+   "quote": "A anatomia é o destino.",
+   "hints": [
+    "Neurologista austríaco.",
+    "A expressão é uma adaptação de uma frase de Napoleão.",
+    "Foi usada num texto sobre o desenvolvimento sexual.",
+    "Foi muito criticada pelas feministas.",
+    "Fundador da psicanálise."
+   ],
+   "explain": "Sigmund Freud adaptou uma frase de Napoleão para sugerir que as diferenças anatómicas entre homens e mulheres moldam o desenvolvimento psíquico. A ideia foi muito criticada, nomeadamente por Karen Horney.",
+   "ref": "Freud, S. (1924). The Dissolution of the Oedipus Complex."
+  },
+  {
+   "answer": "piaget",
+   "near": [
+    "vigotski",
+    "bandura",
+    "bowlby"
+   ],
+   "quote": "O principal objetivo da educação é criar pessoas capazes de fazer coisas novas, e não simplesmente repetir o que outras gerações fizeram.",
+   "hints": [
+    "Suíço, nascido em 1896.",
+    "Começou por estudar moluscos, antes de se dedicar à psicologia.",
+    "Escola: construtivismo.",
+    "Descreveu os estádios sensório-motor, pré-operatório, operatório concreto e operatório formal.",
+    "Fundou o Centro Internacional de Epistemologia Genética, em Genebra."
+   ],
+   "explain": "Jean Piaget defendeu uma educação que desenvolva a capacidade de criar e inventar, e não apenas a de reproduzir conhecimentos. A frase aparece numa entrevista dos anos 1960 e resume a sua visão da escola.",
+   "ref": "Piaget, J. (c. 1964). Entrevista a Jean-Claude Bringuier. Conversations libres avec Jean Piaget.",
+   "verificar": true
+  },
+  {
+   "answer": "bandura",
+   "near": [
+    "skinner",
+    "watson",
+    "piaget"
+   ],
+   "quote": "A maior parte do comportamento humano é aprendida por observação, através da modelação.",
+   "hints": [
+    "Psicólogo nascido no Canadá, em 1925, que fez carreira nos Estados Unidos.",
+    "Professor em Stanford durante mais de cinco décadas.",
+    "Mostrou que as crianças imitam a agressividade de um adulto, numa experiência com um boneco insuflável.",
+    "Conceito central: autoeficácia, a crença na própria capacidade de agir.",
+    "Escola: teoria da aprendizagem social, depois cognitivo-social."
+   ],
+   "explain": "Albert Bandura contrariou a ideia de que só se aprende por reforço direto. Observar outras pessoas e as consequências do que fazem basta para adquirir novos comportamentos, o que abriu caminho à teoria cognitivo-social.",
+   "ref": "Bandura, A. (1977). Social Learning Theory. Prentice Hall."
+  },
+  {
+   "answer": "kubler",
+   "near": [
+    "frankl",
+    "bowlby",
+    "yalom"
+   ],
+   "quote": "As pessoas mais bonitas que conhecemos são as que conheceram a derrota, o sofrimento, a luta e a perda, e encontraram a saída das profundezas.",
+   "hints": [
+    "Psiquiatra nascida na Suíça, em 1926, que viveu nos Estados Unidos.",
+    "Escutou doentes terminais e deu voz ao que sentiam.",
+    "Obra de 1969: «Sobre a Morte e o Morrer».",
+    "Associada a cinco fases: negação, raiva, negociação, depressão e aceitação.",
+    "As fases descrevem o modo como muitas pessoas vivem o luto e a doença grave."
+   ],
+   "explain": "Elisabeth Kübler-Ross dedicou a carreira ao acompanhamento de pessoas em fim de vida. A frase resume a sua convicção de que a perda, vivida e elaborada, pode aprofundar a humanidade de quem a atravessa.",
+   "ref": "Kübler-Ross, E. (1975). Death: The Final Stage of Growth. Prentice-Hall."
+  },
+  {
+   "answer": "may",
+   "near": [
+    "frankl",
+    "yalom",
+    "rogers"
+   ],
+   "quote": "A coragem não é uma virtude entre outras, como o amor ou a fidelidade. É a base que dá realidade a todas as outras virtudes.",
+   "hints": [
+    "Psicólogo norte-americano nascido em 1909.",
+    "Sofreu uma tuberculose que o levou a ler muita filosofia.",
+    "Trouxe o existencialismo europeu para a psicologia dos Estados Unidos.",
+    "Obras: «Amor e Vontade» e «A Coragem de Criar».",
+    "Escola: psicologia existencial."
+   ],
+   "explain": "Rollo May via a coragem como condição para viver com autenticidade: sem ela, o amor, a criatividade e a responsabilidade não se concretizam. A ideia liga-se à sua leitura da ansiedade como parte normal de crescer.",
+   "ref": "May, R. (1975). The Courage to Create. W. W. Norton."
+  },
+  {
+   "answer": "thorndike",
+   "near": [
+    "skinner",
+    "pavlov",
+    "watson"
+   ],
+   "quote": "Tudo o que existe, existe em alguma quantidade.",
+   "hints": [
+    "Psicólogo norte-americano nascido em 1874.",
+    "Estudou a aprendizagem de gatos que escapavam de caixas-problema.",
+    "Foi professor no Teachers College, em Nova Iorque.",
+    "Formulou a lei do efeito: comportamentos seguidos de recompensa tendem a repetir-se.",
+    "Defendeu a medição na educação e na psicologia."
+   ],
+   "explain": "Edward Thorndike usou a frase para defender que tudo o que existe pode ser medido, incluindo capacidades e aprendizagens. Foi um dos fundadores da psicologia educacional e dos testes padronizados.",
+   "ref": "Thorndike, E. L. (1918). The nature, purposes, and general methods of measurements of educational products. In The Seventeenth Yearbook of the National Society for the Study of Education, Part II. Public School Publishing."
+  },
+  {
+   "answer": "erikson",
+   "near": [
+    "piaget",
+    "freud",
+    "bowlby"
+   ],
+   "quote": "A esperança é a mais antiga e a mais indispensável das virtudes inerentes ao estado de estar vivo.",
+   "hints": [
+    "Nasceu na Alemanha, em 1902, e acabou por viver nos Estados Unidos.",
+    "Estudou arte antes de se formar em psicanálise com Anna Freud.",
+    "Cunhou a expressão «crise de identidade».",
+    "Propôs oito estádios psicossociais ao longo da vida.",
+    "No primeiro estádio, o bebé resolve o conflito entre confiança e desconfiança."
+   ],
+   "explain": "Erik Erikson associou a esperança à primeira crise do desenvolvimento, a da confiança básica. Quando o cuidado é consistente, o bebé constrói uma expectativa de que o mundo é suficientemente seguro.",
+   "ref": "Erikson, E. H. (1964). Insight and Responsibility. W. W. Norton."
+  },
+  {
+   "answer": "adler",
+   "near": [
+    "freud",
+    "jung",
+    "horney"
+   ],
+   "quote": "Ver com os olhos de outro, ouvir com os ouvidos de outro e sentir com o coração de outro.",
+   "hints": [
+    "Médico austríaco nascido em 1870.",
+    "Pertenceu ao círculo de Freud, mas afastou-se em 1911.",
+    "Fundou a psicologia individual.",
+    "Descreveu o complexo de inferioridade e a compensação.",
+    "Chamou «interesse social» à capacidade de se identificar com os outros."
+   ],
+   "explain": "Alfred Adler usava esta formulação para definir o interesse social, a capacidade de se pôr no lugar dos outros. Para ele, era um sinal central de saúde psicológica.",
+   "ref": "Ansbacher, H. L., & Ansbacher, R. R. (Eds.). (1956). The Individual Psychology of Alfred Adler. Basic Books.",
+   "verificar": true
+  },
+  {
+   "answer": "bion",
+   "near": [
+    "klein",
+    "winnicott",
+    "freud"
+   ],
+   "quote": "Cada sessão deve ser vivida sem memória e sem desejo.",
+   "hints": [
+    "Psicanalista britânico nascido na Índia, em 1897.",
+    "Comandou tanques na Primeira Guerra Mundial.",
+    "Foi analisando de Melanie Klein.",
+    "Estudou os grupos e descreveu os «pressupostos básicos».",
+    "Conceito: continente e conteúdo, a capacidade de transformar emoções em pensamento."
+   ],
+   "explain": "Wilfred Bion recomendava que o analista chegasse a cada sessão sem ideias prévias nem expectativas, para estar disponível para o que de novo surgisse. A expressão resume a sua atitude de abertura ao desconhecido.",
+   "ref": "Bion, W. R. (1967). Notes on memory and desire. The Psychoanalytic Forum, 2(3), 271–280.",
+   "verificar": true
+  }
+ ]
 }

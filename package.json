@@ -14,10 +14,9 @@
     "conteudo": "node scripts/validar-conteudo.mjs"
   },
   "devDependencies": {
-    "an-array-of-portuguese-words": "^1.2.0",
     "dictionary-pt": "^4.0.0",
+    "dictionary-pt-pt": "^2.0.0",
     "jsdom": "^29.1.1",
-    "nspell": "^2.1.5",
     "vite": "^8.3.4",
     "vitest": "^5.0.4"
   },

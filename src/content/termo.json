@@ -1,110 +1,752 @@
 [
- [ "FOBIA", "Fobia", "Medo intenso, persistente e desproporcionado de um objeto ou situação específica." ],
- [ "JANET", "Janet", "Pierre Janet (1859–1947), psicólogo francês pioneiro no estudo da dissociação e do trauma." ],
- [ "AFETO", "Afeto", "No exame do estado mental, a expressão observável da emoção." ],
- [ "LAPSO", "Lapso", "Erro involuntário da fala ou da memória que, para Freud, pode revelar desejos inconscientes." ],
- [ "RISCO", "Risco", "Fator que aumenta a probabilidade de uma pessoa desenvolver uma perturbação." ],
- [ "SONHO", "Sonho", "Para Freud, “a via régia para o conhecimento do inconsciente”." ],
- [ "ADLER", "Adler", "Alfred Adler (1870–1937), criador da psicologia individual e do conceito de complexo de inferioridade." ],
- [ "CULPA", "Culpa", "Emoção autoconsciente ligada à perceção de ter violado uma norma ou causado dano." ],
- [ "SINAL", "Sinal", "Manifestação objetiva de uma perturbação, observada pelo clínico, em oposição ao sintoma relatado." ],
- [ "APEGO", "Apego", "Vínculo emocional duradouro entre a criança e quem cuida dela, estudado por Bowlby e Ainsworth." ],
- [ "WUNDT", "Wundt", "Wilhelm Wundt (1832–1920), que fundou em 1879 o primeiro laboratório de psicologia experimental." ],
- [ "MANIA", "Mania", "Humor anormalmente elevado ou irritável, com energia aumentada. Define a perturbação bipolar tipo I." ],
- [ "PAVOR", "Pavor", "Medo extremo e súbito, que paralisa." ],
- [ "LACAN", "Lacan", "Jacques Lacan (1901–1981), psicanalista francês que propôs um “retorno a Freud”." ],
- [ "TEDIO", "Tédio", "Estado aversivo de baixa estimulação, ligado à dificuldade de manter a atenção." ],
- [ "FLUXO", "Fluxo", "Estado de absorção total numa atividade desafiante (flow), descrito por Csikszentmihalyi." ],
- [ "HUMOR", "Humor", "Estado emocional persistente que colore a perceção. É o “clima”, enquanto o afeto é o “tempo”." ],
- [ "TIQUE", "Tique", "Movimento ou vocalização súbitos, rápidos, recorrentes e não rítmicos." ],
- [ "BINET", "Binet", "Alfred Binet (1857–1911), que criou com Théodore Simon o primeiro teste de inteligência." ],
- [ "FREUD", "Freud", "Sigmund Freud (1856–1939), neurologista austríaco e fundador da psicanálise." ],
- [ "ANIMA", "Anima", "Em Jung, o aspeto feminino inconsciente da psique masculina." ],
- [ "RAIVA", "Raiva", "Emoção básica ligada à perceção de injustiça ou de obstáculo a um objetivo." ],
- [ "TRACO", "Traço", "Padrão estável de pensar, sentir e agir que descreve a personalidade." ],
- [ "VICIO", "Vício", "Termo popular para dependência. O DSM-5-TR fala em “perturbação por uso de substâncias”." ],
- [ "LEWIN", "Lewin", "Kurt Lewin (1890–1947), pai da psicologia social experimental e da teoria de campo." ],
- [ "CRISE", "Crise", "Estado temporário de desorganização em que as estratégias habituais de coping falham." ],
- [ "EDIPO", "Édipo", "Na psicanálise, o complexo de Édipo descreve o desejo infantil pelo progenitor do sexo oposto e a rivalidade com o outro." ],
- [ "MENTE", "Mente", "Conjunto de processos cognitivos e afetivos: pensar, perceber, lembrar e sentir." ],
- [ "SELYE", "Selye", "Hans Selye (1907–1982), que descreveu a síndrome geral de adaptação ao stresse." ],
- [ "VOZES", "Vozes", "Alucinações auditivas, típicas dos quadros psicóticos." ],
- [ "IMAGO", "Imago", "Imagem inconsciente de uma figura importante (como o pai ou a mãe) que molda as relações na vida adulta." ],
- [ "PERLS", "Perls", "Fritz Perls (1893–1970), criador da Gestalt-terapia." ],
- [ "CIUME", "Ciúme", "Emoção complexa que combina medo de perder alguém, raiva e insegurança." ],
- [ "NERVO", "Nervo", "Feixe de fibras que leva sinais entre o sistema nervoso central e o corpo." ],
- [ "JAMES", "James", "William James (1842–1910), autor de Os Princípios da Psicologia e figura do funcionalismo." ],
- [ "PERDA", "Perda", "Privação de alguém ou de algo importante, que pode levar ao luto." ],
- [ "TESTE", "Teste", "Instrumento padronizado para avaliar uma característica psicológica." ],
- [ "GENES", "Genes", "Unidades de hereditariedade que influenciam traços psicológicos em interação com o ambiente." ],
- [ "YALOM", "Yalom", "Irvin Yalom (n. 1931), psiquiatra e escritor ligado à psicoterapia existencial." ],
- [ "VAZIO", "Vazio", "Sensação crónica de vazio emocional, característica da perturbação borderline." ],
- [ "GRUPO", "Grupo", "Conjunto de pessoas em interação, com normas e papéis próprios." ],
- [ "KLEIN", "Klein", "Melanie Klein (1882–1960), pioneira da psicanálise de crianças." ],
- [ "CALMA", "Calma", "Estado de baixa ativação fisiológica e emocional." ],
- [ "ITENS", "Itens", "Perguntas ou tarefas que compõem um teste ou um questionário." ],
- [ "PAPEL", "Papel", "Conjunto de comportamentos esperados de quem ocupa uma posição social." ],
- [ "DWECK", "Dweck", "Carol Dweck (n. 1946), autora da teoria da mentalidade de crescimento." ],
- [ "INATO", "Inato", "Aquilo que existe desde o nascimento, em oposição ao aprendido." ],
- [ "MEDIA", "Média", "Medida de tendência central: a soma dos valores a dividir pelo seu número." ],
- [ "ANSIA", "Ânsia", "Sensação de tensão e de urgência, próxima da ansiedade intensa." ],
- [ "LIDER", "Líder", "Pessoa que influencia o grupo para atingir objetivos comuns." ],
- [ "SURTO", "Surto", "Episódio agudo e breve de perturbação, como um surto psicótico." ],
- [ "REICH", "Reich", "Wilhelm Reich (1897–1957), psicanalista que estudou a “couraça muscular do caráter”." ],
- [ "VALOR", "Valor", "Princípio que orienta as escolhas e o comportamento." ],
- [ "TEMOR", "Temor", "Medo moderado perante uma ameaça possível." ],
- [ "ETICA", "Ética", "Reflexão sobre o que é certo e errado, base do código deontológico dos psicólogos." ],
- [ "FROMM", "Fromm", "Erich Fromm (1900–1980), psicanalista humanista, autor de A Arte de Amar." ],
- [ "MORAL", "Moral", "Conjunto de regras e valores sobre o que é bom e justo, estudado por Kohlberg." ],
- [ "JUIZO", "Juízo", "No exame do estado mental, a capacidade de avaliar situações e de tomar decisões." ],
- [ "LURIA", "Luria", "Alexander Luria (1902–1977), fundador da neuropsicologia soviética." ],
- [ "RAZAO", "Razão", "Capacidade de raciocinar e de avaliar argumentos." ],
- [ "IDEIA", "Ideia", "Representação mental de algo. Em psicopatologia, pode ser delirante ou prevalente." ],
- [ "BROCA", "Broca", "Paul Broca (1824–1880), cujo nome designa a área do cérebro ligada à produção da fala." ],
- [ "VISAO", "Visão", "Sentido que traduz a luz em imagens, processado sobretudo no lobo occipital." ],
- [ "OLHAR", "Olhar", "Contacto visual, importante na vinculação e na comunicação não verbal." ],
- [ "SABOR", "Sabor", "Perceção gustativa, combinada com o olfato." ],
- [ "FORMA", "Forma", "Na Gestalt, o todo organizado que a mente percebe antes das partes." ],
- [ "WEBER", "Weber", "Ernst Weber (1795–1878), pioneiro da psicofísica e da lei da diferença mínima percetível." ],
- [ "FUNDO", "Fundo", "Na lei da figura e fundo da Gestalt, o que fica por trás da figura." ],
- [ "PARTE", "Parte", "Para a Gestalt, o todo é mais do que a soma destas." ],
- [ "GESTO", "Gesto", "Movimento do corpo com valor comunicativo." ],
- [ "TOQUE", "Toque", "Contacto físico essencial ao desenvolvimento do bebé, como mostrou Harlow com macacos." ],
- [ "STERN", "Stern", "Daniel Stern (1934–2012), psiquiatra que estudou a interação entre bebés e cuidadores." ],
- [ "LACOS", "Laços", "Vínculos afetivos entre pessoas, tema central da teoria da vinculação." ],
- [ "FELIZ", "Feliz", "Estado de bem-estar subjetivo, estudado pela psicologia positiva." ],
- [ "METAS", "Metas", "Objetivos que orientam o comportamento, base da teoria da definição de metas." ],
- [ "PLANO", "Plano", "Sequência de passos para atingir um objetivo, função das funções executivas." ],
- [ "TEMPO", "Tempo", "Dimensão percebida de forma diferente conforme a emoção e a atenção." ],
- [ "SORTE", "Sorte", "Atribuição do resultado ao acaso, ligada ao locus de controlo externo." ],
- [ "ACASO", "Acaso", "Ausência de causa percebida, que as pessoas tendem a preencher com explicações." ],
- [ "IDADE", "Idade", "Na avaliação, a idade mental compara o desempenho com o esperado para cada faixa etária." ],
- [ "FASES", "Fases", "Períodos do desenvolvimento descritos por vários autores, como Freud, Erikson e Piaget." ],
- [ "JOGOS", "Jogos", "Atividade lúdica central no desenvolvimento e na terapia infantil." ],
- [ "BEBES", "Bebés", "Fase em que se formam os primeiros vínculos." ],
- [ "DROGA", "Droga", "Substância psicoativa que pode causar dependência." ],
- [ "EXAME", "Exame", "Observação clínica sistemática, como o exame do estado mental." ],
- [ "HEROI", "Herói", "Arquétipo de Jung e figura central do mito." ],
- [ "CAUSA", "Causa", "Fator que produz um efeito. Em psicologia, é difícil de provar fora de experiências controladas." ],
- [ "CURVA", "Curva", "Representação gráfica, como a curva do esquecimento de Ebbinghaus ou a curva normal." ],
- [ "FALHO", "Falho", "Na expressão “ato falho”, o lapso que revela algo inconsciente." ],
- [ "AGUDO", "Agudo", "Quadro de início recente e de curta duração, em oposição ao crónico." ],
- [ "CHORO", "Choro", "Resposta emocional que também tem função de comunicação, desde o bebé." ],
- [ "ROSTO", "Rosto", "Estímulo que o cérebro reconhece de forma especializada. A prosopagnosia dificulta esse reconhecimento." ],
- [ "PULSO", "Pulso", "Ritmo cardíaco, indicador fisiológico simples de ativação emocional." ],
- [ "TONUS", "Tónus", "Estado de tensão do músculo em repouso, ligado à postura e à emoção." ],
- [ "LIVRE", "Livre", "Na psicanálise, a associação livre pede ao paciente que diga tudo o que lhe vier à mente." ],
- [ "CLIMA", "Clima", "Em psicologia das organizações, a perceção partilhada sobre o ambiente de trabalho." ],
- [ "RITOS", "Ritos", "Cerimónias que marcam transições, como os ritos de passagem da adolescência." ],
- [ "MITOS", "Mitos", "Narrativas simbólicas que, para Jung, exprimem o inconsciente coletivo." ],
- [ "PARES", "Pares", "Grupo de iguais, central na identidade e na socialização dos adolescentes." ],
- [ "CASAL", "Casal", "Unidade de trabalho da terapia de casal." ],
- [ "ABUSO", "Abuso", "Uso inadequado, de poder ou de substâncias, com consequências para a saúde mental." ],
- [ "IDOSO", "Idoso", "Pessoa na fase mais avançada da vida, estudada pela psicogerontologia." ],
- [ "MAYER", "Mayer", "John Mayer (n. 1953), que definiu com Salovey o conceito de inteligência emocional." ],
- [ "ROSCH", "Rosch", "Eleanor Rosch (n. 1938), que estudou as categorias naturais e os protótipos." ],
- [ "CRAIK", "Craik", "Fergus Craik (n. 1935), autor do modelo dos níveis de processamento da memória." ],
- [ "LAING", "Laing", "R. D. Laing (1927–1989), psiquiatra escocês associado à antipsiquiatria." ],
- [ "SZASZ", "Szasz", "Thomas Szasz (1920–2012), crítico do conceito de doença mental." ],
- [ "RIBOT", "Ribot", "Théodule Ribot (1839–1916), psicólogo francês que formulou a lei de regressão das memórias." ]
+ [
+  "FOBIA",
+  "Fobia",
+  "Medo intenso, persistente e desproporcionado de um objeto ou situação específica."
+ ],
+ [
+  "JANET",
+  "Janet",
+  "Pierre Janet (1859–1947), psicólogo francês pioneiro no estudo da dissociação e do trauma."
+ ],
+ [
+  "AFETO",
+  "Afeto",
+  "No exame do estado mental, a expressão observável da emoção."
+ ],
+ [
+  "LAPSO",
+  "Lapso",
+  "Erro involuntário da fala ou da memória que, para Freud, pode revelar desejos inconscientes."
+ ],
+ [
+  "RISCO",
+  "Risco",
+  "Fator que aumenta a probabilidade de uma pessoa desenvolver uma perturbação."
+ ],
+ [
+  "SONHO",
+  "Sonho",
+  "Para Freud, “a via régia para o conhecimento do inconsciente”."
+ ],
+ [
+  "ADLER",
+  "Adler",
+  "Alfred Adler (1870–1937), criador da psicologia individual e do conceito de complexo de inferioridade."
+ ],
+ [
+  "CULPA",
+  "Culpa",
+  "Emoção autoconsciente ligada à perceção de ter violado uma norma ou causado dano."
+ ],
+ [
+  "SINAL",
+  "Sinal",
+  "Manifestação objetiva de uma perturbação, observada pelo clínico, em oposição ao sintoma relatado."
+ ],
+ [
+  "APEGO",
+  "Apego",
+  "Vínculo emocional duradouro entre a criança e quem cuida dela, estudado por Bowlby e Ainsworth."
+ ],
+ [
+  "WUNDT",
+  "Wundt",
+  "Wilhelm Wundt (1832–1920), que fundou em 1879 o primeiro laboratório de psicologia experimental."
+ ],
+ [
+  "MANIA",
+  "Mania",
+  "Humor anormalmente elevado ou irritável, com energia aumentada. Define a perturbação bipolar tipo I."
+ ],
+ [
+  "PAVOR",
+  "Pavor",
+  "Medo extremo e súbito, que paralisa."
+ ],
+ [
+  "LACAN",
+  "Lacan",
+  "Jacques Lacan (1901–1981), psicanalista francês que propôs um “retorno a Freud”."
+ ],
+ [
+  "TEDIO",
+  "Tédio",
+  "Estado aversivo de baixa estimulação, ligado à dificuldade de manter a atenção."
+ ],
+ [
+  "FLUXO",
+  "Fluxo",
+  "Estado de absorção total numa atividade desafiante (flow), descrito por Csikszentmihalyi."
+ ],
+ [
+  "HUMOR",
+  "Humor",
+  "Estado emocional persistente que colore a perceção. É o “clima”, enquanto o afeto é o “tempo”."
+ ],
+ [
+  "TIQUE",
+  "Tique",
+  "Movimento ou vocalização súbitos, rápidos, recorrentes e não rítmicos."
+ ],
+ [
+  "BINET",
+  "Binet",
+  "Alfred Binet (1857–1911), que criou com Théodore Simon o primeiro teste de inteligência."
+ ],
+ [
+  "FREUD",
+  "Freud",
+  "Sigmund Freud (1856–1939), neurologista austríaco e fundador da psicanálise."
+ ],
+ [
+  "ANIMA",
+  "Anima",
+  "Em Jung, o aspeto feminino inconsciente da psique masculina."
+ ],
+ [
+  "RAIVA",
+  "Raiva",
+  "Emoção básica ligada à perceção de injustiça ou de obstáculo a um objetivo."
+ ],
+ [
+  "TRACO",
+  "Traço",
+  "Padrão estável de pensar, sentir e agir que descreve a personalidade."
+ ],
+ [
+  "VICIO",
+  "Vício",
+  "Termo popular para dependência. O DSM-5-TR fala em “perturbação por uso de substâncias”."
+ ],
+ [
+  "LEWIN",
+  "Lewin",
+  "Kurt Lewin (1890–1947), pai da psicologia social experimental e da teoria de campo."
+ ],
+ [
+  "CRISE",
+  "Crise",
+  "Estado temporário de desorganização em que as estratégias habituais de coping falham."
+ ],
+ [
+  "EDIPO",
+  "Édipo",
+  "Na psicanálise, o complexo de Édipo descreve o desejo infantil pelo progenitor do sexo oposto e a rivalidade com o outro."
+ ],
+ [
+  "MENTE",
+  "Mente",
+  "Conjunto de processos cognitivos e afetivos: pensar, perceber, lembrar e sentir."
+ ],
+ [
+  "SELYE",
+  "Selye",
+  "Hans Selye (1907–1982), que descreveu a síndrome geral de adaptação ao stresse."
+ ],
+ [
+  "VOZES",
+  "Vozes",
+  "Alucinações auditivas, típicas dos quadros psicóticos."
+ ],
+ [
+  "IMAGO",
+  "Imago",
+  "Imagem inconsciente de uma figura importante (como o pai ou a mãe) que molda as relações na vida adulta."
+ ],
+ [
+  "PERLS",
+  "Perls",
+  "Fritz Perls (1893–1970), criador da Gestalt-terapia."
+ ],
+ [
+  "CIUME",
+  "Ciúme",
+  "Emoção complexa que combina medo de perder alguém, raiva e insegurança."
+ ],
+ [
+  "NERVO",
+  "Nervo",
+  "Feixe de fibras que leva sinais entre o sistema nervoso central e o corpo."
+ ],
+ [
+  "JAMES",
+  "James",
+  "William James (1842–1910), autor de Os Princípios da Psicologia e figura do funcionalismo."
+ ],
+ [
+  "PERDA",
+  "Perda",
+  "Privação de alguém ou de algo importante, que pode levar ao luto."
+ ],
+ [
+  "TESTE",
+  "Teste",
+  "Instrumento padronizado para avaliar uma característica psicológica."
+ ],
+ [
+  "GENES",
+  "Genes",
+  "Unidades de hereditariedade que influenciam traços psicológicos em interação com o ambiente."
+ ],
+ [
+  "YALOM",
+  "Yalom",
+  "Irvin Yalom (n. 1931), psiquiatra e escritor ligado à psicoterapia existencial."
+ ],
+ [
+  "VAZIO",
+  "Vazio",
+  "Sensação crónica de vazio emocional, característica da perturbação borderline."
+ ],
+ [
+  "GRUPO",
+  "Grupo",
+  "Conjunto de pessoas em interação, com normas e papéis próprios."
+ ],
+ [
+  "KLEIN",
+  "Klein",
+  "Melanie Klein (1882–1960), pioneira da psicanálise de crianças."
+ ],
+ [
+  "CALMA",
+  "Calma",
+  "Estado de baixa ativação fisiológica e emocional."
+ ],
+ [
+  "ITENS",
+  "Itens",
+  "Perguntas ou tarefas que compõem um teste ou um questionário."
+ ],
+ [
+  "PAPEL",
+  "Papel",
+  "Conjunto de comportamentos esperados de quem ocupa uma posição social."
+ ],
+ [
+  "DWECK",
+  "Dweck",
+  "Carol Dweck (n. 1946), autora da teoria da mentalidade de crescimento."
+ ],
+ [
+  "INATO",
+  "Inato",
+  "Aquilo que existe desde o nascimento, em oposição ao aprendido."
+ ],
+ [
+  "MEDIA",
+  "Média",
+  "Medida de tendência central: a soma dos valores a dividir pelo seu número."
+ ],
+ [
+  "ANSIA",
+  "Ânsia",
+  "Sensação de tensão e de urgência, próxima da ansiedade intensa."
+ ],
+ [
+  "LIDER",
+  "Líder",
+  "Pessoa que influencia o grupo para atingir objetivos comuns."
+ ],
+ [
+  "SURTO",
+  "Surto",
+  "Episódio agudo e breve de perturbação, como um surto psicótico."
+ ],
+ [
+  "REICH",
+  "Reich",
+  "Wilhelm Reich (1897–1957), psicanalista que estudou a “couraça muscular do caráter”."
+ ],
+ [
+  "VALOR",
+  "Valor",
+  "Princípio que orienta as escolhas e o comportamento."
+ ],
+ [
+  "TEMOR",
+  "Temor",
+  "Medo moderado perante uma ameaça possível."
+ ],
+ [
+  "ETICA",
+  "Ética",
+  "Reflexão sobre o que é certo e errado, base do código deontológico dos psicólogos."
+ ],
+ [
+  "FROMM",
+  "Fromm",
+  "Erich Fromm (1900–1980), psicanalista humanista, autor de A Arte de Amar."
+ ],
+ [
+  "MORAL",
+  "Moral",
+  "Conjunto de regras e valores sobre o que é bom e justo, estudado por Kohlberg."
+ ],
+ [
+  "JUIZO",
+  "Juízo",
+  "No exame do estado mental, a capacidade de avaliar situações e de tomar decisões."
+ ],
+ [
+  "LURIA",
+  "Luria",
+  "Alexander Luria (1902–1977), fundador da neuropsicologia soviética."
+ ],
+ [
+  "RAZAO",
+  "Razão",
+  "Capacidade de raciocinar e de avaliar argumentos."
+ ],
+ [
+  "IDEIA",
+  "Ideia",
+  "Representação mental de algo. Em psicopatologia, pode ser delirante ou prevalente."
+ ],
+ [
+  "BROCA",
+  "Broca",
+  "Paul Broca (1824–1880), cujo nome designa a área do cérebro ligada à produção da fala."
+ ],
+ [
+  "VISAO",
+  "Visão",
+  "Sentido que traduz a luz em imagens, processado sobretudo no lobo occipital."
+ ],
+ [
+  "OLHAR",
+  "Olhar",
+  "Contacto visual, importante na vinculação e na comunicação não verbal."
+ ],
+ [
+  "SABOR",
+  "Sabor",
+  "Perceção gustativa, combinada com o olfato."
+ ],
+ [
+  "FORMA",
+  "Forma",
+  "Na Gestalt, o todo organizado que a mente percebe antes das partes."
+ ],
+ [
+  "WEBER",
+  "Weber",
+  "Ernst Weber (1795–1878), pioneiro da psicofísica e da lei da diferença mínima percetível."
+ ],
+ [
+  "FUNDO",
+  "Fundo",
+  "Na lei da figura e fundo da Gestalt, o que fica por trás da figura."
+ ],
+ [
+  "PARTE",
+  "Parte",
+  "Para a Gestalt, o todo é mais do que a soma destas."
+ ],
+ [
+  "GESTO",
+  "Gesto",
+  "Movimento do corpo com valor comunicativo."
+ ],
+ [
+  "TOQUE",
+  "Toque",
+  "Contacto físico essencial ao desenvolvimento do bebé, como mostrou Harlow com macacos."
+ ],
+ [
+  "STERN",
+  "Stern",
+  "Daniel Stern (1934–2012), psiquiatra que estudou a interação entre bebés e cuidadores."
+ ],
+ [
+  "LACOS",
+  "Laços",
+  "Vínculos afetivos entre pessoas, tema central da teoria da vinculação."
+ ],
+ [
+  "FELIZ",
+  "Feliz",
+  "Estado de bem-estar subjetivo, estudado pela psicologia positiva."
+ ],
+ [
+  "METAS",
+  "Metas",
+  "Objetivos que orientam o comportamento, base da teoria da definição de metas."
+ ],
+ [
+  "PLANO",
+  "Plano",
+  "Sequência de passos para atingir um objetivo, função das funções executivas."
+ ],
+ [
+  "TEMPO",
+  "Tempo",
+  "Dimensão percebida de forma diferente conforme a emoção e a atenção."
+ ],
+ [
+  "SORTE",
+  "Sorte",
+  "Atribuição do resultado ao acaso, ligada ao locus de controlo externo."
+ ],
+ [
+  "ACASO",
+  "Acaso",
+  "Ausência de causa percebida, que as pessoas tendem a preencher com explicações."
+ ],
+ [
+  "IDADE",
+  "Idade",
+  "Na avaliação, a idade mental compara o desempenho com o esperado para cada faixa etária."
+ ],
+ [
+  "FASES",
+  "Fases",
+  "Períodos do desenvolvimento descritos por vários autores, como Freud, Erikson e Piaget."
+ ],
+ [
+  "JOGOS",
+  "Jogos",
+  "Atividade lúdica central no desenvolvimento e na terapia infantil."
+ ],
+ [
+  "BEBES",
+  "Bebés",
+  "Fase em que se formam os primeiros vínculos."
+ ],
+ [
+  "DROGA",
+  "Droga",
+  "Substância psicoativa que pode causar dependência."
+ ],
+ [
+  "EXAME",
+  "Exame",
+  "Observação clínica sistemática, como o exame do estado mental."
+ ],
+ [
+  "HEROI",
+  "Herói",
+  "Arquétipo de Jung e figura central do mito."
+ ],
+ [
+  "CAUSA",
+  "Causa",
+  "Fator que produz um efeito. Em psicologia, é difícil de provar fora de experiências controladas."
+ ],
+ [
+  "CURVA",
+  "Curva",
+  "Representação gráfica, como a curva do esquecimento de Ebbinghaus ou a curva normal."
+ ],
+ [
+  "FALHO",
+  "Falho",
+  "Na expressão “ato falho”, o lapso que revela algo inconsciente."
+ ],
+ [
+  "AGUDO",
+  "Agudo",
+  "Quadro de início recente e de curta duração, em oposição ao crónico."
+ ],
+ [
+  "CHORO",
+  "Choro",
+  "Resposta emocional que também tem função de comunicação, desde o bebé."
+ ],
+ [
+  "ROSTO",
+  "Rosto",
+  "Estímulo que o cérebro reconhece de forma especializada. A prosopagnosia dificulta esse reconhecimento."
+ ],
+ [
+  "PULSO",
+  "Pulso",
+  "Ritmo cardíaco, indicador fisiológico simples de ativação emocional."
+ ],
+ [
+  "TONUS",
+  "Tónus",
+  "Estado de tensão do músculo em repouso, ligado à postura e à emoção."
+ ],
+ [
+  "LIVRE",
+  "Livre",
+  "Na psicanálise, a associação livre pede ao paciente que diga tudo o que lhe vier à mente."
+ ],
+ [
+  "CLIMA",
+  "Clima",
+  "Em psicologia das organizações, a perceção partilhada sobre o ambiente de trabalho."
+ ],
+ [
+  "RITOS",
+  "Ritos",
+  "Cerimónias que marcam transições, como os ritos de passagem da adolescência."
+ ],
+ [
+  "MITOS",
+  "Mitos",
+  "Narrativas simbólicas que, para Jung, exprimem o inconsciente coletivo."
+ ],
+ [
+  "PARES",
+  "Pares",
+  "Grupo de iguais, central na identidade e na socialização dos adolescentes."
+ ],
+ [
+  "CASAL",
+  "Casal",
+  "Unidade de trabalho da terapia de casal."
+ ],
+ [
+  "ABUSO",
+  "Abuso",
+  "Uso inadequado, de poder ou de substâncias, com consequências para a saúde mental."
+ ],
+ [
+  "IDOSO",
+  "Idoso",
+  "Pessoa na fase mais avançada da vida, estudada pela psicogerontologia."
+ ],
+ [
+  "MAYER",
+  "Mayer",
+  "John Mayer (n. 1953), que definiu com Salovey o conceito de inteligência emocional."
+ ],
+ [
+  "ROSCH",
+  "Rosch",
+  "Eleanor Rosch (n. 1938), que estudou as categorias naturais e os protótipos."
+ ],
+ [
+  "CRAIK",
+  "Craik",
+  "Fergus Craik (n. 1935), autor do modelo dos níveis de processamento da memória."
+ ],
+ [
+  "LAING",
+  "Laing",
+  "R. D. Laing (1927–1989), psiquiatra escocês associado à antipsiquiatria."
+ ],
+ [
+  "SZASZ",
+  "Szasz",
+  "Thomas Szasz (1920–2012), crítico do conceito de doença mental."
+ ],
+ [
+  "RIBOT",
+  "Ribot",
+  "Théodule Ribot (1839–1916), psicólogo francês que formulou a lei de regressão das memórias."
+ ],
+ [
+  "ELLIS",
+  "Ellis",
+  "Albert Ellis (1913–2007), criador da terapia racional-emotiva comportamental."
+ ],
+ [
+  "SPITZ",
+  "Spitz",
+  "René Spitz (1887–1974), que descreveu o hospitalismo e a depressão anaclítica em bebés institucionalizados."
+ ],
+ [
+  "EKMAN",
+  "Ekman",
+  "Paul Ekman (n. 1934), que estudou a universalidade das expressões faciais das emoções básicas."
+ ],
+ [
+  "PINEL",
+  "Pinel",
+  "Philippe Pinel (1745–1826), figura da humanização do tratamento da doença mental em França."
+ ],
+ [
+  "WOLPE",
+  "Wolpe",
+  "Joseph Wolpe (1915–1997), autor da dessensibilização sistemática no tratamento de fobias."
+ ],
+ [
+  "BERNE",
+  "Berne",
+  "Eric Berne (1910–1970), criador da análise transacional."
+ ],
+ [
+  "SATIR",
+  "Satir",
+  "Virginia Satir (1916–1988), pioneira da terapia familiar."
+ ],
+ [
+  "KOHUT",
+  "Kohut",
+  "Heinz Kohut (1913–1981), fundador da psicologia do self na psicanálise."
+ ],
+ [
+  "BOWEN",
+  "Bowen",
+  "Murray Bowen (1913–1990), autor da teoria dos sistemas familiares e da diferenciação do self."
+ ],
+ [
+  "HALEY",
+  "Haley",
+  "Jay Haley (1923–2007), figura da terapia familiar estratégica."
+ ],
+ [
+  "SACKS",
+  "Sacks",
+  "Oliver Sacks (1933–2015), neurologista que narrou casos clínicos em obras de divulgação."
+ ],
+ [
+  "NORMA",
+  "Norma",
+  "Regra, explícita ou implícita, sobre o comportamento esperado num grupo."
+ ],
+ [
+  "LAUDO",
+  "Laudo",
+  "Documento técnico que apresenta as conclusões de uma avaliação psicológica."
+ ],
+ [
+  "FICHA",
+  "Ficha",
+  "Registo de dados e observações sobre a pessoa acompanhada, como a ficha clínica."
+ ],
+ [
+  "DADOS",
+  "Dados",
+  "Informação recolhida numa investigação ou avaliação, base das conclusões."
+ ],
+ [
+  "ANIMO",
+  "Ânimo",
+  "Disposição afetiva geral e duradoura de uma pessoa, menos intensa do que uma emoção."
+ ],
+ [
+  "SIGNO",
+  "Signo",
+  "Unidade de significado que liga um significante (forma) a um significado (ideia)."
+ ],
+ [
+  "TOTEM",
+  "Totem",
+  "Animal ou objeto simbólico venerado por um grupo; Freud analisou-o em «Totem e Tabu»."
+ ],
+ [
+  "ONDAS",
+  "Ondas",
+  "Ritmos elétricos do cérebro registados no EEG, como as ondas alfa e delta."
+ ],
+ [
+  "CAMPO",
+  "Campo",
+  "Na teoria de Lewin, conjunto de fatores que determinam o comportamento num dado momento."
+ ],
+ [
+  "CORPO",
+  "Corpo",
+  "Dimensão física da experiência, em constante interação com a mente."
+ ],
+ [
+  "CARGA",
+  "Carga",
+  "Quantidade de esforço exigido a um sistema, como a carga cognitiva ou emocional."
+ ],
+ [
+  "MORTE",
+  "Morte",
+  "Tema central do luto; em Freud, ligada à pulsão de morte."
+ ],
+ [
+  "MOTOR",
+  "Motor",
+  "Relativo ao movimento, como o desenvolvimento motor da criança."
+ ],
+ [
+  "TATIL",
+  "Tátil",
+  "Relativo ao tato, o sentido que deteta pressão, textura e temperatura."
+ ],
+ [
+  "RUIDO",
+  "Ruído",
+  "Interferência que degrada a perceção de um sinal ou a comunicação de uma mensagem."
+ ],
+ [
+  "CANAL",
+  "Canal",
+  "Via por onde passa uma mensagem entre quem a emite e quem a recebe."
+ ],
+ [
+  "IDEAL",
+  "Ideal",
+  "Imagem de como se quer ser ou de como as coisas deviam ser, como o eu ideal."
+ ],
+ [
+  "ERROS",
+  "Erros",
+  "Desvios em relação ao esperado, objeto de estudo na cognição e nos vieses."
+ ],
+ [
+  "GRAVE",
+  "Grave",
+  "Grau de intensidade de um quadro clínico, acima do ligeiro e do moderado."
+ ],
+ [
+  "LITIO",
+  "Lítio",
+  "Medicamento estabilizador do humor, usado na perturbação bipolar."
+ ],
+ [
+  "AJUDA",
+  "Ajuda",
+  "Comportamento de apoio a outra pessoa, estudado na psicologia social do altruísmo."
+ ],
+ [
+  "PODER",
+  "Poder",
+  "Capacidade de influenciar o comportamento dos outros ou de controlar recursos."
+ ],
+ [
+  "ORDEM",
+  "Ordem",
+  "Instrução de uma autoridade, estudada nas experiências de obediência de Milgram."
+ ],
+ [
+  "PUNIR",
+  "Punir",
+  "Aplicar uma consequência desagradável para diminuir a frequência de um comportamento."
+ ],
+ [
+  "PROVA",
+  "Prova",
+  "Teste ou evidência usada para avaliar uma capacidade ou confirmar uma hipótese."
+ ],
+ [
+  "ETAPA",
+  "Etapa",
+  "Momento do desenvolvimento com características próprias, como as etapas de Piaget."
+ ],
+ [
+  "CICLO",
+  "Ciclo",
+  "Sequência que se repete, como o ciclo do sono ou o ciclo de vida."
+ ],
+ [
+  "RITMO",
+  "Ritmo",
+  "Padrão regular de variação, como o ritmo circadiano de sono e vigília."
+ ],
+ [
+  "OUVIR",
+  "Ouvir",
+  "Base da escuta ativa: acolher o que o outro diz sem o interromper nem julgar."
+ ],
+ [
+  "MASSA",
+  "Massa",
+  "Multidão em que o indivíduo muda de comportamento; tema de Le Bon e de Freud."
+ ],
+ [
+  "HORDA",
+  "Horda",
+  "Grupo primitivo descrito por Freud em «Totem e Tabu», dominado por um pai tirano."
+ ]
 ]

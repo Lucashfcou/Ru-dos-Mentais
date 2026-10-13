@@ -4,7 +4,7 @@
       { "lvl": 1, "name": "Mecanismos de defesa", "words": ["PROJEÇÃO", "NEGAÇÃO", "REPRESSÃO", "SUBLIMAÇÃO"], "note": "Processos inconscientes que protegem o ego da ansiedade, sistematizados por Anna Freud." },
       { "lvl": 2, "name": "Traços dos Cinco Grandes", "words": ["ABERTURA", "CONSCIENCIOSIDADE", "EXTROVERSÃO", "AMABILIDADE"], "note": "Quatro dos cinco grandes fatores de personalidade. O quinto é o neuroticismo." },
       { "lvl": 3, "name": "Estádios de Piaget", "words": ["SENSÓRIO-MOTOR", "PRÉ-OPERATÓRIO", "OPERATÓRIO CONCRETO", "OPERATÓRIO FORMAL"], "note": "Os quatro estádios do desenvolvimento cognitivo." },
-      { "lvl": 4, "name": "Fases psicossexuais de Freud", "words": ["ORAL", "ANAL", "FÁLICA", "GENITAL"], "note": "A latência fica entre a fálica e a genital. A pegadinha: Piaget também tem estádios." }
+      { "lvl": 4, "name": "Fases psicossexuais de Freud", "words": ["ORAL", "ANAL", "FÁLICA", "GENITAL"], "note": "A latência fica entre a fálica e a genital. A armadilha: Piaget também tem estádios." }
     ] },
     { "groups": [
       { "lvl": 1, "name": "Lobos cerebrais", "words": ["FRONTAL", "PARIETAL", "TEMPORAL", "OCCIPITAL"], "note": "Os quatro lobos do córtex cerebral." },
@@ -14,7 +14,7 @@
     ] },
     { "groups": [
       { "lvl": 1, "name": "Abordagens da psicologia", "words": ["PSICANÁLISE", "BEHAVIORISMO", "GESTALT", "HUMANISMO"], "note": "Grandes escolas teóricas." },
-      { "lvl": 2, "name": "Leis da Gestalt", "words": ["PROXIMIDADE", "SEMELHANÇA", "FECHO", "CONTINUIDADE"], "note": "Princípios de organização percetiva. A pegadinha: Gestalt também é uma abordagem." },
+      { "lvl": 2, "name": "Leis da Gestalt", "words": ["PROXIMIDADE", "SEMELHANÇA", "FECHO", "CONTINUIDADE"], "note": "Princípios de organização percetiva. A armadilha: Gestalt também é uma abordagem." },
       { "lvl": 3, "name": "Humanistas e existenciais", "words": ["ROGERS", "MASLOW", "FRANKL", "YALOM"], "note": "Autores que colocaram o sentido, a liberdade e o crescimento no centro da psicologia." },
       { "lvl": 4, "name": "Níveis da pirâmide de Maslow", "words": ["FISIOLÓGICAS", "SEGURANÇA", "ESTIMA", "AUTORREALIZAÇÃO"], "note": "Quatro dos cinco níveis. Falta o de amor e pertença." }
     ] },
@@ -22,7 +22,7 @@
       { "lvl": 1, "name": "Fobias específicas", "words": ["ACROFOBIA", "CLAUSTROFOBIA", "ARACNOFOBIA", "HEMATOFOBIA"], "note": "Medo de alturas, de lugares fechados, de aranhas e de sangue." },
       { "lvl": 2, "name": "Sintomas positivos da esquizofrenia", "words": ["DELÍRIOS", "ALUCINAÇÕES", "DESORGANIZAÇÃO", "CATATONIA"], "note": "Sintomas que “acrescentam” algo à experiência habitual." },
       { "lvl": 3, "name": "Sintomas negativos da esquizofrenia", "words": ["AVOLIÇÃO", "ALOGIA", "ANEDONIA", "EMBOTAMENTO"], "note": "Sintomas que “retiram” algo: motivação, fala, prazer e expressão afetiva." },
-      { "lvl": 4, "name": "Síndromes neuropsicológicas com “A-”", "words": ["AFASIA", "AGNOSIA", "APRAXIA", "ATAXIA"], "note": "Linguagem, reconhecimento, movimento intencional e coordenação. A pegadinha: alogia e anedonia também começam por A." }
+      { "lvl": 4, "name": "Síndromes neuropsicológicas com “A-”", "words": ["AFASIA", "AGNOSIA", "APRAXIA", "ATAXIA"], "note": "Linguagem, reconhecimento, movimento intencional e coordenação. A armadilha: alogia e anedonia também começam por A." }
     ] },
     { "groups": [
       { "lvl": 1, "name": "Estilos de vinculação", "words": ["SEGURO", "ANSIOSO", "EVITANTE", "DESORGANIZADO"], "note": "Padrões descritos por Ainsworth e Main a partir da teoria de Bowlby." },
@@ -50,7 +50,7 @@
     ] },
     { "groups": [
       { "lvl": 1, "name": "Vieses cognitivos", "words": ["ANCORAGEM", "CONFIRMAÇÃO", "ENQUADRAMENTO", "DISPONIBILIDADE"], "note": "Atalhos mentais que distorcem o julgamento." },
-      { "lvl": 2, "name": "Efeitos psicológicos", "words": ["HALO", "PLACEBO", "BARNUM", "PIGMALIÃO"], "note": "Nomes de efeitos famosos. A pegadinha: ancoragem e enquadramento também são efeitos." },
+      { "lvl": 2, "name": "Efeitos psicológicos", "words": ["HALO", "PLACEBO", "BARNUM", "PIGMALIÃO"], "note": "Nomes de efeitos famosos. A armadilha: ancoragem e enquadramento também são efeitos." },
       { "lvl": 3, "name": "Métodos de recolha de dados", "words": ["OBSERVAÇÃO", "ENTREVISTA", "QUESTIONÁRIO", "ESTUDO DE CASO"], "note": "Instrumentos usados na investigação e na prática clínica." },
       { "lvl": 4, "name": "Medidas estatísticas", "words": ["MÉDIA", "MEDIANA", "MODA", "DESVIO PADRÃO"], "note": "Duas de tendência central, uma de moda (o valor mais frequente) e uma de dispersão." }
     ] },
@@ -117,7 +117,7 @@
     { "groups": [
       { "lvl": 1, "name": "Escolas pioneiras", "words": ["ESTRUTURALISMO", "FUNCIONALISMO", "REFLEXOLOGIA", "ASSOCIACIONISMO"], "note": "Primeiras correntes da psicologia científica." },
       { "lvl": 2, "name": "Psicofísica", "words": ["WUNDT", "FECHNER", "WEBER", "HELMHOLTZ"], "note": "Medir a relação entre estímulo e sensação." },
-      { "lvl": 3, "name": "Fundadores da Gestalt", "words": ["WERTHEIMER", "KOFFKA", "KÖHLER", "LEWIN"], "note": "Os três fundadores e Lewin, ligado à teoria de campo." },
+      { "lvl": 3, "name": "Figuras da Gestalt", "words": ["WERTHEIMER", "KOFFKA", "KÖHLER", "LEWIN"], "note": "Wertheimer, Koffka e Köhler fundaram a escola; Lewin, influenciado por ela, desenvolveu a teoria de campo." },
       { "lvl": 4, "name": "Aprendizagem social", "words": ["MODELAÇÃO", "IMITAÇÃO", "REFORÇO VICÁRIO", "AUTOEFICÁCIA"], "note": "Conceitos de Bandura." }
     ] },
     { "groups": [
@@ -177,7 +177,7 @@
     { "groups": [
       { "lvl": 1, "name": "Dificuldades de aprendizagem", "words": ["DISLEXIA", "DISGRAFIA", "DISCALCULIA", "DISORTOGRAFIA"], "note": "Leitura, escrita, cálculo e ortografia." },
       { "lvl": 2, "name": "Tipos de luto", "words": ["ANTECIPATÓRIO", "COMPLICADO", "PROLONGADO", "AMBÍGUO"], "note": "Antes da morte, intenso e persistente, e perda sem confirmação." },
-      { "lvl": 3, "name": "Fases da separação (Bowlby)", "words": ["PROTESTO", "DESESPERO", "DESLIGAMENTO", "REORGANIZAÇÃO"], "note": "Reação da criança à separação prolongada da mãe." },
+      { "lvl": 3, "name": "Separação e luto (Bowlby)", "words": ["PROTESTO", "DESESPERO", "DESLIGAMENTO", "REORGANIZAÇÃO"], "note": "Protesto, desespero e desligamento descrevem a reação da criança à separação (Robertson e Bowlby); a reorganização completa o modelo do luto." },
       { "lvl": 4, "name": "Cuidados paliativos", "words": ["DIGNIDADE", "CONFORTO", "DESPEDIDA", "ALÍVIO"], "note": "Valores centrais do cuidado ao fim da vida." }
     ] }
   ]
