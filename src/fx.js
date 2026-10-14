@@ -44,6 +44,14 @@ const fx={
     });
   },
   pop(el,s=1.08){if(el&&M&&fxOn())this.safe(()=>M.animate(el,{scale:[s,1]},{type:"spring",stiffness:420,damping:14}))},
+  // reduz a letra das fichas das Conexões até caberem na largura
+  fitTiles(){
+    document.querySelectorAll(".cx-tile").forEach(t=>{
+      t.style.fontSize="";
+      let fs=parseFloat(getComputedStyle(t).fontSize);
+      while(t.scrollWidth>t.clientWidth+0.5&&fs>8.5){fs-=0.5;t.style.fontSize=fs+"px"}
+    });
+  },
   shakeEls(els){
     if(!els.length)return;
     if(M&&fxOn())this.safe(()=>M.animate(els,{x:[0,-9,8,-6,4,0]},{duration:.42,ease:"easeOut"}));

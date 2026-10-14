@@ -51,6 +51,7 @@ export function telaConexoes() {
   ligarResultado("conex");
   fx.flip(".cx-tile", "w");
   fx.fitTiles();
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => UI.view === "conex" && fx.fitTiles());
   if (UI.cxPop) {
     fx.pop(main.querySelector(`.cx-tile[data-w="${UI.cxPop}"]`), 0.9);
     UI.cxPop = null;
