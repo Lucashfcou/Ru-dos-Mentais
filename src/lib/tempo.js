@@ -1,16 +1,22 @@
-// Datas do jogo. Tudo é contado no fuso de Lisboa, para que o dia vire à meia-noite de Portugal
-// em qualquer dispositivo, e nunca pelo relógio local de quem joga.
-export const FUSO = "Europe/Lisbon";
+// Datas do jogo. O dia vira à meia-noite do fuso da variante (Lisboa em Portugal, Brasília no Brasil),
+// em qualquer dispositivo, e nunca pelo fuso configurado no aparelho.
+import { FUSO_LOCAL, BR } from "./locale.js";
+
+export const FUSO = FUSO_LOCAL;
 
 // Data do desafio nº 1 (AAAA-MM-DD). Muda com VITE_LANCAMENTO ao publicar.
 export const LANCAMENTO = (typeof import.meta !== "undefined" && import.meta.env && import.meta.env.VITE_LANCAMENTO) || "2026-10-01";
 
 const pad2 = (n) => String(n).padStart(2, "0");
-const fmt = new Intl.DateTimeFormat("en-CA", { timeZone: FUSO, year: "numeric", month: "2-digit", day: "2-digit" });
+const formatadores = new Map();
+const formatador = (fuso) => {
+  if (!formatadores.has(fuso)) formatadores.set(fuso, new Intl.DateTimeFormat("en-CA", { timeZone: fuso, year: "numeric", month: "2-digit", day: "2-digit" }));
+  return formatadores.get(fuso);
+};
 
-/** Data civil (AAAA-MM-DD) em Lisboa para um instante. */
-export function dataLisboa(instante = new Date()) {
-  return fmt.format(instante);
+/** Data civil (AAAA-MM-DD) no fuso do jogo para um instante. */
+export function dataLisboa(instante = new Date(), fuso = FUSO) {
+  return formatador(fuso).format(instante);
 }
 
 const utc = (k) => {
@@ -45,13 +51,13 @@ export function escolher(lista, n) {
  * Procura o instante em que a data muda, o que também acerta os dias de 23 e 25 horas
  * da mudança de hora.
  */
-export function msAteMeiaNoite(agora = new Date()) {
-  const hoje = dataLisboa(agora);
+export function msAteMeiaNoite(agora = new Date(), fuso = FUSO) {
+  const hoje = dataLisboa(agora, fuso);
   let lo = 0;
   let hi = 26 * 3600 * 1000;
   while (hi - lo > 250) {
     const mid = Math.floor((lo + hi) / 2);
-    if (dataLisboa(new Date(agora.getTime() + mid)) === hoje) lo = mid;
+    if (dataLisboa(new Date(agora.getTime() + mid), fuso) === hoje) lo = mid;
     else hi = mid;
   }
   return Math.max(0, hi);
@@ -64,11 +70,11 @@ export function relogio(ms) {
 }
 
 /** "terça, 13 de outubro" */
-export function dataPorExtenso(k) {
+export function dataPorExtenso(k, br = BR) {
   const [y, m, d] = k.split("-").map(Number);
   const t = new Date(Date.UTC(y, m - 1, d, 12));
-  const p = new Intl.DateTimeFormat("pt-PT", { timeZone: "UTC", weekday: "long", day: "numeric", month: "long" })
+  const p = new Intl.DateTimeFormat(br ? "pt-BR" : "pt-PT", { timeZone: "UTC", weekday: "long", day: "numeric", month: "long" })
     .formatToParts(t)
     .reduce((o, x) => ((o[x.type] = x.value), o), {});
-  return `${p.weekday.replace("-feira", "")}, ${p.day} de ${p.month}`;
+  return `${br ? p.weekday : p.weekday.replace("-feira", "")}, ${p.day} de ${p.month}`;
 }

@@ -1,9 +1,27 @@
 // Conteúdo dos jogos. Os dados vivem em ficheiros JSON editáveis (ver CONTEUDO.md).
-import diagnostico from "./diagnostico.json";
-import quemDisse from "./quem-disse.json";
-import conexoes from "./conexoes.json";
-import termo from "./termo.json";
+import diagnosticoPT from "./diagnostico.json";
+import quemDissePT from "./quem-disse.json";
+import conexoesPT from "./conexoes.json";
+import termoPT from "./termo.json";
 import { indexarRespostas } from "../lib/busca.js";
+import { BR } from "../lib/locale.js";
+import { paraBR, traduzirDados } from "../lib/br.js";
+
+// No Brasil o texto é adaptado ao português brasileiro; os identificadores não mudam.
+const diagnostico = BR ? adaptarDiagnostico(diagnosticoPT) : diagnosticoPT;
+const quemDisse = BR ? traduzirDados(quemDissePT) : quemDissePT;
+const conexoes = BR ? traduzirDados(conexoesPT) : conexoesPT;
+const termo = BR ? termoPT.map(([p, titulo, def]) => [p, paraBR(titulo), paraBR(def)]) : termoPT;
+
+function adaptarDiagnostico(d) {
+  const t = traduzirDados(d);
+  // quem escreve o nome europeu ("perturbação") continua a encontrar a resposta
+  t.respostas = d.respostas.map(([id, nome, apelidos = []], i) => {
+    const [, nomeBR] = t.respostas[i];
+    return [id, nomeBR, nomeBR === nome ? apelidos : [...apelidos, nome]];
+  });
+  return t;
+}
 
 /** Diagnóstico: um caso por dia. `why` explica porque cada diagnóstico parecido está “perto”. */
 export const DIAG = diagnostico.casos.map((c) => ({
