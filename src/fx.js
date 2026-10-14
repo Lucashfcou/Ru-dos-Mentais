@@ -43,7 +43,7 @@ const fx={
       this.safe(()=>M.animate(e,{x:[dx,0],y:[dy,0]},{type:"spring",stiffness:230,damping:24}));
     });
   },
-  pop(el,s=1.08){if(el&&M&&fxOn())this.safe(()=>M.animate(el,{scale:[s,1]},{type:"spring",stiffness:420,damping:14}))},
+  pop(el,s=1.08){if(el&&fxOn())this.safe(()=>el.animate({transform:[`scale(${s})`,"scale(0.98)","scale(1)"]},{duration:320,easing:"cubic-bezier(0.34, 1.56, 0.64, 1)"}))},
   // reduz a letra das fichas das Conexões até caberem na largura
   fitTiles(){
     document.querySelectorAll(".cx-tile").forEach(t=>{
@@ -54,7 +54,7 @@ const fx={
   },
   shakeEls(els){
     if(!els.length)return;
-    if(M&&fxOn())this.safe(()=>M.animate(els,{x:[0,-9,8,-6,4,0]},{duration:.42,ease:"easeOut"}));
+    if(fxOn())this.safe(()=>els.forEach(el=>el.animate({transform:["translateX(0)","translateX(-9px)","translateX(8px)","translateX(-6px)","translateX(4px)","translateX(0)"]},{duration:420,easing:"ease-out"})));
   },
   wave(els){
     if(!els.length)return;
@@ -189,19 +189,24 @@ document.addEventListener("pointerdown",e=>{
 },{passive:true});
 
 /* ============ ABERTURA E TRANSIÇÃO ENTRE TELAS ============ */
+// Animações nativas (Web Animations): só transform e opacity, correm no compositor e não pesam no telemóvel.
+const OUT="cubic-bezier(0.16, 1, 0.3, 1)";
+const entra=(els,de,{dur=550,passo=60,inicio=0}={})=>{
+  [...els].forEach((el,i)=>el.animate({opacity:[0,1],transform:[de,"none"]},{duration:dur,delay:inicio+i*passo,easing:OUT,fill:"backwards"}));
+};
 Object.assign(fx,{
   // entrada leve quando se volta ao hub ou abre um jogo
   settle(els,y=14){
     if(!M||!fxOn()||!els.length)return;
-    this.safe(()=>M.animate(els,{opacity:[0,1],y:[y,0]},{duration:.55,ease:EXPO,delay:M.stagger(.06)}));
+    this.safe(()=>entra(els,`translateY(${y}px)`,{dur:500,passo:50}));
   },
   // os quatro canais entram em sequência, vindos da esquerda, e o painel do dia sobe
   intro(){
     if(!M||!fxOn())return;
     const rows=document.querySelectorAll(".bgc,.rw"),panel=document.querySelector(".today");
     this.safe(()=>{
-      M.animate(rows,{opacity:[0,1],x:[-48,0]},{duration:.8,ease:EXPO,delay:M.stagger(.1,{startDelay:.5})});
-      if(panel)M.animate(panel,{opacity:[0,1],y:[24,0]},{duration:.8,ease:EXPO,delay:.3});
+      entra(rows,"translateX(-40px)",{dur:650,passo:80,inicio:350});
+      if(panel)entra([panel],"translateY(20px)",{dur:650,inicio:150});
     });
   },
   // o anel de progresso se preenche

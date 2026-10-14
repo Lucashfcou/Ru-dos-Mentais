@@ -28,6 +28,7 @@ describe("português do Brasil", () => {
     expect(paraBRInterface("Já tentaste esta combinação")).toBe("Você já tentou essa combinação");
     expect(paraBRInterface("Acertaste em 3/6")).toBe("Acertou em 3/6");
     expect(paraBRInterface("Partilhar resultado")).toBe("Compartilhar resultado");
+    expect(paraBRInterface("Lê cada afirmação e escolhe: mito ou verdade. Depois de responder, vês logo a explicação e a fonte.")).toBe("Leia cada afirmação e escolha: mito ou verdade. Depois de responder, você vê logo a explicação e a fonte.");
   });
   it("não mexe nos identificadores", () => {
     const r = traduzirDados({ answer: "estresseagudo", texto: "stresse", near: { tdm: "ecrã" } });

@@ -16,16 +16,18 @@ import { telaHub } from "./ui/hub.js";
 import { telaPalpite } from "./ui/palpite.js";
 import { telaTermo, iniciarTecladoTermo } from "./ui/termo.js";
 import { telaConexoes } from "./ui/conexoes.js";
+import { telaMito, iniciarTecladoMito } from "./ui/mito.js";
 import { ajudaGeral, regras, estatisticas, resumo } from "./ui/modais.js";
 import { iniciarMenu } from "./ui/menu.js";
 import { iniciarRelogio } from "./ui/relogio.js";
 import { iniciarTraducao } from "./ui/traducao.js";
 
 iniciarTraducao();
-registrarTelas({ hub: telaHub, termo: telaTermo, conex: telaConexoes, palpite: telaPalpite, regras, ajuda: ajudaGeral, estatisticas, resumo });
+registrarTelas({ hub: telaHub, termo: telaTermo, conex: telaConexoes, mito: telaMito, palpite: telaPalpite, regras, ajuda: ajudaGeral, estatisticas, resumo });
 iniciarPainel();
 iniciarMenu();
 iniciarTecladoTermo();
+iniciarTecladoMito();
 iniciarRelogio();
 
 const h = (location.hash || "").slice(1);

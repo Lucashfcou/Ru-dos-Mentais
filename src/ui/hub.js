@@ -1,7 +1,8 @@
 // Tela inicial: resumo do dia e lista dos jogos.
 import { fx } from "../fx.js";
 import { S, salvar, peek, dayState, isDone, tries, puzzle, marks, cxMistakes, globalStreak, edicao } from "../state.js";
-import { GAMES, ORDER, MAX } from "../jogos.js";
+import { GAMES, ORDER, maximoDe } from "../jogos.js";
+import { pontuacao, TOTAL as TOTAL_MITO } from "../lib/mito.js";
 import { ICONS, gv } from "../icons.js";
 import { plural } from "../lib/texto.js";
 import { dataPorExtenso } from "../lib/tempo.js";
@@ -14,6 +15,10 @@ import { atualizarRelogio } from "./relogio.js";
 export function estadoDoCartao(gid) {
   const s = peek(S.dia, gid);
   if (!s || tries(gid, s) === 0) return ["new", "Jogar"];
+  if (gid === "mito") {
+    if (s.status === "playing") return ["play", `Continuar · ${s.escolhas.length}/${TOTAL_MITO}`];
+    return [s.status, `${pontuacao(puzzle("mito").itens, s.escolhas)} de ${TOTAL_MITO} certas`];
+  }
   if (s.status === "won") {
     if (gid === "conex") {
       const m = cxMistakes(puzzle("conex"), s);
@@ -49,12 +54,13 @@ function miniGrade(gid) {
   }
   const ms = s ? marks(gid) : [];
   const perdeu = s && s.status === "lost";
+  const MAX = maximoDe(gid);
   const celulas = Array.from({ length: MAX }, (_, i) => {
     const x = ms[i];
-    const c = !x ? "" : perdeu ? "bad" : x === "ok" ? "ok" : x === "near" ? "near" : "try";
+    const c = !x ? "" : gid === "mito" ? (x === "ok" ? "ok" : "bad") : perdeu ? "bad" : x === "ok" ? "ok" : x === "near" ? "near" : "try";
     return `<i class="${c}"></i>`;
   }).join("");
-  const rotulo = !ms.length ? "Sem tentativas" : perdeu ? `Não acertaste em ${MAX} tentativas` : s.status === "won" ? `Acertaste na tentativa ${ms.length}` : `${ms.length} tentativas feitas`;
+  const rotulo = gid === "mito" ? (ms.length ? `${ms.filter((x) => x === "ok").length} certas em ${ms.length} respostas` : "Sem respostas") : !ms.length ? "Sem tentativas" : perdeu ? `Não acertaste em ${MAX} tentativas` : s.status === "won" ? `Acertaste na tentativa ${ms.length}` : `${ms.length} tentativas feitas`;
   return `<span class="mg" role="img" aria-label="${rotulo}">${celulas}</span>`;
 }
 

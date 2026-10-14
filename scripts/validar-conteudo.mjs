@@ -99,13 +99,33 @@ export function validar() {
     palavras.add(p);
   });
 
+  // ---------- Mito ou verdade ----------
+  const mv = ler("mito-verdade.json");
+  const textosMito = new Set();
+  mv.dias.forEach((dia, i) => {
+    const t = `mito dia ${i + 1}`;
+    if (!Array.isArray(dia.itens) || dia.itens.length !== 5) return e(`${t}: precisa de 5 afirmações`);
+    const verdades = dia.itens.filter((x) => x.verdade === true).length;
+    if (verdades < 2 || verdades > 3) a(`${t}: ${verdades} verdades (o ideal é 2 ou 3, para não dar para adivinhar)`);
+    dia.itens.forEach((x, j) => {
+      const u = `${t}, afirmação ${j + 1}`;
+      if (!x.texto || x.texto.length < 15) e(`${u}: texto em falta ou curto demais`);
+      if (typeof x.verdade !== "boolean") e(`${u}: "verdade" deve ser true ou false`);
+      if (!x.explicacao || x.explicacao.length < 20) e(`${u}: explicação em falta`);
+      if (!x.ref) e(`${u}: sem fonte`);
+      if (textosMito.has(x.texto)) e(`${u}: afirmação repetida`);
+      textosMito.add(x.texto);
+    });
+  });
+
   const contagens = {
     diagnostico: d.casos.length,
     quemDisse: q.citacoes.length,
     conexoes: cx.desafios.length,
     termo: tm.length,
+    mito: mv.dias.length,
   };
-  const minimos = { diagnostico: 30, quemDisse: 30, conexoes: 30, termo: 100 };
+  const minimos = { diagnostico: 30, quemDisse: 30, conexoes: 30, termo: 100, mito: 30 };
   for (const k of Object.keys(minimos)) if (contagens[k] < minimos[k]) a(`${k}: ${contagens[k]} desafios, abaixo da meta mínima de ${minimos[k]}`);
   return { erros, avisos, contagens };
 }

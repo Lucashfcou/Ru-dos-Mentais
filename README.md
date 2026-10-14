@@ -1,6 +1,6 @@
 # Ruídos Mentais
 
-Quatro jogos diários de psicologia: **Diagnóstico**, **PsicoTermo**, **Quem disse?** e **Conexões**.
+Cinco jogos diários de psicologia: **Diagnóstico**, **PsicoTermo**, **Quem disse?**, **Conexões** e **Mito ou verdade**.
 Site estático (Vite + JavaScript), sem servidor. O dia vira à meia-noite de **Lisboa** (`Europe/Lisbon`) em Portugal e à de **Brasília** (`America/Sao_Paulo`) no Brasil, em qualquer dispositivo. Há versão em português brasileiro, escolhida sozinha (ver `CONTEUDO.md`).
 
 ## Comandos

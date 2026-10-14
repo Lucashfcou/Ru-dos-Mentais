@@ -1,6 +1,6 @@
 // Painéis: como jogar, estatísticas e resumo do dia.
 import { fx } from "../fx.js";
-import { S, peek, isDone, puzzle, tries, cxMistakes, statsFor, globalStreak, edicao, rotuloPlacar } from "../state.js";
+import { S, peek, isDone, puzzle, tries, cxMistakes, mitoErros, statsFor, globalStreak, edicao, rotuloPlacar } from "../state.js";
 import { GAMES, ORDER } from "../jogos.js";
 import { ICONS, MK, FLAME, gv } from "../icons.js";
 import { plural } from "../lib/texto.js";
@@ -11,7 +11,7 @@ import { atualizarRelogio } from "./relogio.js";
 
 export function ajudaGeral() {
   openSheet(`<h2 id="sheet-title">Como funciona</h2>
-  <p>Todos os dias, à meia-noite (hora de Lisboa), chegam quatro desafios novos, iguais para toda a gente. Joga pela ordem que quiseres e partilha o resultado sem estragar a surpresa.</p>
+  <p>Todos os dias, à meia-noite (hora de Lisboa), chegam cinco desafios novos, iguais para toda a gente. Joga pela ordem que quiseres e partilha o resultado sem estragar a surpresa.</p>
   <div class="rules">${ORDER.map((g) => `<div class="rule" style="${gv(GAMES[g].color)}"><span class="gbadge">${ICONS[g]}</span><div><b>${GAMES[g].name}</b><p>${GAMES[g].rules}</p></div></div>`).join("")}</div>
   <h3>Sequência</h3><p>Conclui todos os jogos no mesmo dia para manter a sequência.</p>
   <div class="actions" style="margin-top:16px"><button class="btn" id="go-play">Começar pelo Diagnóstico</button></div>`);
@@ -24,7 +24,9 @@ export function ajudaGeral() {
 export function regras(gid) {
   const G = GAMES[gid];
   const legenda =
-    gid === "conex"
+    gid === "mito"
+      ? ""
+      : gid === "conex"
       ? `<ul class="grouplist" style="margin-top:12px">${[[1, "Mais fácil"], [2, "Médio"], [3, "Difícil"], [4, "Mais difícil, com armadilhas"]].map(([l, t]) => `<li style="--k:var(--k${l})">${t}</li>`).join("")}</ul>`
       : gid === "termo"
         ? `<div class="legend"><div class="tile c">F</div><div class="tile p">O</div><div class="tile a">B</div><div class="tile a">I</div><div class="tile a">A</div></div>
@@ -46,13 +48,15 @@ export function estatisticas(gid) {
     const s = peek(S.dia, g);
     const mx = Math.max(1, ...st.dist);
     const cx = g === "conex";
-    const destaque = s && s.status === "won" ? (cx ? cxMistakes(puzzle(g), s) : tries(g, s) - 1) : -1;
+    const mt = g === "mito";
+    const porErros = cx || mt;
+    const destaque = s && s.status === "won" ? (cx ? cxMistakes(puzzle(g), s) : mt ? mitoErros(s) : tries(g, s) - 1) : -1;
     $("#sheet-body").innerHTML = `<h2 id="sheet-title">Estatísticas</h2>
     <p style="color:var(--muted)">${FLAME} ${plural(globalStreak(), "dia seguido", "dias seguidos")} com todos os jogos concluídos</p>
     <div class="tabs" role="tablist">${ORDER.map((x) => `<button class="tab" role="tab" aria-selected="${x === g}" data-tab="${x}" style="${gv(GAMES[x].color)}">${GAMES[x].name}</button>`).join("")}</div>
     <div class="statline" style="${gv(G.color)}"><div><b>${st.jogados}</b><span>jogos</span></div><div><b>${st.jogados ? Math.round((st.vitorias / st.jogados) * 100) : 0}%</b><span>acertos</span></div><div><b>${st.atual}</b><span>sequência</span></div><div><b>${st.recorde}</b><span>recorde</span></div></div>
-    <h3>${cx ? "Distribuição de erros" : "Distribuição de tentativas"}</h3>
-    <div class="dist" style="${gv(G.color)}">${(cx ? st.dist.slice(0, 4) : st.dist).map((v, i) => `<div><span>${cx ? i : i + 1}</span><i class="${i === destaque ? "hl" : ""}" style="width:${Math.max(8, (v / mx) * 100)}%">${v}</i></div>`).join("")}</div>`;
+    <h3>${porErros ? "Distribuição de erros" : "Distribuição de tentativas"}</h3>
+    <div class="dist" style="${gv(G.color)}">${(cx ? st.dist.slice(0, 4) : mt ? st.dist.slice(0, 3) : st.dist).map((v, i) => `<div><span>${porErros ? i : i + 1}</span><i class="${i === destaque ? "hl" : ""}" style="width:${Math.max(8, (v / mx) * 100)}%">${v}</i></div>`).join("")}</div>`;
     setSheetG(G.color);
     $("#sheet-body").querySelectorAll(".statline b").forEach((b) => fx.setRoll(b, b.textContent, true));
     $("#sheet-body").querySelectorAll("[data-tab]").forEach((b) => {

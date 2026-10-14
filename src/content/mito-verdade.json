@@ -1,0 +1,1033 @@
+{
+ "dias": [
+  {
+   "itens": [
+    {
+     "texto": "Subestimamos sistematicamente o tempo que as tarefas vão demorar, mesmo quando já nos aconteceu antes.",
+     "verdade": true,
+     "explicacao": "É a falácia do planeamento.",
+     "ref": "Buehler, R., Griffin, D., & Ross, M. (1994). Exploring the «planning fallacy». Journal of Personality and Social Psychology, 67(3), 366–381."
+    },
+    {
+     "texto": "O luto passa sempre por cinco etapas, por ordem.",
+     "verdade": false,
+     "explicacao": "As cinco fases de Kübler-Ross descreviam pessoas em fim de vida e não são uma sequência obrigatória. Cada pessoa vive o luto de forma própria.",
+     "ref": "Stroebe, M., Schut, H., & Boerner, K. (2017). Cautioning health-care professionals: Bereaved persons are misguided through the stages of grief. Omega, 74(4), 455–473."
+    },
+    {
+     "texto": "Viver isolado não tem qualquer efeito na saúde física.",
+     "verdade": false,
+     "explicacao": "Uma meta-análise associou fracas ligações sociais a maior risco de morte, de grandeza comparável à de fatores como fumar.",
+     "ref": "Holt-Lunstad, J., Smith, T. B., & Layton, J. B. (2010). Social relationships and mortality risk: A meta-analytic review. PLoS Medicine, 7(7), e1000316."
+    },
+    {
+     "texto": "No caso Kitty Genovese, 38 testemunhas viram o crime e nenhuma fez nada.",
+     "verdade": false,
+     "explicacao": "A história foi muito exagerada pela imprensa. Poucas pessoas viram a agressão, algumas gritaram e pelo menos uma chamou a polícia.",
+     "ref": "Manning, R., Levine, M., & Collins, A. (2007). The Kitty Genovese murder and the social psychology of helping. American Psychologist, 62(6), 555–562."
+    },
+    {
+     "texto": "Tendemos a recordar melhor os primeiros e os últimos itens de uma lista.",
+     "verdade": true,
+     "explicacao": "É o efeito de posição serial: primazia (os primeiros) e recência (os últimos).",
+     "ref": "Murdock, B. B. (1962). The serial position effect of free recall. Journal of Experimental Psychology, 64(5), 482–488."
+    }
+   ]
+  },
+  {
+   "itens": [
+    {
+     "texto": "As intervenções de mentalidade de crescimento têm grandes efeitos em todos os alunos.",
+     "verdade": false,
+     "explicacao": "Uma meta-análise encontrou efeitos pequenos, concentrados em alunos em risco.",
+     "ref": "Sisk, V. F., et al. (2018). To what extent and under which circumstances are growth mind-sets important to academic achievement? Psychological Science, 29(4), 549–571."
+    },
+    {
+     "texto": "Introversão e timidez são a mesma coisa.",
+     "verdade": false,
+     "explicacao": "A timidez é medo do julgamento social. A introversão é a preferência por menos estimulação social. Pode haver extrovertidos tímidos.",
+     "ref": "Cheek, J. M., & Buss, A. H. (1981). Shyness and sociability. Journal of Personality and Social Psychology, 41(2), 330–339."
+    },
+    {
+     "texto": "Pessoas de culturas muito diferentes reconhecem, acima do acaso, expressões faciais como alegria ou medo.",
+     "verdade": true,
+     "explicacao": "Estudos entre culturas mostram reconhecimento acima do acaso, mas a ideia de expressões totalmente universais e inatas é hoje discutida.",
+     "ref": "Ekman, P., & Friesen, W. V. (1971). Constants across cultures in the face and emotion. Journal of Personality and Social Psychology, 17(2), 124–129.",
+     "verificar": true
+    },
+    {
+     "texto": "Adotar uma «posição de poder» durante dois minutos altera as hormonas e a confiança de forma fiável.",
+     "verdade": false,
+     "explicacao": "Replicações maiores não encontraram efeitos hormonais. Resta, no máximo, um efeito subjetivo discutível.",
+     "ref": "Ranehill, E., et al. (2015). Assessing the robustness of power posing. Psychological Science, 26(5), 653–656."
+    },
+    {
+     "texto": "O que vemos pode alterar o que ouvimos.",
+     "verdade": true,
+     "explicacao": "No efeito McGurk, ver lábios a dizer «ga» enquanto se ouve «ba» leva a perceber «da».",
+     "ref": "McGurk, H., & MacDonald, J. (1976). Hearing lips and seeing voices. Nature, 264, 746–748."
+    }
+   ]
+  },
+  {
+   "itens": [
+    {
+     "texto": "Crescer com duas línguas atrasa o desenvolvimento da linguagem.",
+     "verdade": false,
+     "explicacao": "Crianças bilingues atingem os marcos linguísticos ao mesmo ritmo, somando o vocabulário das duas línguas.",
+     "ref": "Hoff, E., et al. (2012). Dual language exposure and early bilingual development. Journal of Child Language, 39(1), 1–27."
+    },
+    {
+     "texto": "Cerca de dois terços das perturbações mentais começam antes dos 25 anos.",
+     "verdade": true,
+     "explicacao": "A adolescência e o início da vida adulta são os períodos de maior risco de início.",
+     "ref": "Solmi, M., et al. (2022). Age at onset of mental disorders worldwide: Large-scale meta-analysis of 192 epidemiological studies. Molecular Psychiatry, 27(1), 281–295."
+    },
+    {
+     "texto": "Uma sessão de «debriefing» obrigatória logo após um trauma previne a perturbação de stresse pós-traumático.",
+     "verdade": false,
+     "explicacao": "As revisões sistemáticas não encontraram benefício, e alguns estudos sugerem piores resultados.",
+     "ref": "Rose, S., et al. (2002). Psychological debriefing for preventing post traumatic stress disorder (PTSD). Cochrane Database of Systematic Reviews, (2), CD000560."
+    },
+    {
+     "texto": "Experiências adversas na infância aumentam o risco de problemas de saúde física e mental na idade adulta.",
+     "verdade": true,
+     "explicacao": "O estudo ACE, com mais de 17 mil adultos, encontrou uma relação gradual entre o número de adversidades e o risco.",
+     "ref": "Felitti, V. J., et al. (1998). Relationship of childhood abuse and household dysfunction to many of the leading causes of death in adults. American Journal of Preventive Medicine, 14(4), 245–258."
+    },
+    {
+     "texto": "Quem tem uma memória excecional recorda tudo com precisão, como uma câmara de vídeo.",
+     "verdade": false,
+     "explicacao": "Mesmo pessoas com memória autobiográfica altamente superior formam falsas memórias. A memória é sempre reconstrutiva.",
+     "ref": "Patihis, L., et al. (2013). False memories in highly superior autobiographical memory individuals. PNAS, 110(52), 20947–20952."
+    }
+   ]
+  },
+  {
+   "itens": [
+    {
+     "texto": "Estudar tudo na véspera é tão eficaz como espaçar o estudo por vários dias.",
+     "verdade": false,
+     "explicacao": "Distribuir as sessões no tempo melhora claramente a retenção a longo prazo em comparação com concentrá-las.",
+     "ref": "Cepeda, N. J., et al. (2006). Distributed practice in verbal recall tasks. Psychological Bulletin, 132(3), 354–380."
+    },
+    {
+     "texto": "A maioria das pessoas tem, de vez em quando, pensamentos intrusivos estranhos.",
+     "verdade": true,
+     "explicacao": "Pensamentos indesejados são comuns na população geral. Só se tornam clínicos quando causam sofrimento e interferem com a vida.",
+     "ref": "Rachman, S., & de Silva, P. (1978). Abnormal and normal obsessions. Behaviour Research and Therapy, 16(4), 233–248."
+    },
+    {
+     "texto": "Gémeos idênticos separados à nascença mostram semelhanças marcantes de personalidade.",
+     "verdade": true,
+     "explicacao": "O Estudo de Minnesota encontrou correlações elevadas em traços e interesses entre gémeos criados em famílias diferentes.",
+     "ref": "Bouchard, T. J., et al. (1990). Sources of human psychological differences: The Minnesota Study of Twins Reared Apart. Science, 250(4978), 223–228."
+    },
+    {
+     "texto": "A falta de luz natural no inverno pode causar uma perturbação depressiva sazonal.",
+     "verdade": true,
+     "explicacao": "A perturbação afetiva sazonal foi descrita em 1984, e a luz terapêutica pode ajudar.",
+     "ref": "Rosenthal, N. E., et al. (1984). Seasonal affective disorder: A description of the syndrome and preliminary findings with light therapy. Archives of General Psychiatry, 41(1), 72–80."
+    },
+    {
+     "texto": "Ler uma palavra não interfere com nomear a cor da tinta em que está escrita.",
+     "verdade": false,
+     "explicacao": "A leitura é automática e interfere: dizer «verde» é lento quando a palavra «vermelho» está escrita a verde (efeito Stroop).",
+     "ref": "Stroop, J. R. (1935). Studies of interference in serial verbal reactions. Journal of Experimental Psychology, 18(6), 643–662."
+    }
+   ]
+  },
+  {
+   "itens": [
+    {
+     "texto": "O cérebro masculino e o cérebro feminino são tipos distintos, com poucas sobreposições.",
+     "verdade": false,
+     "explicacao": "A análise de milhares de cérebros mostra um «mosaico»: quase ninguém tem apenas características «masculinas» ou apenas «femininas».",
+     "ref": "Joel, D., et al. (2015). Sex beyond the genitalia: The human brain mosaic. PNAS, 112(50), 15468–15473."
+    },
+    {
+     "texto": "A qualidade da relação entre terapeuta e cliente prevê o resultado da terapia.",
+     "verdade": true,
+     "explicacao": "A aliança terapêutica tem uma associação consistente, de grandeza moderada, com os resultados em muitas abordagens.",
+     "ref": "Flückiger, C., et al. (2018). The alliance in adult psychotherapy: A meta-analytic synthesis. Psychotherapy, 55(4), 316–340."
+    },
+    {
+     "texto": "Quem é pago generosamente para defender uma opinião que não tem passa a acreditar mais nela.",
+     "verdade": false,
+     "explicacao": "Acontece o inverso: quem recebeu apenas um dólar mudou mais de opinião do que quem recebeu vinte. Sem uma justificação externa forte, a mente ajusta a crença para reduzir o desconforto (dissonância cognitiva).",
+     "ref": "Festinger, L., & Carlsmith, J. M. (1959). Cognitive consequences of forced compliance. Journal of Abnormal and Social Psychology, 58(2), 203–210."
+    },
+    {
+     "texto": "Aprendemos melhor quando o ensino coincide com o nosso «estilo» (visual, auditivo ou cinestésico).",
+     "verdade": false,
+     "explicacao": "As revisões da literatura não encontram provas de que adaptar o ensino ao estilo preferido melhore os resultados. O que ajuda é adaptar o formato ao conteúdo que se ensina.",
+     "ref": "Pashler, H., et al. (2008). Learning styles: Concepts and evidence. Psychological Science in the Public Interest, 9(3), 105–119."
+    },
+    {
+     "texto": "O desempenho é, em geral, melhor com um nível intermédio de ativação do que com muito pouca ou demasiada.",
+     "verdade": true,
+     "explicacao": "É a lei de Yerkes-Dodson, com a forma de um «U invertido».",
+     "ref": "Yerkes, R. M., & Dodson, J. D. (1908). The relation of strength of stimulus to rapidity of habit-formation. Journal of Comparative Neurology and Psychology, 18(5), 459–482."
+    }
+   ]
+  },
+  {
+   "itens": [
+    {
+     "texto": "O cérebro consome cerca de 20% da energia do corpo.",
+     "verdade": true,
+     "explicacao": "Pesa cerca de 2% do corpo, mas gasta muito mais energia do que a sua dimensão faria supor.",
+     "ref": "Raichle, M. E., & Gusnard, D. A. (2002). Appraising the brain's energy budget. PNAS, 99(16), 10237–10239."
+    },
+    {
+     "texto": "Tendemos a procurar e a valorizar informação que confirma o que já pensamos.",
+     "verdade": true,
+     "explicacao": "É o viés de confirmação, um dos vieses mais bem documentados da psicologia.",
+     "ref": "Nickerson, R. S. (1998). Confirmation bias: A ubiquitous phenomenon in many guises. Review of General Psychology, 2(2), 175–220."
+    },
+    {
+     "texto": "Esquizofrenia significa ter dupla personalidade.",
+     "verdade": false,
+     "explicacao": "A esquizofrenia envolve sintomas como delírios, alucinações e pensamento desorganizado. A «dupla personalidade» corresponde, quando muito, a outra perturbação (dissociativa), que é rara.",
+     "ref": "American Psychiatric Association. (2022). DSM-5-TR. Schizophrenia Spectrum and Other Psychotic Disorders."
+    },
+    {
+     "texto": "O polígrafo («detetor de mentiras») é um instrumento infalível.",
+     "verdade": false,
+     "explicacao": "Mede ativação fisiológica, não mentira. Pode falhar com inocentes ansiosos e pode ser enganado, por isso não é aceite como prova fiável em muitos países.",
+     "ref": "National Research Council. (2003). The Polygraph and Lie Detection. National Academies Press."
+    },
+    {
+     "texto": "Pavlov usava sempre um sino nas experiências com cães.",
+     "verdade": false,
+     "explicacao": "Usou vários estímulos, como metrónomo, zumbidos e luzes. O sino é um detalhe popular, não o instrumento habitual.",
+     "ref": "Todes, D. P. (2014). Ivan Pavlov: A Russian Life in Science. Oxford University Press."
+    }
+   ]
+  },
+  {
+   "itens": [
+    {
+     "texto": "O hipocampo posterior dos taxistas de Londres é maior do que o da população geral.",
+     "verdade": true,
+     "explicacao": "Quanto mais anos de profissão, maior a zona, um exemplo de plasticidade cerebral no adulto.",
+     "ref": "Maguire, E. A., et al. (2000). Navigation-related structural change in the hippocampi of taxi drivers. PNAS, 97(8), 4398–4403."
+    },
+    {
+     "texto": "Por volta dos 4 anos, as crianças passam a perceber que os outros podem ter crenças falsas.",
+     "verdade": true,
+     "explicacao": "É o marco da teoria da mente, avaliado com tarefas de falsa crença.",
+     "ref": "Wimmer, H., & Perner, J. (1983). Beliefs about beliefs: Representation and constraining function of wrong beliefs in young children's understanding of deception. Cognition, 13(1), 103–128."
+    },
+    {
+     "texto": "Quanto mais vezes vemos algo, mais tendemos a achá-lo desagradável.",
+     "verdade": false,
+     "explicacao": "Em regra, a repetição aumenta a simpatia: é o efeito de mera exposição, desde que o estímulo não seja desagradável logo à partida.",
+     "ref": "Zajonc, R. B. (1968). Attitudinal effects of mere exposure. Journal of Personality and Social Psychology Monograph, 9(2, Pt. 2), 1–27."
+    },
+    {
+     "texto": "Cada olho tem um ponto cego que o cérebro «preenche» sem darmos por isso.",
+     "verdade": true,
+     "explicacao": "No ponto onde o nervo ótico sai da retina não há recetores de luz, e o cérebro completa a imagem.",
+     "ref": "Ramachandran, V. S., & Gregory, R. L. (1991). Perceptual filling in of artificially induced scotomas in human vision. Nature, 350, 699–702."
+    },
+    {
+     "texto": "Tendemos a subestimar o número de pessoas que pensam como nós.",
+     "verdade": false,
+     "explicacao": "Fazemos o contrário: o efeito do falso consenso leva-nos a supor que mais gente concorda connosco do que acontece na realidade.",
+     "ref": "Ross, L., Greene, D., & House, P. (1977). The «false consensus effect». Journal of Experimental Social Psychology, 13(3), 279–301."
+    }
+   ]
+  },
+  {
+   "itens": [
+    {
+     "texto": "Em média, quem faz psicoterapia fica melhor do que quem não recebe tratamento.",
+     "verdade": true,
+     "explicacao": "Uma das primeiras grandes meta-análises concluiu que a pessoa média em terapia ficava melhor do que cerca de 75% das que não a faziam.",
+     "ref": "Smith, M. L., & Glass, G. V. (1977). Meta-analysis of psychotherapy outcome studies. American Psychologist, 32(9), 752–760."
+    },
+    {
+     "texto": "Depois de conhecermos um resultado, lembramo-nos com rigor do que tínhamos previsto.",
+     "verdade": false,
+     "explicacao": "Tendemos a achar que «já sabíamos»: é o viés retrospetivo.",
+     "ref": "Fischhoff, B. (1975). Hindsight ≠ foresight: The effect of outcome knowledge on judgment under uncertainty. Journal of Experimental Psychology: Human Perception and Performance, 1(3), 288–299."
+    },
+    {
+     "texto": "A maioria dos psicopatas são assassinos.",
+     "verdade": false,
+     "explicacao": "A psicopatia é um conjunto de traços (frieza, manipulação, impulsividade). A maioria das pessoas com esse perfil não comete crimes violentos.",
+     "ref": "Hare, R. D. (1999). Without Conscience: The Disturbing World of the Psychopaths Among Us. Guilford Press."
+    },
+    {
+     "texto": "Bastam 21 dias para criar um hábito.",
+     "verdade": false,
+     "explicacao": "Num estudo com voluntários, formar um hábito demorou em média 66 dias, com grande variação, de 18 a 254 dias.",
+     "ref": "Lally, P., et al. (2010). How are habits formed: Modelling habit formation in the real world. European Journal of Social Psychology, 40(6), 998–1009."
+    },
+    {
+     "texto": "As crianças imitam comportamentos agressivos que veem num adulto.",
+     "verdade": true,
+     "explicacao": "Na experiência do boneco Bobo, crianças expostas a um adulto agressivo imitaram os mesmos gestos e palavras.",
+     "ref": "Bandura, A., Ross, D., & Ross, S. A. (1961). Transmission of aggression through imitation of aggressive models. Journal of Abnormal and Social Psychology, 63(3), 575–582."
+    }
+   ]
+  },
+  {
+   "itens": [
+    {
+     "texto": "Ganhar a lotaria torna as pessoas muito mais felizes a longo prazo.",
+     "verdade": false,
+     "explicacao": "Adaptamo-nos depressa a grandes mudanças, boas ou más: é a adaptação hedónica. A felicidade volta, em boa parte, ao nível anterior.",
+     "ref": "Brickman, P., Coates, D., & Janoff-Bulman, R. (1978). Lottery winners and accident victims: Is happiness relative? Journal of Personality and Social Psychology, 36(8), 917–927.",
+     "verificar": true
+    },
+    {
+     "texto": "Um número aleatório que acabámos de ver não influencia as nossas estimativas.",
+     "verdade": false,
+     "explicacao": "É o efeito de ancoragem: ao estimar a percentagem de países africanos na ONU, quem tinha visto um número alto antes deu estimativas bem mais altas, mesmo sabendo que o número saíra de uma roleta.",
+     "ref": "Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. Science, 185(4157), 1124–1131."
+    },
+    {
+     "texto": "O apoio social amortece os efeitos do stresse.",
+     "verdade": true,
+     "explicacao": "A revisão clássica distingue o efeito geral do apoio social e o efeito «amortecedor» em situações de stresse.",
+     "ref": "Cohen, S., & Wills, T. A. (1985). Stress, social support, and the buffering hypothesis. Psychological Bulletin, 98(2), 310–357."
+    },
+    {
+     "texto": "Fazer duas tarefas exigentes ao mesmo tempo costuma piorar o desempenho em ambas.",
+     "verdade": true,
+     "explicacao": "O cérebro alterna entre as tarefas, e cada troca tem um custo em tempo e em erros. A multitarefa é, na prática, uma alternância rápida.",
+     "ref": "Rubinstein, J. S., Meyer, D. E., & Evans, J. E. (2001). Executive control of cognitive processes in task switching. Journal of Experimental Psychology: Human Perception and Performance, 27(4), 763–797."
+    },
+    {
+     "texto": "Apenas cerca de um terço das replicações de estudos de psicologia deu resultado significativo.",
+     "verdade": true,
+     "explicacao": "Num projeto com 100 estudos, 97% dos originais tinham resultados significativos e só 36% das replicações.",
+     "ref": "Open Science Collaboration. (2015). Estimating the reproducibility of psychological science. Science, 349(6251), aac4716."
+    }
+   ]
+  },
+  {
+   "itens": [
+    {
+     "texto": "Esperar efeitos secundários pode provocá-los (efeito nocebo).",
+     "verdade": true,
+     "explicacao": "Pessoas que recebem um comprimido sem princípio ativo relatam efeitos adversos quando foram informadas de que são possíveis.",
+     "ref": "Colloca, L., & Barsky, A. J. (2020). Placebo and nocebo effects. New England Journal of Medicine, 382(6), 554–561."
+    },
+    {
+     "texto": "Na Experiência da Prisão de Stanford, os guardas agiram com crueldade sem terem recebido qualquer orientação.",
+     "verdade": false,
+     "explicacao": "Documentos revelados mais tarde mostram que os investigadores incentivaram os guardas a serem duros. O estudo tem hoje críticas metodológicas graves.",
+     "ref": "Le Texier, T. (2019). Debunking the Stanford Prison Experiment. American Psychologist, 74(7), 823–839.",
+     "verificar": true
+    },
+    {
+     "texto": "Recompensas dadas de forma imprevisível criam comportamentos mais difíceis de extinguir.",
+     "verdade": true,
+     "explicacao": "O reforço intermitente mantém o comportamento por mais tempo do que o reforço contínuo, como acontece nas máquinas de jogo.",
+     "ref": "Ferster, C. B., & Skinner, B. F. (1957). Schedules of Reinforcement. Appleton-Century-Crofts."
+    },
+    {
+     "texto": "O primeiro teste de inteligência foi criado para identificar crianças que precisavam de apoio escolar.",
+     "verdade": true,
+     "explicacao": "Binet e Simon propuseram-no em 1905, a pedido do Ministério da Educação francês.",
+     "ref": "Binet, A., & Simon, T. (1905). Méthodes nouvelles pour le diagnostic du niveau intellectuel des anormaux. L'Année Psychologique, 11, 191–244."
+    },
+    {
+     "texto": "A felicidade diminui sempre com a idade.",
+     "verdade": false,
+     "explicacao": "Em vários estudos, o bem-estar emocional mantém-se ou melhora ao longo da vida adulta.",
+     "ref": "Carstensen, L. L., et al. (2011). Emotional experience improves with age. Psychology and Aging, 26(1), 21–33."
+    }
+   ]
+  },
+  {
+   "itens": [
+    {
+     "texto": "Pedir primeiro um favor pequeno torna as pessoas menos dispostas a aceitar um favor maior.",
+     "verdade": false,
+     "explicacao": "Aceitar o pedido pequeno aumenta a probabilidade de aceitar o maior: é a técnica do «pé na porta».",
+     "ref": "Freedman, J. L., & Fraser, S. C. (1966). Compliance without pressure: The foot-in-the-door technique. Journal of Personality and Social Psychology, 4(2), 195–202."
+    },
+    {
+     "texto": "Há mais crimes e mais admissões psiquiátricas em noites de lua cheia.",
+     "verdade": false,
+     "explicacao": "Uma meta-análise de dezenas de estudos não encontrou qualquer relação.",
+     "ref": "Rotton, J., & Kelly, I. W. (1985). Much ado about the full moon: A meta-analysis of lunar-lunacy research. Psychological Bulletin, 97(2), 286–306."
+    },
+    {
+     "texto": "A terapia cognitivo-comportamental tem boa evidência no tratamento das perturbações de ansiedade.",
+     "verdade": true,
+     "explicacao": "As meta-análises mostram efeitos grandes em ansiedade e noutras condições, em comparação com lista de espera.",
+     "ref": "Hofmann, S. G., et al. (2012). The efficacy of cognitive behavioral therapy: A review of meta-analyses. Cognitive Therapy and Research, 36(5), 427–440."
+    },
+    {
+     "texto": "Quem pratica de forma deliberada e com feedback melhora mais do que quem apenas repete.",
+     "verdade": true,
+     "explicacao": "É a prática deliberada, central na aquisição de perícia: objetivos precisos, esforço concentrado e correção.",
+     "ref": "Ericsson, K. A., Krampe, R. T., & Tesch-Römer, C. (1993). The role of deliberate practice in the acquisition of expert performance. Psychological Review, 100(3), 363–406."
+    },
+    {
+     "texto": "O paciente H.M. perdeu a capacidade de formar novas memórias, mas conseguia aprender tarefas motoras.",
+     "verdade": true,
+     "explicacao": "Após a remoção do hipocampo, deixou de fixar memórias novas de factos e acontecimentos, mas melhorava em tarefas como o desenho em espelho.",
+     "ref": "Scoville, W. B., & Milner, B. (1957). Loss of recent memory after bilateral hippocampal lesions. Journal of Neurology, Neurosurgery & Psychiatry, 20(1), 11–21."
+    }
+   ]
+  },
+  {
+   "itens": [
+    {
+     "texto": "Tendemos a atribuir qualidades positivas a quem é fisicamente atraente.",
+     "verdade": true,
+     "explicacao": "É o efeito de halo: a atratividade influencia o julgamento de simpatia, inteligência e competência, sem relação real com elas.",
+     "ref": "Dion, K., Berscheid, E., & Walster, E. (1972). What is beautiful is good. Journal of Personality and Social Psychology, 24(3), 285–290."
+    },
+    {
+     "texto": "Em média, os antidepressivos são mais eficazes do que o placebo na depressão major.",
+     "verdade": true,
+     "explicacao": "Uma grande meta-análise de 21 fármacos encontrou superioridade de todos sobre o placebo, com efeitos modestos.",
+     "ref": "Cipriani, A., et al. (2018). Comparative efficacy and acceptability of 21 antidepressant drugs for the acute treatment of adults with major depressive disorder. The Lancet, 391(10128), 1357–1366."
+    },
+    {
+     "texto": "O fenómeno «ponta da língua» acontece a todas as pessoas.",
+     "verdade": true,
+     "explicacao": "Sabemos que conhecemos a palavra, mas não a conseguimos recuperar. É universal e torna-se mais frequente com a idade.",
+     "ref": "Brown, R., & McNeill, D. (1966). The «tip of the tongue» phenomenon. Journal of Verbal Learning and Verbal Behavior, 5(4), 325–337."
+    },
+    {
+     "texto": "O TDAH desaparece sempre na adolescência.",
+     "verdade": false,
+     "explicacao": "Em muitos casos os sintomas persistem na vida adulta, ainda que mudem de forma (menos hiperatividade, mais desatenção).",
+     "ref": "Faraone, S. V., et al. (2006). The age-dependent decline of attention deficit hyperactivity disorder: A meta-analysis of follow-up studies. Psychological Medicine, 36(2), 159–165."
+    },
+    {
+     "texto": "A forma como uma pergunta é formulada (em ganhos ou em perdas) não altera as escolhas.",
+     "verdade": false,
+     "explicacao": "O efeito de enquadramento mostra que decisões idênticas mudam consoante a mesma informação seja apresentada como vidas salvas ou como mortes.",
+     "ref": "Tversky, A., & Kahneman, D. (1981). The framing of decisions and the psychology of choice. Science, 211(4481), 453–458."
+    }
+   ]
+  },
+  {
+   "itens": [
+    {
+     "texto": "Em média, as pessoas distinguem verdades de mentiras apenas um pouco acima do acaso.",
+     "verdade": true,
+     "explicacao": "Numa meta-análise de centenas de estudos, a taxa de acerto rondou os 54%, mesmo em profissionais como polícias e juízes.",
+     "ref": "Bond, C. F., & DePaulo, B. M. (2006). Accuracy of deception judgments. Personality and Social Psychology Review, 10(3), 214–234."
+    },
+    {
+     "texto": "Há pessoas «de cérebro esquerdo» (lógicas) e «de cérebro direito» (criativas).",
+     "verdade": false,
+     "explicacao": "Os dois hemisférios colaboram em quase todas as tarefas. Num estudo com mais de mil pessoas, não se encontrou um predomínio de um dos lados que definisse a personalidade.",
+     "ref": "Nielsen, J. A., et al. (2013). An evaluation of the left-brain vs. right-brain hypothesis with resting state functional connectivity MRI. PLoS ONE, 8(8), e71275."
+    },
+    {
+     "texto": "Fazer palavras cruzadas previne a demência.",
+     "verdade": false,
+     "explicacao": "Treinar uma tarefa melhora essa tarefa, mas há pouca prova de proteção geral contra o declínio cognitivo.",
+     "ref": "Salthouse, T. A. (2006). Mental exercise and mental aging: Evaluating the validity of the «use it or lose it» hypothesis. Perspectives on Psychological Science, 1(1), 68–87.",
+     "verificar": true
+    },
+    {
+     "texto": "Os adolescentes dormem tarde apenas por preguiça, sem razão biológica.",
+     "verdade": false,
+     "explicacao": "Na puberdade, o relógio biológico atrasa-se, o que torna natural adormecer e acordar mais tarde.",
+     "ref": "Carskadon, M. A. (2011). Sleep in adolescents: The perfect storm. Pediatric Clinics of North America, 58(3), 637–647."
+    },
+    {
+     "texto": "O primeiro laboratório de psicologia experimental foi fundado por Wundt, em Leipzig, em 1879.",
+     "verdade": true,
+     "explicacao": "A data é a convenção histórica para o nascimento da psicologia como ciência experimental, embora tenha havido precursores.",
+     "ref": "Boring, E. G. (1950). A History of Experimental Psychology (2nd ed.). Appleton-Century-Crofts."
+    }
+   ]
+  },
+  {
+   "itens": [
+    {
+     "texto": "As perdas pesam psicologicamente mais do que ganhos do mesmo valor.",
+     "verdade": true,
+     "explicacao": "É a aversão à perda: perder 10 euros costuma doer mais do que ganhar 10 euros alegra.",
+     "ref": "Kahneman, D., & Tversky, A. (1979). Prospect theory: An analysis of decision under risk. Econometrica, 47(2), 263–291."
+    },
+    {
+     "texto": "Recompensar sempre uma atividade aumenta a motivação para a fazer.",
+     "verdade": false,
+     "explicacao": "Recompensas externas podem reduzir a motivação intrínseca de quem já gostava da atividade, sobretudo se forem sentidas como controlo.",
+     "ref": "Deci, E. L., Koestner, R., & Ryan, R. M. (1999). A meta-analytic review of experiments examining the effects of extrinsic rewards on intrinsic motivation. Psychological Bulletin, 125(6), 627–668."
+    },
+    {
+     "texto": "Bater nas crianças é uma forma eficaz de as educar.",
+     "verdade": false,
+     "explicacao": "As meta-análises associam o castigo físico a mais agressividade e problemas de comportamento, sem ganho de obediência a longo prazo.",
+     "ref": "Gershoff, E. T., & Grogan-Kaylor, A. (2016). Spanking and child outcomes: Old controversies and new meta-analyses. Journal of Family Psychology, 30(4), 453–469."
+    },
+    {
+     "texto": "Temos mais do que cinco sentidos.",
+     "verdade": true,
+     "explicacao": "Além da visão, da audição, do olfato, do paladar e do tato, temos equilíbrio, propriocepção (a posição do corpo), sentido da temperatura, dor e perceção do interior do corpo.",
+     "ref": "Kandel, E. R., et al. (2021). Principles of Neural Science (6th ed.). McGraw-Hill."
+    },
+    {
+     "texto": "Competir por recursos escassos pode gerar hostilidade entre grupos.",
+     "verdade": true,
+     "explicacao": "No estudo do acampamento de Robbers Cave, dois grupos de rapazes tornaram-se hostis em competição, e só objetivos comuns reduziram o conflito.",
+     "ref": "Sherif, M., et al. (1961). Intergroup Conflict and Cooperation: The Robbers Cave Experiment. University of Oklahoma Book Exchange."
+    }
+   ]
+  },
+  {
+   "itens": [
+    {
+     "texto": "Reconhecemos melhor rostos de pessoas do nosso grupo étnico do que de outros grupos.",
+     "verdade": true,
+     "explicacao": "É o viés da própria etnia, documentado em dezenas de estudos.",
+     "ref": "Meissner, C. A., & Brigham, J. C. (2001). Thirty years of investigating the own-race bias in memory for faces. Psychology, Public Policy, and Law, 7(1), 3–35."
+    },
+    {
+     "texto": "Perguntar a alguém se pensa em suicídio aumenta o risco de o fazer.",
+     "verdade": false,
+     "explicacao": "Os estudos não encontram aumento de ideação suicida. Perguntar com abertura pode aliviar e abrir caminho à ajuda.",
+     "ref": "Dazzi, T., et al. (2014). Does asking about suicide and related behaviours induce suicidal ideation? Psychological Medicine, 44(16), 3361–3363."
+    },
+    {
+     "texto": "Os bebés olham menos para um estímulo que veem repetidamente.",
+     "verdade": true,
+     "explicacao": "É a habituação, que os investigadores usam para testar o que os bebés conseguem distinguir.",
+     "ref": "Fantz, R. L. (1964). Visual experience in infants: Decreased attention to familiar patterns relative to novel ones. Science, 146(3644), 668–670."
+    },
+    {
+     "texto": "O autismo tem uma forte componente genética.",
+     "verdade": true,
+     "explicacao": "Estudos com gémeos estimam uma hereditariedade perto de 80%.",
+     "ref": "Tick, B., et al. (2016). Heritability of autism spectrum disorders: A meta-analysis of twin studies. Journal of Child Psychology and Psychiatry, 57(5), 585–595."
+    },
+    {
+     "texto": "As pessoas com doença mental são, em regra, violentas.",
+     "verdade": false,
+     "explicacao": "A grande maioria nunca é violenta, e são muito mais vezes vítimas de violência do que autoras. O risco aumenta sobretudo com o consumo de substâncias.",
+     "ref": "Stuart, H. (2003). Violence and mental illness: An overview. World Psychiatry, 2(2), 121–124."
+    }
+   ]
+  },
+  {
+   "itens": [
+    {
+     "texto": "As pessoas menos competentes numa tarefa tendem a sobrestimar o seu desempenho.",
+     "verdade": true,
+     "explicacao": "É o efeito Dunning-Kruger: falta-lhes a própria competência necessária para reconhecer as falhas. Hoje discute-se o tamanho do efeito, que é menos extremo do que a versão popular.",
+     "ref": "Kruger, J., & Dunning, D. (1999). Unskilled and unaware of it. Journal of Personality and Social Psychology, 77(6), 1121–1134.",
+     "verificar": true
+    },
+    {
+     "texto": "A exposição prolongada é um tratamento eficaz para a perturbação de stresse pós-traumático.",
+     "verdade": true,
+     "explicacao": "Rever, de forma guiada, a memória traumática e as situações evitadas reduz os sintomas na maioria dos pacientes.",
+     "ref": "Powers, M. B., et al. (2010). A meta-analytic review of prolonged exposure for posttraumatic stress disorder. Clinical Psychology Review, 30(6), 635–641."
+    },
+    {
+     "texto": "A maioria das pessoas considera-se pior condutora do que a média.",
+     "verdade": false,
+     "explicacao": "A maioria considera-se melhor do que a média, o que estatisticamente não pode ser verdade para todos.",
+     "ref": "Svenson, O. (1981). Are we all less risky and more skillful than our fellow drivers? Acta Psychologica, 47(2), 143–148."
+    },
+    {
+     "texto": "Os opostos atraem-se: casais muito diferentes tendem a ser mais satisfeitos.",
+     "verdade": false,
+     "explicacao": "A semelhança de valores, atitudes e interesses é melhor preditor de atração e de satisfação a longo prazo do que a diferença.",
+     "ref": "Montoya, R. M., Horton, R. S., & Kirchner, J. (2008). Is actual similarity necessary for attraction? Journal of Social and Personal Relationships, 25(6), 889–922."
+    },
+    {
+     "texto": "Tentar não pensar em algo pode aumentar a frequência desse pensamento.",
+     "verdade": true,
+     "explicacao": "É o efeito do «urso branco»: quem foi instruído a não pensar num urso branco pensou mais nele depois.",
+     "ref": "Wegner, D. M., et al. (1987). Paradoxical effects of thought suppression. Journal of Personality and Social Psychology, 53(1), 5–13."
+    }
+   ]
+  },
+  {
+   "itens": [
+    {
+     "texto": "Dormir muito ao fim de semana compensa totalmente a falta de sono da semana.",
+     "verdade": false,
+     "explicacao": "A recuperação é parcial: num estudo, o sono extra do fim de semana não evitou os efeitos metabólicos da privação.",
+     "ref": "Depner, C. M., et al. (2019). Ad libitum weekend recovery sleep fails to prevent metabolic dysregulation during a repeating pattern of insufficient sleep and weekend recovery sleep. Current Biology, 29(6), 957–967."
+    },
+    {
+     "texto": "A terapia de exposição é muito eficaz nas fobias específicas.",
+     "verdade": true,
+     "explicacao": "Enfrentar gradualmente o estímulo temido produz melhorias duradouras na maior parte dos casos.",
+     "ref": "Wolitzky-Taylor, K. B., et al. (2008). Psychological approaches in the treatment of specific phobias: A meta-analysis. Clinical Psychology Review, 28(6), 1021–1037."
+    },
+    {
+     "texto": "Irmãos criados na mesma casa ficam parecidos sobretudo por partilharem o ambiente familiar.",
+     "verdade": false,
+     "explicacao": "Os estudos de gémeos e de adoção indicam que o ambiente partilhado explica pouco da semelhança de personalidade entre irmãos.",
+     "ref": "Plomin, R., & Daniels, D. (1987). Why are children in the same family so different from one another? Behavioral and Brain Sciences, 10(1), 1–16."
+    },
+    {
+     "texto": "A homossexualidade foi retirada do DSM como perturbação em 1973.",
+     "verdade": true,
+     "explicacao": "A decisão da Associação Americana de Psiquiatria seguiu-se a anos de investigação e debate.",
+     "ref": "Drescher, J. (2015). Out of DSM: Depathologizing homosexuality. Behavioral Sciences, 5(4), 565–575."
+    },
+    {
+     "texto": "O poder do teste do marshmallow para prever o futuro diminui muito quando se controla o contexto socioeconómico.",
+     "verdade": true,
+     "explicacao": "Numa replicação alargada, a relação entre esperar pelo doce e os resultados na adolescência ficou bem mais fraca depois de considerar o contexto familiar.",
+     "ref": "Watts, T. W., Duncan, G. J., & Quan, H. (2018). Revisiting the marshmallow test. Psychological Science, 29(7), 1159–1177.",
+     "verificar": true
+    }
+   ]
+  },
+  {
+   "itens": [
+    {
+     "texto": "A maioria das pessoas expostas a um acontecimento traumático não desenvolve perturbação de stresse pós-traumático.",
+     "verdade": true,
+     "explicacao": "A resiliência é o resultado mais comum: a maioria recupera sem intervenção clínica.",
+     "ref": "Bonanno, G. A. (2004). Loss, trauma, and human resilience. American Psychologist, 59(1), 20–28."
+    },
+    {
+     "texto": "A astrologia permite prever a personalidade a partir do signo.",
+     "verdade": false,
+     "explicacao": "Num teste duplo-cego, astrólogos não acertaram acima do acaso na correspondência entre mapas astrais e perfis de personalidade.",
+     "ref": "Carlson, S. (1985). A double-blind test of astrology. Nature, 318, 419–425."
+    },
+    {
+     "texto": "Se o cérebro não for estimulado nos três primeiros anos de vida, o prejuízo é irreversível.",
+     "verdade": false,
+     "explicacao": "O cérebro continua plástico ao longo da vida. Há períodos sensíveis, mas a ideia dos «três anos críticos» é um exagero.",
+     "ref": "Bruer, J. T. (1999). The Myth of the First Three Years. Free Press."
+    },
+    {
+     "texto": "Bebés de 8 meses já aprendem regularidades estatísticas na fala.",
+     "verdade": true,
+     "explicacao": "Depois de ouvirem uma sequência de sílabas durante apenas dois minutos, distinguiram palavras de não palavras.",
+     "ref": "Saffran, J. R., Aslin, R. N., & Newport, E. L. (1996). Statistical learning by 8-month-old infants. Science, 274(5294), 1926–1928."
+    },
+    {
+     "texto": "Descarregar a raiva (por exemplo, a bater numa almofada) reduz a raiva.",
+     "verdade": false,
+     "explicacao": "Em experiências, quem «descarregava» ficou mais agressivo do que quem não fazia nada. Atividades calmantes funcionam melhor.",
+     "ref": "Bushman, B. J. (2002). Does venting anger feed or extinguish the flame? Personality and Social Psychology Bulletin, 28(6), 724–731."
+    }
+   ]
+  },
+  {
+   "itens": [
+    {
+     "texto": "O cérebro continua a amadurecer até aos 20 e poucos anos.",
+     "verdade": true,
+     "explicacao": "O córtex pré-frontal, ligado ao planeamento e ao controlo de impulsos, é das últimas zonas a amadurecer.",
+     "ref": "Gogtay, N., et al. (2004). Dynamic mapping of human cortical development during childhood through early adulthood. PNAS, 101(21), 8174–8179."
+    },
+    {
+     "texto": "Quem perdeu um membro pode continuar a senti-lo (membro fantasma).",
+     "verdade": true,
+     "explicacao": "A maioria dos amputados refere sensações do membro ausente, por vezes dolorosas.",
+     "ref": "Ramachandran, V. S., & Hirstein, W. (1998). The perception of phantom limbs. Brain, 121(9), 1603–1630."
+    },
+    {
+     "texto": "No cérebro humano há cerca de dez células da glia por cada neurónio.",
+     "verdade": false,
+     "explicacao": "A contagem rigorosa mostra uma razão próxima de 1 para 1.",
+     "ref": "Azevedo, F. A. C., et al. (2009). Equal numbers of neuronal and nonneuronal cells make the human brain an isometrically scaled-up primate brain. Journal of Comparative Neurology, 513(5), 532–541."
+    },
+    {
+     "texto": "Depois do acidente, Phineas Gage perdeu a capacidade de falar.",
+     "verdade": false,
+     "explicacao": "Manteve a fala. O que se descreve são alterações de comportamento, que foram exageradas na lenda.",
+     "ref": "Macmillan, M. (2000). An Odd Kind of Fame: Stories of Phineas Gage. MIT Press."
+    },
+    {
+     "texto": "Vários efeitos famosos de priming social falharam em replicações.",
+     "verdade": true,
+     "explicacao": "Por exemplo, o resultado de que ler palavras associadas a idosos faz as pessoas caminhar mais devagar não se replicou em condições controladas.",
+     "ref": "Doyen, S., et al. (2012). Behavioral priming: It's all in the mind, but whose mind? PLoS ONE, 7(1), e29081.",
+     "verificar": true
+    }
+   ]
+  },
+  {
+   "itens": [
+    {
+     "texto": "A memória de trabalho guarda mais perto de 4 itens do que dos famosos 7.",
+     "verdade": true,
+     "explicacao": "O «7 ± 2» de Miller refere-se a blocos de informação. Ao controlar o agrupamento, a capacidade ronda os 4 itens.",
+     "ref": "Cowan, N. (2001). The magical number 4 in short-term memory. Behavioral and Brain Sciences, 24(1), 87–114."
+    },
+    {
+     "texto": "Um grupo a fazer brainstorming gera mais ideias do que as mesmas pessoas a pensar sozinhas.",
+     "verdade": false,
+     "explicacao": "As meta-análises mostram que os grupos produzem menos ideias, em parte por bloqueio da produção (só um fala de cada vez) e por medo de ser avaliado.",
+     "ref": "Mullen, B., Johnson, C., & Salas, E. (1991). Productivity loss in brainstorming groups: A meta-analytic integration. Basic and Applied Social Psychology, 12(1), 3–23."
+    },
+    {
+     "texto": "A meditação mindfulness tem um efeito moderado na ansiedade e no stresse.",
+     "verdade": true,
+     "explicacao": "Uma revisão de ensaios clínicos encontrou melhorias moderadas, comparáveis às de outros tratamentos, mas não superiores.",
+     "ref": "Goyal, M., et al. (2014). Meditation programs for psychological stress and well-being. JAMA Internal Medicine, 174(3), 357–368."
+    },
+    {
+     "texto": "Os traços de personalidade dos Cinco Grandes mantêm-se relativamente estáveis ao longo da vida adulta.",
+     "verdade": true,
+     "explicacao": "A estabilidade aumenta com a idade e atinge o máximo depois dos 50 anos, embora haja mudanças graduais ao longo da vida.",
+     "ref": "Roberts, B. W., & DelVecchio, W. F. (2000). The rank-order consistency of personality traits from childhood to old age. Psychological Bulletin, 126(1), 3–25."
+    },
+    {
+     "texto": "As vacinas causam autismo.",
+     "verdade": false,
+     "explicacao": "Não há relação: meta-análises com milhões de crianças não encontram qualquer associação. O estudo original de 1998 foi retirado por fraude.",
+     "ref": "Taylor, L. E., Swerdfeger, A. L., & Eslick, G. D. (2014). Vaccines are not associated with autism: An evidence-based meta-analysis. Vaccine, 32(29), 3623–3629."
+    }
+   ]
+  },
+  {
+   "itens": [
+    {
+     "texto": "O teste MBTI (16 tipos de personalidade) tem validade científica comparável à dos Cinco Grandes traços.",
+     "verdade": false,
+     "explicacao": "O MBTI tem fraca fiabilidade (muitas pessoas mudam de tipo ao repetir o teste) e baixa capacidade de previsão. O modelo dos Cinco Grandes é o mais apoiado pela investigação.",
+     "ref": "Pittenger, D. J. (1993). Measuring the MBTI... and coming up short. Journal of Career Planning and Employment, 54(1), 48–52."
+    },
+    {
+     "texto": "O exercício aeróbico associa-se a melhor funcionamento cognitivo nos idosos.",
+     "verdade": true,
+     "explicacao": "Os benefícios são maiores nas funções executivas, como o planeamento e o controlo.",
+     "ref": "Colcombe, S., & Kramer, A. F. (2003). Fitness effects on the cognitive function of older adults: A meta-analytic study. Psychological Science, 14(2), 125–130."
+    },
+    {
+     "texto": "É possível, com esforço, suprimir voluntariamente a recordação de uma memória indesejada.",
+     "verdade": true,
+     "explicacao": "Na tarefa «pensar/não pensar», quem tentava não pensar numa palavra recordava-a pior depois.",
+     "ref": "Anderson, M. C., & Green, C. (2001). Suppressing unwanted memories by executive control. Nature, 410, 366–369."
+    },
+    {
+     "texto": "Somos bons a prever o quanto nos vamos sentir felizes ou tristes no futuro.",
+     "verdade": false,
+     "explicacao": "Tendemos a exagerar a intensidade e a duração das nossas emoções futuras: é o viés de impacto.",
+     "ref": "Wilson, T. D., & Gilbert, D. T. (2005). Affective forecasting: Knowing what to want. Current Directions in Psychological Science, 14(3), 131–134."
+    },
+    {
+     "texto": "Em grupo, as pessoas esforçam-se mais do que sozinhas.",
+     "verdade": false,
+     "explicacao": "É o efeito de «preguiça social»: quando o esforço individual não é identificável, cada um tende a esforçar-se menos.",
+     "ref": "Latané, B., Williams, K., & Harkins, S. (1979). Many hands make light the work: The causes and consequences of social loafing. Journal of Personality and Social Psychology, 37(6), 822–832."
+    }
+   ]
+  },
+  {
+   "itens": [
+    {
+     "texto": "Quando alguém nos faz um favor, sentimo-nos inclinados a retribuir.",
+     "verdade": true,
+     "explicacao": "É a norma de reciprocidade: depois de receberem um refrigerante, as pessoas compraram mais bilhetes de rifa a quem lho ofereceu.",
+     "ref": "Regan, D. T. (1971). Effects of a favor and liking on compliance. Journal of Experimental Social Psychology, 7(6), 627–639."
+    },
+    {
+     "texto": "O QI médio da população desceu sempre ao longo do século XX.",
+     "verdade": false,
+     "explicacao": "Em muitos países subiu cerca de 3 pontos por década: é o efeito Flynn.",
+     "ref": "Flynn, J. R. (1987). Massive IQ gains in 14 nations. Psychological Bulletin, 101(2), 171–191."
+    },
+    {
+     "texto": "As memórias «flash» (onde estávamos num grande acontecimento) são cópias fiéis do que se passou.",
+     "verdade": false,
+     "explicacao": "São vívidas e vêm com muita confiança, mas distorcem-se com o tempo tanto quanto as memórias comuns. O que as distingue é a confiança, não a exatidão.",
+     "ref": "Talarico, J. M., & Rubin, D. C. (2003). Confidence, not consistency, characterizes flashbulb memories. Psychological Science, 14(5), 455–461."
+    },
+    {
+     "texto": "Podemos não reparar num objeto inesperado mesmo à nossa frente, se a atenção estiver noutra coisa.",
+     "verdade": true,
+     "explicacao": "No estudo do gorila, cerca de metade dos participantes que contavam passes de basquetebol não viu um disfarce de gorila atravessar a cena.",
+     "ref": "Simons, D. J., & Chabris, C. F. (1999). Gorillas in our midst. Perception, 28(9), 1059–1074."
+    },
+    {
+     "texto": "O Teste de Associação Implícita (IAT) prevê com fiabilidade se uma pessoa vai discriminar.",
+     "verdade": false,
+     "explicacao": "As meta-análises encontram correlações fracas com o comportamento, por isso não serve para rotular indivíduos.",
+     "ref": "Oswald, F. L., et al. (2013). Predicting ethnic and racial discrimination: A meta-analysis of IAT criterion studies. Journal of Personality and Social Psychology, 105(2), 171–192.",
+     "verificar": true
+    }
+   ]
+  },
+  {
+   "itens": [
+    {
+     "texto": "Sob hipnose, uma pessoa pode ser levada a fazer o que está contra a sua vontade.",
+     "verdade": false,
+     "explicacao": "A pessoa mantém o controlo e não faz o que não faria acordada. A hipnose não é um estado de obediência.",
+     "ref": "Lynn, S. J., Rhue, J. W., & Weekes, J. R. (1990). Hypnotic involuntariness: A social cognitive analysis. Psychological Review, 97(2), 169–184."
+    },
+    {
+     "texto": "Quantas mais testemunhas há numa emergência, mais provável é que alguém ajude.",
+     "verdade": false,
+     "explicacao": "É o contrário: com mais pessoas presentes, a responsabilidade dilui-se e cada uma ajuda menos. No estudo clássico, 85% ajudaram quando estavam sozinhos e 31% quando havia mais quatro pessoas.",
+     "ref": "Darley, J. M., & Latané, B. (1968). Bystander intervention in emergencies: Diffusion of responsibility. Journal of Personality and Social Psychology, 8(4), 377–383."
+    },
+    {
+     "texto": "Tendemos a fazer amizade com quem vive ou trabalha perto de nós.",
+     "verdade": true,
+     "explicacao": "Num estudo em residências universitárias, a proximidade física previu bem quem se tornava amigo de quem.",
+     "ref": "Festinger, L., Schachter, S., & Back, K. (1950). Social Pressures in Informal Groups. Stanford University Press."
+    },
+    {
+     "texto": "O exercício físico regular não tem efeito sobre os sintomas da depressão.",
+     "verdade": false,
+     "explicacao": "As meta-análises mostram um efeito antidepressivo moderado do exercício, sobretudo em casos ligeiros a moderados.",
+     "ref": "Schuch, F. B., et al. (2016). Exercise as a treatment for depression: A meta-analysis adjusting for publication bias. Journal of Psychiatric Research, 77, 42–51."
+    },
+    {
+     "texto": "As expectativas de um professor podem influenciar um pouco o desempenho dos alunos.",
+     "verdade": true,
+     "explicacao": "O efeito Pigmalião existe, mas é bem menor do que se pensava nos estudos originais e depende do contexto.",
+     "ref": "Jussim, L., & Harber, K. D. (2005). Teacher expectations and self-fulfilling prophecies. Personality and Social Psychology Review, 9(2), 131–155.",
+     "verificar": true
+    }
+   ]
+  },
+  {
+   "itens": [
+    {
+     "texto": "Autonomia, competência e relação com os outros são necessidades psicológicas básicas, segundo a teoria da autodeterminação.",
+     "verdade": true,
+     "explicacao": "Quando são satisfeitas, a motivação intrínseca e o bem-estar aumentam.",
+     "ref": "Ryan, R. M., & Deci, E. L. (2000). Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being. American Psychologist, 55(1), 68–78."
+    },
+    {
+     "texto": "Sublinhar e reler são das melhores técnicas de estudo.",
+     "verdade": false,
+     "explicacao": "Uma grande revisão classificou-as como de baixa utilidade. Testar-se e espaçar o estudo funcionam melhor.",
+     "ref": "Dunlosky, J., et al. (2013). Improving students' learning with effective learning techniques. Psychological Science in the Public Interest, 14(1), 4–58."
+    },
+    {
+     "texto": "O autismo é causado por mães emocionalmente frias.",
+     "verdade": false,
+     "explicacao": "A teoria da «mãe-frigorífico» foi desmentida. O autismo é uma condição do neurodesenvolvimento, com forte componente genética.",
+     "ref": "Silverman, C. (2012). Understanding Autism: Parents, Doctors, and the History of a Disorder. Princeton University Press."
+    },
+    {
+     "texto": "Pensamos que os outros reparam mais em nós do que realmente reparam.",
+     "verdade": true,
+     "explicacao": "É o efeito de holofote. Estudantes obrigados a usar uma t-shirt embaraçosa previram que quase metade dos colegas a notaria, mas só cerca de um quarto reparou.",
+     "ref": "Gilovich, T., Medvec, V. H., & Savitsky, K. (2000). The spotlight effect in social judgment. Journal of Personality and Social Psychology, 78(2), 211–222."
+    },
+    {
+     "texto": "Quanto mais opções temos, melhores são as nossas decisões.",
+     "verdade": false,
+     "explicacao": "Muitas opções podem causar sobrecarga e arrependimento, embora o efeito médio seja pequeno e dependa do contexto.",
+     "ref": "Scheibehenne, B., Greifeneder, R., & Todd, P. M. (2010). Can there ever be too many options? Journal of Consumer Research, 37(3), 409–425."
+    }
+   ]
+  },
+  {
+   "itens": [
+    {
+     "texto": "Um placebo pode aliviar sintomas mesmo quando a pessoa sabe que é um placebo.",
+     "verdade": true,
+     "explicacao": "Num ensaio com síndrome do intestino irritável, o placebo declarado melhorou os sintomas mais do que a ausência de tratamento.",
+     "ref": "Kaptchuk, T. J., et al. (2010). Placebos without deception: A randomized controlled trial in irritable bowel syndrome. PLoS ONE, 5(12), e15591."
+    },
+    {
+     "texto": "A grafologia consegue avaliar a personalidade a partir da letra manuscrita.",
+     "verdade": false,
+     "explicacao": "Os estudos controlados não encontram capacidade de previsão acima do acaso.",
+     "ref": "Beyerstein, B. L., & Beyerstein, D. F. (Eds.). (1992). The Write Stuff: Evaluations of Graphology. Prometheus Books."
+    },
+    {
+     "texto": "O «palácio da memória» (método dos loci) é uma técnica com mais de dois mil anos.",
+     "verdade": true,
+     "explicacao": "Associa itens a lugares conhecidos, e os oradores da Grécia e da Roma antigas já o usavam.",
+     "ref": "Yates, F. A. (1966). The Art of Memory. Routledge & Kegan Paul."
+    },
+    {
+     "texto": "Na experiência de Asch, a maioria dos participantes nunca concordou com o grupo quando este errava.",
+     "verdade": false,
+     "explicacao": "Cerca de 75% concordaram pelo menos uma vez com uma resposta claramente errada, e em média cerca de um terço das respostas seguiu o grupo.",
+     "ref": "Asch, S. E. (1956). Studies of independence and conformity. Psychological Monographs, 70(9), 1–70."
+    },
+    {
+     "texto": "Quem desvia o olhar está provavelmente a mentir.",
+     "verdade": false,
+     "explicacao": "Em dezenas de países a crença é comum, mas não há relação fiável entre desviar o olhar e mentir.",
+     "ref": "The Global Deception Research Team. (2006). A world of lies. Journal of Cross-Cultural Psychology, 37(1), 60–74."
+    }
+   ]
+  },
+  {
+   "itens": [
+    {
+     "texto": "Quando seguimos atentamente uma conversa, não notamos o nosso nome dito noutra.",
+     "verdade": false,
+     "explicacao": "O nosso nome capta a atenção mesmo numa conversa que ignoramos: é o efeito «cocktail party».",
+     "ref": "Moray, N. (1959). Attention in dichotic listening: Affective cues and the influence of instructions. Quarterly Journal of Experimental Psychology, 11(1), 56–60."
+    },
+    {
+     "texto": "A mera presença de outras pessoas melhora o desempenho em tarefas simples.",
+     "verdade": true,
+     "explicacao": "É a facilitação social. Em tarefas difíceis, a presença dos outros pode piorar o desempenho.",
+     "ref": "Zajonc, R. B. (1965). Social facilitation. Science, 149(3681), 269–274."
+    },
+    {
+     "texto": "A hipnose pode ajudar a reduzir a perceção da dor.",
+     "verdade": true,
+     "explicacao": "Uma meta-análise encontrou um efeito analgésico moderado a grande em muitas pessoas.",
+     "ref": "Montgomery, G. H., DuHamel, K. N., & Redd, W. H. (2000). A meta-analysis of hypnotically induced analgesia. International Journal of Clinical and Experimental Hypnosis, 48(2), 138–153."
+    },
+    {
+     "texto": "O açúcar deixa as crianças hiperativas.",
+     "verdade": false,
+     "explicacao": "Uma meta-análise de ensaios duplo-cegos não encontrou efeito do açúcar no comportamento. A expectativa dos pais pesa mais.",
+     "ref": "Wolraich, M. L., Wilson, D. B., & White, J. W. (1995). The effect of sugar on behavior or cognition in children: A meta-analysis. JAMA, 274(20), 1617–1621."
+    },
+    {
+     "texto": "Sacrificar sono para estudar mais melhora as notas no dia seguinte.",
+     "verdade": false,
+     "explicacao": "Num estudo com adolescentes, dormir menos para estudar mais associou-se a pior desempenho escolar.",
+     "ref": "Gillen-O'Neel, C., Huynh, V. W., & Fuligni, A. J. (2013). To study or to sleep? The academic costs of extra studying at the expense of sleep. Child Development, 84(1), 133–142."
+    }
+   ]
+  },
+  {
+   "itens": [
+    {
+     "texto": "Dormir ajuda a consolidar o que aprendemos durante o dia.",
+     "verdade": true,
+     "explicacao": "Durante o sono, sobretudo o profundo, as memórias recentes são reativadas e integradas com o que já sabemos. Estudar e dormir bem rende mais do que estudar a noite toda.",
+     "ref": "Diekelmann, S., & Born, J. (2010). The memory function of sleep. Nature Reviews Neuroscience, 11, 114–126."
+    },
+    {
+     "texto": "A inteligência tem uma componente hereditária substancial.",
+     "verdade": true,
+     "explicacao": "A hereditariedade do QI aumenta com a idade, de cerca de 20% na infância a 60% ou mais na idade adulta.",
+     "ref": "Plomin, R., & Deary, I. J. (2015). Genetics and intelligence differences: Five special findings. Molecular Psychiatry, 20(1), 98–108."
+    },
+    {
+     "texto": "É possível sentir como nossa uma mão de borracha.",
+     "verdade": true,
+     "explicacao": "Com toques sincronizados na mão escondida e na de borracha à vista, as pessoas passam a sentir que a borracha é sua.",
+     "ref": "Botvinick, M., & Cohen, J. (1998). Rubber hands «feel» touch that eyes see. Nature, 391, 756."
+    },
+    {
+     "texto": "Existe um dicionário universal que decifra o significado dos sonhos.",
+     "verdade": false,
+     "explicacao": "Os símbolos variam de pessoa para pessoa e de cultura para cultura. Não há um dicionário com base científica.",
+     "ref": "Domhoff, G. W. (2003). The Scientific Study of Dreams. American Psychological Association."
+    },
+    {
+     "texto": "A teoria das inteligências múltiplas de Gardner está comprovada por testes empíricos.",
+     "verdade": false,
+     "explicacao": "É popular na educação, mas faltam provas empíricas, e as capacidades descritas correlacionam-se entre si.",
+     "ref": "Waterhouse, L. (2006). Multiple intelligences, the Mozart effect, and emotional intelligence: A critical review. Educational Psychologist, 41(4), 207–225."
+    }
+   ]
+  },
+  {
+   "itens": [
+    {
+     "texto": "Os recém-nascidos já preferem a voz da mãe.",
+     "verdade": true,
+     "explicacao": "Bebés com poucos dias ajustaram o ritmo de sucção para ouvir a voz da mãe em vez da de outra mulher, o que sugere aprendizagem ainda durante a gestação.",
+     "ref": "DeCasper, A. J., & Fifer, W. P. (1980). Of human bonding: Newborns prefer their mothers' voices. Science, 208(4448), 1174–1176."
+    },
+    {
+     "texto": "O álcool ajuda a dormir melhor.",
+     "verdade": false,
+     "explicacao": "Pode ajudar a adormecer, mas fragmenta o sono e reduz o sono REM na segunda metade da noite.",
+     "ref": "Ebrahim, I. O., et al. (2013). Alcohol and sleep I: Effects on normal sleep. Alcoholism: Clinical and Experimental Research, 37(4), 539–549."
+    },
+    {
+     "texto": "Foi Freud quem inventou a ideia de inconsciente.",
+     "verdade": false,
+     "explicacao": "A ideia é anterior a Freud, com séculos de história. Ele desenvolveu uma teoria própria do inconsciente, que se tornou muito influente.",
+     "ref": "Ellenberger, H. F. (1970). The Discovery of the Unconscious. Basic Books."
+    },
+    {
+     "texto": "As perturbações de ansiedade estão entre as perturbações mentais mais frequentes.",
+     "verdade": true,
+     "explicacao": "Nos Estados Unidos, são o grupo mais comum na população geral.",
+     "ref": "Kessler, R. C., et al. (2005). Lifetime prevalence and age-of-onset distributions of DSM-IV disorders in the National Comorbidity Survey Replication. Archives of General Psychiatry, 62(6), 593–602."
+    },
+    {
+     "texto": "É possível ter memórias vívidas e detalhadas de acontecimentos que nunca aconteceram.",
+     "verdade": true,
+     "explicacao": "Em experiências com sugestão, cerca de um quarto dos adultos passou a «lembrar-se» de se ter perdido num centro comercial em criança, algo que não ocorreu. Sentir confiança numa memória não prova que seja verdadeira.",
+     "ref": "Loftus, E. F., & Pickrell, J. E. (1995). The formation of false memories. Psychiatric Annals, 25(12), 720–725."
+    }
+   ]
+  },
+  {
+   "itens": [
+    {
+     "texto": "Quem tem ansiedade deve evitar tudo o que lhe causa medo.",
+     "verdade": false,
+     "explicacao": "A evitação alivia no momento, mas mantém e agrava o problema. O tratamento passa por enfrentar o medo de forma gradual.",
+     "ref": "Craske, M. G., et al. (2014). Maximizing exposure therapy: An inhibitory learning approach. Behaviour Research and Therapy, 58, 10–23."
+    },
+    {
+     "texto": "Homens e mulheres diferem muito em capacidades verbais e matemáticas.",
+     "verdade": false,
+     "explicacao": "Numa revisão de meta-análises, a maioria das diferenças psicológicas entre os sexos é pequena ou quase nula.",
+     "ref": "Hyde, J. S. (2005). The gender similarities hypothesis. American Psychologist, 60(6), 581–592."
+    },
+    {
+     "texto": "Ouvir música de Mozart torna-nos temporariamente mais inteligentes.",
+     "verdade": false,
+     "explicacao": "O «efeito Mozart» de 1993 não resistiu às replicações. Uma meta-análise concluiu que não há ganho específico de inteligência, apenas um pequeno efeito de humor e de ativação.",
+     "ref": "Pietschnig, J., Voracek, M., & Formann, A. K. (2010). Mozart effect–Shmozart effect: A meta-analysis. Intelligence, 38(3), 314–323."
+    },
+    {
+     "texto": "Testar-nos a nós próprios ensina mais do que reler a matéria.",
+     "verdade": true,
+     "explicacao": "Recordar ativamente reforça o traço de memória. Quem se testa retém mais do que quem relê durante o mesmo tempo.",
+     "ref": "Roediger, H. L., & Karpicke, J. D. (2006). Test-enhanced learning. Psychological Science, 17(3), 249–255."
+    },
+    {
+     "texto": "Julgamos que algo é frequente quando nos vêm facilmente exemplos à cabeça.",
+     "verdade": true,
+     "explicacao": "É a heurística da disponibilidade, por isso tememos mais os acidentes de avião do que os de carro.",
+     "ref": "Tversky, A., & Kahneman, D. (1973). Availability: A heuristic for judging frequency and probability. Cognitive Psychology, 5(2), 207–232."
+    }
+   ]
+  },
+  {
+   "itens": [
+    {
+     "texto": "Descrições vagas costumam parecer muito pessoais a quem as lê.",
+     "verdade": true,
+     "explicacao": "É o efeito Barnum (ou Forer): estudantes avaliaram com 4,3 em 5 um perfil «personalizado» que era igual para todos.",
+     "ref": "Forer, B. R. (1949). The fallacy of personal validation. Journal of Abnormal and Social Psychology, 44(1), 118–123."
+    },
+    {
+     "texto": "Recordamos melhor quando estamos no mesmo contexto em que aprendemos.",
+     "verdade": true,
+     "explicacao": "Mergulhadores que aprenderam uma lista debaixo de água recordaram-na melhor debaixo de água do que em terra.",
+     "ref": "Godden, D. R., & Baddeley, A. D. (1975). Context-dependent memory in two natural environments: On land and underwater. British Journal of Psychology, 66(3), 325–331."
+    },
+    {
+     "texto": "Na experiência de Milgram, cerca de dois em cada três participantes chegaram ao choque máximo.",
+     "verdade": true,
+     "explicacao": "Na versão base, 65% administraram até 450 volts por ordem de um investigador, embora muitos mostrassem grande desconforto.",
+     "ref": "Milgram, S. (1963). Behavioral study of obedience. Journal of Abnormal and Social Psychology, 67(4), 371–378."
+    },
+    {
+     "texto": "Usamos apenas 10% do cérebro.",
+     "verdade": false,
+     "explicacao": "Os exames de imagem mostram atividade em todo o cérebro ao longo do dia, e uma lesão em qualquer zona costuma ter consequências. Não existe uma reserva dormente de 90%.",
+     "ref": "Beyerstein, B. L. (1999). Whence cometh the myth that we only use ten percent of our brains? In S. Della Sala (Ed.), Mind Myths. Wiley."
+    },
+    {
+     "texto": "O contacto entre grupos diferentes aumenta quase sempre o preconceito.",
+     "verdade": false,
+     "explicacao": "Uma meta-análise de mais de 500 estudos mostrou que o contacto reduz o preconceito, sobretudo com objetivos comuns e apoio institucional.",
+     "ref": "Pettigrew, T. F., & Tropp, L. R. (2006). A meta-analytic test of intergroup contact theory. Journal of Personality and Social Psychology, 90(5), 751–783."
+    }
+   ]
+  }
+ ]
+}

@@ -3,6 +3,7 @@ import diagnosticoPT from "./diagnostico.json";
 import quemDissePT from "./quem-disse.json";
 import conexoesPT from "./conexoes.json";
 import termoPT from "./termo.json";
+import mitoPT from "./mito-verdade.json";
 import { indexarRespostas } from "../lib/busca.js";
 import { BR } from "../lib/locale.js";
 import { paraBR, traduzirDados } from "../lib/br.js";
@@ -11,6 +12,7 @@ import { paraBR, traduzirDados } from "../lib/br.js";
 const diagnostico = BR ? adaptarDiagnostico(diagnosticoPT) : diagnosticoPT;
 const quemDisse = BR ? traduzirDados(quemDissePT) : quemDissePT;
 const conexoes = BR ? traduzirDados(conexoesPT) : conexoesPT;
+const mitoVerdade = BR ? traduzirDados(mitoPT) : mitoPT;
 const termo = BR ? termoPT.map(([p, titulo, def]) => [p, paraBR(titulo), paraBR(def)]) : termoPT;
 
 function adaptarDiagnostico(d) {
@@ -51,6 +53,9 @@ export const QUEM_RESPOSTAS = indexarRespostas(quemDisse.autores.map((a) => [a.i
 
 /** Conexões: 4 grupos de 4 termos. */
 export const CONEX = conexoes.desafios;
+
+/** Mito ou verdade: cinco afirmações por dia. */
+export const MITO = mitoVerdade.dias;
 
 /** PsicoTermo: [palavra sem acento, título, definição]. */
 export const TERMO = termo;

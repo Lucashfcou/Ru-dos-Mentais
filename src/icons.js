@@ -18,6 +18,7 @@ export const ICONS = {
   diag: GL('<rect x="5" y="4" width="14" height="17" rx="2.2"/><path d="M9.5 4V3h5v1M12 9v6M9 12h6"/>'),
   termo: GL('<rect x="2.5" y="7" width="5.5" height="10" rx="1.6"/><rect x="9.25" y="7" width="5.5" height="10" rx="1.6"/><rect x="16" y="7" width="5.5" height="10" rx="1.6"/><path d="M5.25 10.5v3M12 10.5v3M18.75 10.5v3"/>'),
   quem: GL('<path d="M10.5 8C7.5 8 6 10 6 13v3.5h4.5V12H7.8M19 8c-3 0-4.5 2-4.5 5v3.5H19V12h-2.7"/>'),
+  mito: GL('<rect x="3.5" y="3.5" width="17" height="17" rx="2.5"/><path d="M3.5 20.5l17-17M6.5 8.5l1.7 1.7 3-3.2M14.5 14.5l4 4M18.5 14.5l-4 4"/>'),
   conex: GL('<rect x="3.5" y="3.5" width="17" height="17" rx="2.2"/><path d="M3.5 7.75h17M3.5 12h17M3.5 16.25h17M7.75 3.5v17M12 3.5v17M16.25 3.5v17"/>'),
 };
 

@@ -1,10 +1,13 @@
 // Configuração dos jogos e textos das regras.
-import { DIAG, DIAG_RESPOSTAS, QUEM, QUEM_RESPOSTAS, CONEX, TERMO } from "./content/index.js";
+import { DIAG, DIAG_RESPOSTAS, QUEM, QUEM_RESPOSTAS, CONEX, TERMO, MITO } from "./content/index.js";
 import { escolher } from "./lib/tempo.js";
 
 /** Ordem em que os jogos aparecem. */
-export const ORDER = ["diag", "termo", "quem", "conex"];
+export const ORDER = ["diag", "termo", "quem", "conex", "mito"];
 export const MAX = 6;
+
+/** Nº de células do resultado de cada jogo. */
+export const maximoDe = (gid) => (gid === "mito" ? 5 : MAX);
 
 export const GAMES = {
   diag: {
@@ -30,6 +33,12 @@ export const GAMES = {
     desc: "Encontra os 4 grupos escondidos entre 16 termos.",
     puzzles: CONEX, share: "🧩",
     rules: "Seleciona 4 termos que tenham algo em comum e envia. Há 4 grupos, do mais fácil (amarelo) ao mais difícil (roxo). Cuidado com as armadilhas: alguns termos parecem caber em mais de um grupo. Podes errar 4 vezes.",
+  },
+  mito: {
+    id: "mito", name: "Mito ou verdade", kicker: "Cinco afirmações", color: "--mito", type: "mito",
+    desc: "Cinco afirmações sobre a mente. Mito ou verdade?",
+    puzzles: MITO, share: "🔍",
+    rules: "Lê cada afirmação e escolhe: mito ou verdade. Depois de responder, vês logo a explicação e a fonte. São cinco por dia, e acertar três ou mais conta como vitória.",
   },
 };
 

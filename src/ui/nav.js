@@ -14,6 +14,7 @@ export const UI = {
   termo: { casas: casasVazias(), sel: 0 },
   cxSel: [],
   cxPop: null,
+  mitoVer: false,
 };
 
 const telas = {};
@@ -39,6 +40,7 @@ export function go(v) {
   UI.anim = null;
   UI.termo = { casas: casasVazias(), sel: 0 };
   UI.cxSel = [];
+  UI.mitoVer = false;
   UI.enterFx = true;
   render();
   window.scrollTo(0, 0);

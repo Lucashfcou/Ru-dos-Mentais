@@ -7,6 +7,7 @@ Tudo em `src/content/`. **Todo o conteúdo é rascunho** até a curadoria o vali
 | `diagnostico.json` | casos clínicos fictícios, 5 pistas, explicação, referência | 30 |
 | `quem-disse.json` | autores e citações, 5 pistas, explicação, referência | 40 |
 | `conexoes.json` | desafios de 4 grupos de 4 termos | 30 |
+| `mito-verdade.json` | 30 dias de 5 afirmações (mito ou verdade), cada uma com explicação e fonte | 150 |
 | `termo.json` | respostas do PsicoTermo: `[PALAVRA, Título, definição]` | 150 |
 | `termo-validas.json` | palpites aceites (gerado, não editar à mão) | ~12 mil |
 
@@ -22,6 +23,7 @@ Cada jogo escolhe o desafio do dia pelo número da edição (`VITE_LANCAMENTO` =
 - Os 4 itens do Quem disse? com `"verificar": true` (frase, fonte e tradução) mais os novos de Adler e Bion.
 - A explicação de «porquê perto» de cada caso do Diagnóstico.
 - O grupo «Separação e luto (Bowlby)» das Conexões mistura fases da separação (Robertson e Bowlby) com a reorganização do luto.
+- As 150 afirmações de Mito ou verdade (`mito-verdade.json`), a começar pelas marcadas com `"verificar": true` (efeito Dunning-Kruger, Pigmalião, expressões faciais, marshmallow, IAT, etc., onde a literatura é discutida). Cada uma traz a fonte; convém confirmar números e a formulação.
 - Definições das 150 palavras do PsicoTermo e datas dos autores.
 - Português europeu em todo o texto (perturbação, stresse, ecrã, PHDA).
 
