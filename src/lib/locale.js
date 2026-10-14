@@ -1,25 +1,25 @@
 // Escolhe a variante do português: Portugal (pt) ou Brasil (br), sem botão para o jogador trocar.
-// Ordem: ?lang= na ligação (para testar), depois o que ficou guardado, depois o idioma e o fuso do aparelho.
+// Ordem: ?lang= na ligação (para testar), depois o que ficou guardado, depois o fuso horário e, por fim, o idioma do aparelho.
 
 export const FUSOS = { pt: "Europe/Lisbon", br: "America/Sao_Paulo" };
 const CHAVE = "ruidos-mentais:lang";
 
-/** `entrada`: { busca: "?lang=br", guardado: "br", lingua: "pt-BR", fuso: "America/Sao_Paulo" } */
+const FUSO_BR = /^America\/(Sao_Paulo|Bahia|Fortaleza|Recife|Belem|Manaus|Cuiaba|Campo_Grande|Porto_Velho|Rio_Branco|Noronha|Araguaina|Maceio|Santarem|Boa_Vista|Eirunepe)$/;
+const FUSO_PT = /^(Europe\/Lisbon|Atlantic\/(Azores|Madeira))$/;
+
+/**
+ * `entrada`: { busca: "?lang=br", guardado: "br", lingua: "pt-BR", fuso: "America/Sao_Paulo" }
+ * O sítio onde a pessoa está pesa mais do que o idioma do aparelho: um brasileiro em Portugal vê a versão de Portugal.
+ */
 export function detectarLocale({ busca = "", guardado = "", lingua = "", fuso = "" } = {}) {
-  const arg = new URLSearchParams(busca).get("lang");
-  const pedido = normalizar(arg);
+  const pedido = normalizar(new URLSearchParams(busca).get("lang"));
   if (pedido) return pedido;
   const antigo = normalizar(guardado);
   if (antigo) return antigo;
-  const l = String(lingua || "").toLowerCase();
-  if (l.startsWith("pt-br")) return "br";
-  if (l === "pt" || l.startsWith("pt-")) {
-    // "pt" sem região: o fuso do aparelho decide
-    if (l === "pt") return String(fuso).startsWith("America/") ? "br" : "pt";
-    return "pt";
-  }
-  // outro idioma (por exemplo, inglês): fuso americano -> Brasil, senão Portugal
-  return /^America\/(Sao_Paulo|Bahia|Fortaleza|Recife|Belem|Manaus|Cuiaba|Campo_Grande|Porto_Velho|Rio_Branco|Noronha|Araguaina|Maceio|Santarem|Boa_Vista|Eirunepe)$/.test(fuso) ? "br" : "pt";
+  if (FUSO_PT.test(fuso)) return "pt";
+  if (FUSO_BR.test(fuso)) return "br";
+  // fuso desconhecido ou de outro país: decide o idioma do aparelho
+  return String(lingua || "").toLowerCase().startsWith("pt-br") ? "br" : "pt";
 }
 
 function normalizar(v) {

@@ -27,7 +27,7 @@ Cada jogo escolhe o desafio do dia pelo número da edição (`VITE_LANCAMENTO` =
 
 ## Português do Brasil
 
-A variante é escolhida sozinha, sem botão: `?lang=br` ou `?lang=pt` na ligação (fica guardada no aparelho), senão o idioma do navegador (`pt-BR`) e, em último caso, o fuso horário. Em Portugal o dia vira à meia-noite de Lisboa; no Brasil, à de Brasília.
+A variante é escolhida sozinha, sem botão: `?lang=br` ou `?lang=pt` na ligação (fica guardada no aparelho), senão o fuso horário (Lisboa, Açores e Madeira = Portugal; fusos do Brasil = Brasil) e, só fora desses, o idioma do navegador (`pt-BR` = Brasil). Em Portugal o dia vira à meia-noite de Lisboa; no Brasil, à de Brasília.
 
 O texto original é europeu. `src/lib/br.js` adapta-o ao português brasileiro ao carregar: perturbação → transtorno (com género e adjetivos), stresse → estresse, PHDA → TDAH, ficha clínica → prontuário, pista → dica, ecrã → tela, tu → você, pronomes antes do verbo, e assim por diante. As regras têm testes em `tests/br.test.js`.
 

@@ -40,22 +40,22 @@ describe("português do Brasil", () => {
 });
 
 describe("escolha da variante", () => {
-  it("pt-BR vai para o Brasil, pt-PT para Portugal", () => {
-    expect(detectarLocale({ lingua: "pt-BR" })).toBe("br");
-    expect(detectarLocale({ lingua: "pt-PT" })).toBe("pt");
+  it("o fuso decide primeiro: em Portugal, mesmo com o aparelho em pt-BR", () => {
+    expect(detectarLocale({ lingua: "pt-BR", fuso: "Europe/Lisbon" })).toBe("pt");
+    expect(detectarLocale({ lingua: "pt-BR", fuso: "Atlantic/Madeira" })).toBe("pt");
   });
-  it("pt sem região decide pelo fuso", () => {
-    expect(detectarLocale({ lingua: "pt", fuso: "America/Sao_Paulo" })).toBe("br");
-    expect(detectarLocale({ lingua: "pt", fuso: "Europe/Lisbon" })).toBe("pt");
-  });
-  it("outro idioma: fuso brasileiro vai para o Brasil, senão Portugal", () => {
+  it("no Brasil abre a versão brasileira, qualquer que seja o idioma", () => {
+    expect(detectarLocale({ lingua: "pt-PT", fuso: "America/Sao_Paulo" })).toBe("br");
     expect(detectarLocale({ lingua: "en-US", fuso: "America/Sao_Paulo" })).toBe("br");
+  });
+  it("noutros fusos decide o idioma do aparelho", () => {
+    expect(detectarLocale({ lingua: "pt-BR", fuso: "Europe/Paris" })).toBe("br");
+    expect(detectarLocale({ lingua: "pt-PT", fuso: "Europe/Paris" })).toBe("pt");
     expect(detectarLocale({ lingua: "en-US", fuso: "America/New_York" })).toBe("pt");
-    expect(detectarLocale({ lingua: "en-GB", fuso: "Europe/London" })).toBe("pt");
   });
   it("?lang= e o valor guardado têm prioridade", () => {
-    expect(detectarLocale({ busca: "?lang=br", lingua: "pt-PT" })).toBe("br");
-    expect(detectarLocale({ guardado: "pt", lingua: "pt-BR" })).toBe("pt");
+    expect(detectarLocale({ busca: "?lang=br", lingua: "pt-PT", fuso: "Europe/Lisbon" })).toBe("br");
+    expect(detectarLocale({ guardado: "pt", lingua: "pt-BR", fuso: "America/Sao_Paulo" })).toBe("pt");
     expect(detectarLocale({ busca: "?lang=pt", guardado: "br" })).toBe("pt");
   });
 });
