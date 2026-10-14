@@ -1,5 +1,5 @@
 // Menu lateral em camadas e alternância de tema.
-import { fx, M, fxOn, EXPO } from "../fx.js";
+import { fxOn } from "../fx.js";
 import { S, salvar } from "../state.js";
 import { GAMES, ORDER } from "../jogos.js";
 import { ICONS, gv } from "../icons.js";
@@ -8,6 +8,12 @@ import { UI, go, telaDe } from "./nav.js";
 import { estadoDoCartao } from "./hub.js";
 
 let aberto = false;
+const EASE_OUT = "cubic-bezier(0.16, 1, 0.3, 1)";
+const EASE_IN = "cubic-bezier(0.5, 0, 0.8, 0.4)";
+
+function deslizar(el, de, para, duracao, atraso = 0, easing = EASE_OUT) {
+  el.animate({ transform: [de, para] }, { duration: duracao, delay: atraso, easing, fill: "both" });
+}
 
 export function abrirMenu() {
   if (aberto) return;
@@ -28,15 +34,15 @@ export function abrirMenu() {
   const camadas = [...menu.querySelectorAll(".ml")];
   const painel = menu.querySelector(".mpanel");
   const itens = [...menu.querySelectorAll(".mi,.mfoot .btn")];
-  if (M && fxOn())
-    fx.safe(() => {
-      M.animate(camadas, { x: ["100%", "0%"] }, { duration: 0.6, ease: EXPO, delay: M.stagger(0.07) });
-      M.animate(painel, { x: ["100%", "0%"] }, { duration: 0.6, ease: EXPO, delay: 0.21 });
-      M.animate(itens, { opacity: [0, 1], y: [24, 0] }, { duration: 0.55, ease: EXPO, delay: M.stagger(0.05, { startDelay: 0.4 }) });
-    });
+  if (fxOn()) {
+    // animações nativas só de transform/opacity: correm no compositor, sem trabalho na thread principal
+    camadas.forEach((el, i) => deslizar(el, "translateX(100%)", "translateX(0)", 520, i * 60));
+    deslizar(painel, "translateX(100%)", "translateX(0)", 520, 180);
+    itens.forEach((el, i) => el.animate({ opacity: [0, 1], transform: ["translateY(18px)", "none"] }, { duration: 420, delay: 340 + Math.min(i, 8) * 40, easing: EASE_OUT, fill: "backwards" }));
+  }
   setTimeout(() => {
     const f = menu.querySelector(".mi");
-    if (f && aberto) f.focus();
+    if (f && aberto) f.focus({ preventScroll: true });
   }, fxOn() ? 520 : 0);
 }
 
@@ -52,14 +58,12 @@ export function fecharMenu(depois) {
     if (depois) depois();
     else botao.focus();
   };
-  if (M && fxOn()) {
+  if (fxOn()) {
     const camadas = [...menu.querySelectorAll(".ml")];
     const painel = menu.querySelector(".mpanel");
-    fx.safe(() => {
-      M.animate(painel, { x: ["0%", "100%"] }, { duration: 0.28, ease: [0.5, 0, 0.8, 0.4] });
-      M.animate(camadas, { x: ["0%", "100%"] }, { duration: 0.3, ease: [0.5, 0, 0.8, 0.4], delay: M.stagger(0.03, { startDelay: 0.05 }) });
-    });
-    setTimeout(fim, 340);
+    deslizar(painel, "translateX(0)", "translateX(100%)", 240, 0, EASE_IN);
+    camadas.forEach((el, i) => deslizar(el, "translateX(0)", "translateX(100%)", 260, 30 + i * 25, EASE_IN));
+    setTimeout(fim, 320);
   } else fim();
 }
 

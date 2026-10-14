@@ -63,6 +63,7 @@ const fx={
   // chuva de símbolos Zener
   burst(x,y,count=14,power=1){
     if(!A||!fxOn())return;
+    if(matchMedia("(pointer:coarse)").matches)count=Math.ceil(count*.55);
     let layer=document.getElementById("fxlayer");
     if(!layer){layer=document.createElement("div");layer.id="fxlayer";layer.setAttribute("aria-hidden","true");document.body.appendChild(layer)}
     const names=["diag","termo","quem","conex"],syms=["plus","square","waves","circle","star"];
@@ -217,11 +218,14 @@ Object.assign(fx,{
     const x=pt?pt.x:r.left+r.width/2,y=pt?pt.y:r.top+r.height/2;
     const host=el.closest(".rw,.bgc,.ch,.nd")||el;
     const cs=getComputedStyle(host);const col=cs.getPropertyValue("--gc").trim()||cs.getPropertyValue("--g").trim()||"#8FA3F5";
-    const rp=document.createElement("div");rp.className="ripple";rp.style.background=col;document.body.appendChild(rp);
     const R=Math.hypot(Math.max(x,innerWidth-x),Math.max(y,innerHeight-y))+24;
+    const rp=document.createElement("div");rp.className="ripple";
+    rp.style.cssText=`inset:auto;left:${x-R}px;top:${y-R}px;width:${2*R}px;height:${2*R}px;border-radius:50%;background:${col};will-change:transform,opacity`;
+    document.body.appendChild(rp);
     let fired=false;const fire=()=>{if(fired)return;fired=true;done()};
-    this.safe(()=>M.animate(rp,{clipPath:[`circle(18px at ${x}px ${y}px)`,`circle(${R}px at ${x}px ${y}px)`]},{duration:.5,ease:[.6,0,.2,1]}).finished
-      .then(()=>{fire();return M.animate(rp,{opacity:[1,0]},{duration:.45}).finished}).then(()=>rp.remove(),()=>rp.remove()));
+    // círculo que cresce por transform (compositor), em vez de animar clip-path no ecrã inteiro
+    const cresce=rp.animate({transform:[`scale(${18/R})`,"scale(1)"]},{duration:480,easing:"cubic-bezier(.6,0,.2,1)",fill:"forwards"});
+    cresce.finished.then(()=>{fire();return rp.animate({opacity:[1,0]},{duration:420,fill:"forwards"}).finished}).then(()=>rp.remove(),()=>rp.remove());
     setTimeout(()=>{fire();if(rp.isConnected)setTimeout(()=>rp.remove(),600)},800);
   }
 });

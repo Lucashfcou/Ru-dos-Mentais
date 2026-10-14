@@ -825,3 +825,26 @@ button.tile:focus-visible{outline:2px solid var(--g);outline-offset:2px}
 .ghead .titles{flex:1 1 auto}
 .ghead h2{font-size:clamp(24px,7.4vw,42px);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 @media (max-width:420px){.ghead .glyph,.ghead .gbadge{flex:0 0 auto}.ghead .meta{white-space:normal}}
+
+/* Cabeçalho: sequência, tema e menu num só conjunto, com divisórias em vez de três caixas */
+.top-actions{gap:0;height:44px;border:1px solid var(--line-strong);border-radius:14px;background:var(--stock);overflow:hidden}
+.top-actions>*{height:100%;border:0;border-radius:0;background:none;box-shadow:none}
+.top-actions>*+*{border-left:1px solid var(--line)}
+.top-actions .icon-btn{width:46px}
+.top-actions .icon-btn:hover{background:color-mix(in srgb,var(--ink) 7%,transparent);border-color:var(--line)}
+.top-actions .icon-btn:active{transform:none;background:color-mix(in srgb,var(--ink) 12%,transparent)}
+.top-actions .icon-btn svg{width:20px;height:20px;stroke-width:1.6}
+.streak{padding:0 14px 0 12px;gap:8px;font-size:13px;font-variant-numeric:tabular-nums}
+.streak svg{width:20px;height:20px;color:var(--star);fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.streak #streak-n{font-weight:500;color:var(--ink)}
+.streak .lbl{color:var(--muted);font-family:var(--font-body);font-size:12.5px}
+@media (max-width:560px){.streak .lbl{display:none}.streak{padding:0 12px 0 10px;gap:6px}.top-actions .icon-btn{width:44px}}
+
+/* Telemóvel: menos trabalho de pintura. Sem desfoque no cabeçalho fixo nem no aviso, camadas promovidas só onde há movimento. */
+@media (hover:none) and (pointer:coarse){
+  .top{-webkit-backdrop-filter:none;backdrop-filter:none;background:var(--table)}
+  .toast{-webkit-backdrop-filter:none;backdrop-filter:none;background:var(--ink)}
+  .overlay:not([hidden]){animation-duration:.15s}
+  .ml,.mpanel{will-change:transform;backface-visibility:hidden}
+  .menu::before{will-change:opacity}
+}
