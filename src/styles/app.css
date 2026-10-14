@@ -882,3 +882,13 @@ button.tile:focus-visible{outline:2px solid var(--g);outline-offset:2px}
 .mlist .mmark{margin-top:2px}
 .mq{font-weight:600;margin:0;line-height:1.35}
 .mtag{font-family:var(--font-mono);font-size:12.5px;color:var(--muted);margin:.2em 0 .1em}
+
+/* ===== Home: contraste dos textos secundários e dos gráficos; ícones dos jogos mais calmos ===== */
+:root{--muted-home:#BBB7CB;--grafico:#8E96BB}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]){--muted-home:#4A485E;--grafico:#787590}}
+:root[data-theme="light"]{--muted-home:#4A485E;--grafico:#787590}
+.dp-ed,.dp-clock>span,.rw-s{color:var(--muted-home)}
+.mg i,.mg-cx .cb,.mg-cx .cd{box-shadow:inset 0 0 0 1.5px var(--grafico)}
+.wv.idle path{stroke:var(--grafico);opacity:1}
+/* matiz igual, saturação (croma) 30% menor */
+@supports (color:oklch(from red l c h)){.glyph{background:oklch(from var(--gc,var(--star)) l calc(c * .7) h)}}
