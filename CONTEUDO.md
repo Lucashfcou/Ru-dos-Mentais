@@ -27,9 +27,9 @@ Cada jogo escolhe o desafio do dia pelo número da edição (`VITE_LANCAMENTO` =
 - Definições das 150 palavras do PsicoTermo e datas dos autores.
 - Português europeu em todo o texto (perturbação, stresse, ecrã, PHDA).
 
-## Português do Brasil
+## Português do Brasil (padrão) e de Portugal
 
-A variante é escolhida sozinha, sem botão: `?lang=br` ou `?lang=pt` na ligação (fica guardada no aparelho), senão o fuso horário (Lisboa, Açores e Madeira = Portugal; fusos do Brasil = Brasil) e, só fora desses, o idioma do navegador (`pt-BR` = Brasil). Em Portugal o dia vira à meia-noite de Lisboa; no Brasil, à de Brasília.
+Todos abrem em **português do Brasil**, em qualquer país. A versão de Portugal continua disponível: `?lang=pt` no endereço (fica guardada no aparelho), e `?lang=br` volta ao Brasil. Cada variante tem o seu fuso: o dia vira à meia-noite de Brasília no Brasil e à de Lisboa na versão de Portugal.
 
 O texto original é europeu. `src/lib/br.js` adapta-o ao português brasileiro ao carregar: perturbação → transtorno (com género e adjetivos), stresse → estresse, PHDA → TDAH, ficha clínica → prontuário, pista → dica, ecrã → tela, tu → você, pronomes antes do verbo, e assim por diante. As regras têm testes em `tests/br.test.js`.
 

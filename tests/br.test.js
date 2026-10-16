@@ -41,22 +41,18 @@ describe("português do Brasil", () => {
 });
 
 describe("escolha da variante", () => {
-  it("o fuso decide primeiro: em Portugal, mesmo com o aparelho em pt-BR", () => {
-    expect(detectarLocale({ lingua: "pt-BR", fuso: "Europe/Lisbon" })).toBe("pt");
-    expect(detectarLocale({ lingua: "pt-BR", fuso: "Atlantic/Madeira" })).toBe("pt");
+  it("o padrão é o português do Brasil, em qualquer lugar", () => {
+    expect(detectarLocale({})).toBe("br");
+    expect(detectarLocale({ busca: "" })).toBe("br");
   });
-  it("no Brasil abre a versão brasileira, qualquer que seja o idioma", () => {
-    expect(detectarLocale({ lingua: "pt-PT", fuso: "America/Sao_Paulo" })).toBe("br");
-    expect(detectarLocale({ lingua: "en-US", fuso: "America/Sao_Paulo" })).toBe("br");
+  it("?lang=pt abre a versão de Portugal; ?lang=br volta ao Brasil", () => {
+    expect(detectarLocale({ busca: "?lang=pt" })).toBe("pt");
+    expect(detectarLocale({ busca: "?lang=pt-PT" })).toBe("pt");
+    expect(detectarLocale({ busca: "?lang=br" })).toBe("br");
   });
-  it("noutros fusos decide o idioma do aparelho", () => {
-    expect(detectarLocale({ lingua: "pt-BR", fuso: "Europe/Paris" })).toBe("br");
-    expect(detectarLocale({ lingua: "pt-PT", fuso: "Europe/Paris" })).toBe("pt");
-    expect(detectarLocale({ lingua: "en-US", fuso: "America/New_York" })).toBe("pt");
-  });
-  it("?lang= e o valor guardado têm prioridade", () => {
-    expect(detectarLocale({ busca: "?lang=br", lingua: "pt-PT", fuso: "Europe/Lisbon" })).toBe("br");
-    expect(detectarLocale({ guardado: "pt", lingua: "pt-BR", fuso: "America/Sao_Paulo" })).toBe("pt");
-    expect(detectarLocale({ busca: "?lang=pt", guardado: "br" })).toBe("pt");
+  it("o que ficou guardado vale, e o endereço manda mais", () => {
+    expect(detectarLocale({ guardado: "pt" })).toBe("pt");
+    expect(detectarLocale({ guardado: "br" })).toBe("br");
+    expect(detectarLocale({ busca: "?lang=br", guardado: "pt" })).toBe("br");
   });
 });

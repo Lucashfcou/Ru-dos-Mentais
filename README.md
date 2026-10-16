@@ -1,7 +1,7 @@
 # Ruídos Mentais
 
 Cinco jogos diários de psicologia: **Diagnóstico**, **PsicoTermo**, **Quem disse?**, **Conexões** e **Mito ou verdade**.
-Site estático (Vite + JavaScript), sem servidor. O dia vira à meia-noite de **Lisboa** (`Europe/Lisbon`) em Portugal e à de **Brasília** (`America/Sao_Paulo`) no Brasil, em qualquer dispositivo. Há versão em português brasileiro, escolhida sozinha (ver `CONTEUDO.md`).
+Site estático (Vite + JavaScript), sem servidor. O jogo abre em português do Brasil (dia à meia-noite de **Brasília**, `America/Sao_Paulo`). A versão de Portugal continua disponível com `?lang=pt` (dia à meia-noite de **Lisboa**, `Europe/Lisbon`); ver `CONTEUDO.md`.
 
 ## Comandos
 

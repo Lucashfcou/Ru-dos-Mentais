@@ -1,25 +1,18 @@
-// Escolhe a variante do português: Portugal (pt) ou Brasil (br), sem botão para o jogador trocar.
-// Ordem: ?lang= na ligação (para testar), depois o que ficou guardado, depois o fuso horário e, por fim, o idioma do aparelho.
+// Variante do português: Brasil (br, a padrão) ou Portugal (pt).
+// Todos abrem em português do Brasil. A versão de Portugal continua disponível com ?lang=pt
+// na ligação (fica guardada no aparelho); ?lang=br volta ao Brasil.
 
 export const FUSOS = { pt: "Europe/Lisbon", br: "America/Sao_Paulo" };
+export const PADRAO = "br";
 const CHAVE = "ruidos-mentais:lang";
 
-const FUSO_BR = /^America\/(Sao_Paulo|Bahia|Fortaleza|Recife|Belem|Manaus|Cuiaba|Campo_Grande|Porto_Velho|Rio_Branco|Noronha|Araguaina|Maceio|Santarem|Boa_Vista|Eirunepe)$/;
-const FUSO_PT = /^(Europe\/Lisbon|Atlantic\/(Azores|Madeira))$/;
-
-/**
- * `entrada`: { busca: "?lang=br", guardado: "br", lingua: "pt-BR", fuso: "America/Sao_Paulo" }
- * O sítio onde a pessoa está pesa mais do que o idioma do aparelho: um brasileiro em Portugal vê a versão de Portugal.
- */
-export function detectarLocale({ busca = "", guardado = "", lingua = "", fuso = "" } = {}) {
+/** `entrada`: { busca: "?lang=pt", guardado: "pt" } */
+export function detectarLocale({ busca = "", guardado = "" } = {}) {
   const pedido = normalizar(new URLSearchParams(busca).get("lang"));
   if (pedido) return pedido;
   const antigo = normalizar(guardado);
   if (antigo) return antigo;
-  if (FUSO_PT.test(fuso)) return "pt";
-  if (FUSO_BR.test(fuso)) return "br";
-  // fuso desconhecido ou de outro país: decide o idioma do aparelho
-  return String(lingua || "").toLowerCase().startsWith("pt-br") ? "br" : "pt";
+  return PADRAO;
 }
 
 function normalizar(v) {
@@ -30,7 +23,7 @@ function normalizar(v) {
 }
 
 function doAmbiente() {
-  if (typeof window === "undefined") return "pt";
+  if (typeof window === "undefined") return PADRAO;
   let guardado = "";
   const busca = window.location ? window.location.search : "";
   const pedido = normalizar(new URLSearchParams(busca).get("lang"));
@@ -38,15 +31,9 @@ function doAmbiente() {
     if (pedido) localStorage.setItem(CHAVE, pedido); // quem abre com ?lang= fica nessa variante
     guardado = localStorage.getItem(CHAVE) || "";
   } catch {
-    /* sem armazenamento: segue o aparelho */
+    /* sem armazenamento: usa a variante padrão */
   }
-  let fuso = "";
-  try {
-    fuso = Intl.DateTimeFormat().resolvedOptions().timeZone || "";
-  } catch {
-    /* sem Intl */
-  }
-  return detectarLocale({ busca, guardado, lingua: (typeof navigator !== "undefined" && navigator.language) || "", fuso });
+  return detectarLocale({ busca, guardado });
 }
 
 export const LOCALE = doAmbiente();
