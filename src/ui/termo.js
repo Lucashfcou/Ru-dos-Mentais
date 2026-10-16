@@ -55,6 +55,9 @@ export function telaTermo() {
   main.innerHTML = `<div class="game" style="${gv(G.color)}">${cabecalho(G, m)}<div class="board" id="board">${linhas}</div>${ajuda}${teclado}${fim}</div>`;
   ligarCabecalho("termo");
   ligarResultado("termo");
+  // no celular, a linha atual sobe até ficar acima do teclado fixo
+  const atual = main.querySelector(".trow.cur");
+  if (atual && matchMedia("(max-width:700px)").matches) atual.scrollIntoView({ block: "nearest" });
   main.querySelectorAll("[data-k]").forEach((b) => {
     b.onclick = () => tecla(b.dataset.k);
     b.addEventListener("pointerdown", () => fx.pop(b, 0.9));
