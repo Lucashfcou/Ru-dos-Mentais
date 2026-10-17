@@ -39,11 +39,62 @@ function carregar() {
       /* dados corrompidos: começa de novo */
     }
   }
-  const s = dados && typeof dados === "object" ? dados : {};
-  s.days = s.days && typeof s.days === "object" ? s.days : {};
-  s.seen = s.seen || {};
-  delete s.free;
-  delete s.off;
+  return sanearArmazem(dados);
+}
+
+const DIA = /^\d{4}-\d{2}-\d{2}$/;
+const STATUS = ["playing", "won", "lost"];
+const ehObjeto = (v) => v !== null && typeof v === "object" && !Array.isArray(v);
+const listaDe = (v, max, ok) => Array.isArray(v) && v.length <= max && v.every(ok);
+
+/** Um jogo guardado só vale se tiver exatamente o formato que o jogo escreve. */
+function estadoValido(gid, s, dia) {
+  if (!ehObjeto(s) || !STATUS.includes(s.status)) return false;
+  const G = GAMES[gid];
+  if (G.type === "guess") return listaDe(s.guesses, MAX_ESTADO, (g) => g === "__skip" || (typeof g === "string" && Object.hasOwn(G.answers, g)));
+  if (G.type === "termo") return listaDe(s.rows, MAX_ESTADO, (r) => typeof r === "string" && /^[A-Z]{5}$/.test(r));
+  if (G.type === "mito") return listaDe(s.escolhas, 5, (e) => e === "mito" || e === "verdade");
+  if (G.type === "conex") {
+    const termos = desafioDe("conex", numeroEdicao(dia)).groups.flatMap((g) => g.words);
+    const certo = (t) => typeof t === "string" && termos.includes(t);
+    const ordemOk = s.order === null || (listaDe(s.order, 16, certo) && s.order.length === 16 && new Set(s.order).size === 16);
+    return (
+      ordemOk &&
+      listaDe(s.attempts, 20, (a) => Array.isArray(a) && a.length === 4 && a.every(certo)) &&
+      listaDe(s.solved, 4, (i) => Number.isInteger(i) && i >= 0 && i < 4) &&
+      new Set(s.solved).size === s.solved.length
+    );
+  }
+  return false;
+}
+const MAX_ESTADO = 6;
+
+/**
+ * O que está no armazenamento do navegador pode estar corrompido ou ter sido mexido à mão.
+ * Aqui só passa o que o jogo reconhece: o resto é descartado, para nunca travar a tela
+ * nem entrar HTML estranho nos modelos.
+ */
+export function sanearArmazem(dados) {
+  const d = ehObjeto(dados) ? dados : {};
+  const s = { days: {}, seen: {} };
+  if (d.theme === "dark" || d.theme === "light") s.theme = d.theme;
+  if (ehObjeto(d.seen)) for (const k of Object.keys(d.seen)) if (k !== "__proto__" && d.seen[k] === 1) s.seen[k] = 1;
+  if (ehObjeto(d.waveSeen)) {
+    s.waveSeen = {};
+    for (const k of Object.keys(d.waveSeen)) if (k !== "__proto__" && typeof d.waveSeen[k] === "string" && d.waveSeen[k].length < 80) s.waveSeen[k] = d.waveSeen[k];
+  }
+  if (ehObjeto(d.days)) {
+    for (const dia of Object.keys(d.days)) {
+      if (!DIA.test(dia) || !ehObjeto(d.days[dia])) continue;
+      const jogos = {};
+      for (const gid of ORDER) {
+        const e = d.days[dia][gid];
+        if (e !== undefined && estadoValido(gid, e, dia)) jogos[gid] = e;
+      }
+      if (d.days[dia].starSeen === 1) jogos.starSeen = 1;
+      s.days[dia] = jogos;
+    }
+  }
   return s;
 }
 
