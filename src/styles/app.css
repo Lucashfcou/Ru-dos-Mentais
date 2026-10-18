@@ -900,3 +900,10 @@ button.tile:focus-visible{outline:2px solid var(--g);outline-offset:2px}
 .mi:hover,.mi:focus-visible{color:var(--ink)}
 .mi:focus-visible{outline:2px solid var(--gc,var(--g));outline-offset:-2px}
 .mi:hover .chip,.mi:focus-visible .chip{background:var(--sunk);color:var(--ink)}
+
+/* Faixa fixa na cor do fundo, rente à borda de baixo: o Safari do iPhone tinge a barra inferior pelo que está
+   rente à borda, e sem isso ela ficava na cor do círculo da animação depois que ele sumia. */
+html{background:var(--table)}
+.edge-bottom{position:fixed;left:0;right:0;bottom:0;height:3px;background:var(--table);pointer-events:none;z-index:1}
+/* ícones do menu: um pouco mais cheios (a home usa 70% do croma; aqui 90%) */
+@supports (color:oklch(from red l c h)){.mi .gbadge{background:oklch(from var(--gc,var(--star)) l calc(c * .9) h)}}

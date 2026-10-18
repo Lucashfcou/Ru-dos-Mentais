@@ -52,6 +52,7 @@ describe("português do Brasil", () => {
     expect(paraBRInterface("Não foi desta. A resposta era esta.")).toBe("Não foi dessa vez. A resposta era esta.");
     expect(paraBRInterface("Seleciona 4 termos e envia.")).toBe("Selecione 4 termos e envie.");
     expect(paraBRInterface("iguais para toda a gente")).toBe("iguais para todo mundo");
+    expect(paraBRInterface("Percebi")).toBe("Entendi");
   });
   it("é idempotente: traduzir duas vezes dá o mesmo", () => {
     const t = "A perturbação de stresse no ecrã, está a ver";

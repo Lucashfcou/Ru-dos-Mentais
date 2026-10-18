@@ -5,7 +5,6 @@ import { GAMES, ORDER } from "../jogos.js";
 import { ICONS, MK, FLAME, gv } from "../icons.js";
 import { plural } from "../lib/texto.js";
 import { $, openSheet, closeSheet, setSheetG } from "./dom.js";
-import { go } from "./nav.js";
 import { textoDoDia, quadrados, partilhar } from "./partilha.js";
 import { atualizarRelogio } from "./relogio.js";
 
@@ -14,11 +13,8 @@ export function ajudaGeral() {
   <p>Todos os dias, à meia-noite (hora de Lisboa), chegam cinco desafios novos, iguais para toda a gente. Joga pela ordem que quiseres e partilha o resultado sem estragar a surpresa.</p>
   <div class="rules">${ORDER.map((g) => `<div class="rule" style="${gv(GAMES[g].color)}"><span class="gbadge">${ICONS[g]}</span><div><b>${GAMES[g].name}</b><p>${GAMES[g].rules}</p></div></div>`).join("")}</div>
   <h3>Sequência</h3><p>Conclui todos os jogos no mesmo dia para manter a sequência.</p>
-  <div class="actions" style="margin-top:16px"><button class="btn" id="go-play">Começar pelo Diagnóstico</button></div>`);
-  $("#go-play").onclick = () => {
-    closeSheet();
-    go("diag");
-  };
+  <div class="actions" style="margin-top:16px"><button class="btn accent" id="help-ok">Ok</button></div>`);
+  $("#help-ok").onclick = closeSheet;
 }
 
 export function regras(gid) {

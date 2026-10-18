@@ -238,3 +238,13 @@ Object.assign(fx,{
 
 
 export { fx, M, A, fxOn, EXPO, SPRING, RMQ };
+
+// No iPhone, a barra do Safari adota a cor do círculo da animação e pode ficar presa nela:
+// ao voltar ao app, qualquer círculo esquecido é removido.
+if (typeof document !== "undefined") {
+  const limparCirculos = () => document.querySelectorAll(".ripple").forEach((e) => e.remove());
+  document.addEventListener("visibilitychange", () => {
+    if (!document.hidden) limparCirculos();
+  });
+  addEventListener("pageshow", limparCirculos);
+}

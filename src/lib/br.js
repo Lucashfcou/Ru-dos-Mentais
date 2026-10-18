@@ -255,6 +255,7 @@ const FRASES = [
   ["Seleciona o texto abaixo e copia", "Selecione o texto abaixo e copie"],
   ["Cola onde quiseres", "Cole onde quiser"],
   ["Saltar e ver a próxima", "Pular e ver a próxima"],
+  ["Percebi", "Entendi"],
   ["Saltaste a tentativa", "Você pulou a tentativa"],
   ["saltou", "pulou"],
   ["Não foi desta.", "Não foi dessa vez."],
