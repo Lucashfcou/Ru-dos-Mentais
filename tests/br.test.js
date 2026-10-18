@@ -34,6 +34,25 @@ describe("português do Brasil", () => {
     const r = traduzirDados({ answer: "estresseagudo", texto: "stresse", near: { tdm: "ecrã" } });
     expect(r).toEqual({ answer: "estresseagudo", texto: "estresse", near: { tdm: "tela" } });
   });
+  it("sobras que escapavam: gerúndio depois de e/vírgula, controle, aspas, maiúsculas, tem que", () => {
+    expect(paraBR("cheia de energia e a fazer mil coisas")).toBe("cheia de energia e fazendo mil coisas");
+    expect(paraBR("(por exemplo, a bater numa almofada)")).toBe("(por exemplo, batendo numa almofada)");
+    expect(paraBR("perder o controlo")).toBe("perder o controle");
+    expect(paraBR("Sobre a Morte e o Morrer: «fluxo»")).toBe("Sobre a Morte e o Morrer: “fluxo”");
+    expect(paraBR("INSÓNIA")).toBe("INSÔNIA");
+    expect(paraBR("HISTRIÓNICA")).toBe("HISTRIÔNICA");
+    expect(paraBR("HIPERSÓNIA")).toBe("HIPERSONIA");
+    expect(paraBR("Perturbações Relacionadas com o Trauma")).toBe("Transtornos Relacionados com o Trauma");
+    expect(paraBR("perturbação depressiva major")).toBe("transtorno depressivo maior");
+    expect(paraBR("Quando tem de o enfrentar, tenho de falar")).toBe("Quando tem que o enfrentar, tenho que falar");
+    expect(paraBR("O tem de bom é isso")).toBe("O tem de bom é isso");
+  });
+  it("frases da interface que ainda estavam em português de Portugal", () => {
+    expect(paraBRInterface("Saltaste a tentativa")).toBe("Você pulou a tentativa");
+    expect(paraBRInterface("Não foi desta. A resposta era esta.")).toBe("Não foi dessa vez. A resposta era esta.");
+    expect(paraBRInterface("Seleciona 4 termos e envia.")).toBe("Selecione 4 termos e envie.");
+    expect(paraBRInterface("iguais para toda a gente")).toBe("iguais para todo mundo");
+  });
   it("é idempotente: traduzir duas vezes dá o mesmo", () => {
     const t = "A perturbação de stresse no ecrã, está a ver";
     expect(paraBRInterface(paraBRInterface(t))).toBe(paraBRInterface(t));

@@ -24,6 +24,15 @@ const PALAVRAS = [
   ["stressor", "estressor"],
   ["stresse", "estresse"],
   ["stress", "estresse"],
+  ["depressivo major", "depressivo maior"],
+  ["depressiva major", "depressiva maior"],
+  ["espectro do autismo", "espectro autista"],
+  ["espetro do autismo", "espectro autista"],
+  ["ingestão alimentar compulsiva", "compulsão alimentar"],
+  ["narcísic([oa]s?)", "narcisist$1"],
+  ["hipersónia", "hipersonia"],
+  ["controlos", "controles"],
+  ["controlo", "controle"],
   ["pistas", "dicas"],
   ["pista", "dica"],
   ["utentes", "pacientes"],
@@ -62,6 +71,15 @@ const PALAVRAS = [
   ["ténis", "tênis"],
   ["bocadinho", "pouquinho"],
   ["fixe", "legal"],
+  ["toda a gente", "todo mundo"],
+  ["por vezes", "às vezes"],
+  ["nomeadamente", "especialmente"],
+  ["rapazes", "garotos"],
+  ["rapaz", "garoto"],
+  ["apanhar", "pegar"],
+  ["continua a pôr", "continua pondo"],
+  ["(tenho|tens|tem|têm|temos|tinha|tinham|terá|terão) de(?= (?:o |a |os |as )?\\p{L}+(?:ar|er|ir|ôr)(?!\\p{L}))", "$1 que"],
+  ["um bocado", "um pouco"],
   ["euros", "reais"],
   ["percentagens", "porcentagens"],
   ["percentagem", "porcentagem"],
@@ -111,6 +129,8 @@ const ADJ = {
   psiquiátricas: "psiquiátricos", psiquiátrica: "psiquiátrico", induzida: "induzido", somática: "somático",
   ansiosa: "ansioso", psicóticas: "psicóticos", depressivas: "depressivos", disruptiva: "disruptivo",
   explosiva: "explosivo", reativa: "reativo",
+  relacionada: "relacionado", relacionadas: "relacionados", dissociativas: "dissociativos", afetiva: "afetivo",
+  afetivas: "afetivos",
 };
 
 /** Troca substantivos que mudam de género e acerta os determinantes que os antecedem. */
@@ -155,19 +175,21 @@ function generos(s) {
 /** "estar a fazer" -> "estar fazendo". */
 function gerundio(s) {
   const aux = "est(?:á|ão|ou|ava|avam|ás|amos|ar|iver|ivesse|eja|ejam|ive|iveram)|continu(?:a|am|ar|ou)|fic(?:a|am|ou|ar)|and(?:a|am|ava|ou|ar)|vive|vivia|passa|passou|passam";
-  return s.replace(new RegExp(`(?<!${L})(${aux})(\\s+)a(\\s+)(${L}+?)(ar|er|ir)(?!${L})`, "giu"), (m, v, e1, e2, rad, fim) => {
-    const ger = fim.toLowerCase() === "ar" ? "ando" : fim.toLowerCase() === "er" ? "endo" : "indo";
-    return v + e1 + rad + ger;
-  });
+  const gerundioDe = (rad, fim) => rad + (fim.toLowerCase() === "ar" ? "ando" : fim.toLowerCase() === "er" ? "endo" : "indo");
+  s = s.replace(new RegExp(`(?<!${L})(${aux})(\\s+)a(\\s+)(${L}+?)(ar|er|ir)(?!${L})`, "giu"), (m, v, e1, e2, rad, fim) => v + e1 + gerundioDe(rad, fim));
+  // "…cheia de energia e a fazer mil coisas" -> "e fazendo", "(por exemplo, a bater numa almofada)" -> "batendo"
+  return s.replace(new RegExp(`((?<!${L})(?:e|ou|mas)|,)(\\s+)a(\\s+)(${VERBOS_GERUNDIO})(ar|er|ir)(?!${L})`, "giu"), (m, c, e1, e2, rad, fim) => (c === "," ? "," : c) + e1 + gerundioDe(rad, fim));
 }
+
+/** Radicais dos verbos que, depois de "e"/"ou"/vírgula + "a", viram gerúndio (a ver, a bater...). */
+const VERBOS_GERUNDIO = ["faz", "v", "l", "diz", "sent", "bat", "fal", "pens", "chor", "r", "grit", "corr", "dorm", "com", "beb", "trabalh", "sofr", "evit", "procur", "tent", "fic", "pass", "olh", "ouv", "aprend", "perceb", "esper", "viv", "mex", "ped", "lembr", "fug", "repet", "imagin", "culp", "compar", "acord", "escrev", "us", "jog", "escolh", "consegu", "tom", "mud", "perd", "ganh", "sa", "entr", "brinc", "decid", "resolv", "reag", "respond", "organiz", "limp", "cont", "cri", "compr", "abr", "and", "volt", "aument", "diminu", "cresc", "procur", "repar", "ach", "gast", "ajud", "cuid", "oferec", "receb", "mostr", "explic", "inici", "termin", "continu", "ensin", "estud", "pratic", "ignor"].join("|");
 
 /** Acento agudo antes de m/n + vogal passa a circunflexo: económico -> econômico. */
 function acentos(s) {
+  const seg = "(?=[mn][aeiouáéíóúâêôãõ])";
   return s
-    .replace(/é(?=[mn][aeiouáéíóúâêôãõ])/g, "ê")
-    .replace(/ó(?=[mn][aeiouáéíóúâêôãõ])/g, "ô")
-    .replace(/É(?=[mn][aeiouáéíóúâêôãõ])/g, "Ê")
-    .replace(/Ó(?=[mn][aeiouáéíóúâêôãõ])/g, "Ô");
+    .replace(new RegExp("é" + seg, "giu"), (m) => (m === "É" ? "Ê" : "ê"))
+    .replace(new RegExp("ó" + seg, "giu"), (m) => (m === "Ó" ? "Ô" : "ô"));
 }
 
 /** Colocação do pronome: "sente-se" -> "se sente", "sinto-me" -> "me sinto" (menos no início da frase). */
@@ -185,6 +207,8 @@ const TU = [
   ["tu fazes as tuas", "você faz as suas"],
   ["às tuas expectativas", "às suas expectativas"],
   ["e tu não estás", "e você não está"],
+  ["Amo-te porque preciso de ti", "Eu te amo porque preciso de você"],
+  ["Preciso de ti porque te amo", "Preciso de você porque te amo"],
 ];
 
 const REGRAS = PALAVRAS.map(([padrao, novo]) => [new RegExp(palavra(padrao), "giu"), novo]);
@@ -193,7 +217,7 @@ export function paraBR(texto) {
   if (typeof texto !== "string" || !texto) return texto;
   let s = texto;
   for (const [de, para] of TU) if (s.includes(de)) s = s.split(de).join(para);
-  s = generos(s);
+  s = generos(s).replace(/«\s*/g, "“").replace(/\s*»/g, "”");
   for (const [re, novo] of REGRAS) {
     s = s.replace(re, (m, ...g) => caso(m, novo.replace(/\$(\d)/g, (_, i) => g[+i - 1] || "")));
   }
@@ -231,6 +255,12 @@ const FRASES = [
   ["Seleciona o texto abaixo e copia", "Selecione o texto abaixo e copie"],
   ["Cola onde quiseres", "Cole onde quiser"],
   ["Saltar e ver a próxima", "Pular e ver a próxima"],
+  ["Saltaste a tentativa", "Você pulou a tentativa"],
+  ["saltou", "pulou"],
+  ["Não foi desta.", "Não foi dessa vez."],
+  ["e envia.", "e envie."],
+  ["iguais para toda a gente", "iguais para todo mundo"],
+  ["a sério exige", "de verdade exige"],
   ["Partilhar", "Compartilhar"],
   ["n.º", "nº"],
   [".º erro", "º erro"],

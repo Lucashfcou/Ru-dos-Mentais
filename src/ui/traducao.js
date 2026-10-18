@@ -23,7 +23,10 @@ function traduzirNo(no) {
 }
 
 export function iniciarTraducao() {
-  if (!BR) return;
+  if (!BR) {
+    document.documentElement.lang = "pt-PT";
+    return;
+  }
   document.documentElement.lang = "pt-BR";
   document.title = paraBRInterface(document.title);
   const meta = document.querySelector('meta[name="description"]');
