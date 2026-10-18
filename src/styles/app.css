@@ -892,3 +892,11 @@ button.tile:focus-visible{outline:2px solid var(--g);outline-offset:2px}
 .wv.idle path{stroke:var(--grafico);opacity:1}
 /* matiz igual, saturação (croma) 30% menor */
 @supports (color:oklch(from red l c h)){.glyph{background:oklch(from var(--gc,var(--star)) l calc(c * .7) h)}}
+
+/* ===== Menu: mesma calma da home (ícones menos saturados, realce em tom suave, camadas discretas) ===== */
+.mpanel{border-left:1px solid var(--line);box-shadow:-28px 0 56px -24px rgba(5,5,14,.55)}
+@supports (color:oklch(from red l c h)){.mi .gbadge{background:oklch(from var(--gc,var(--star)) l calc(c * .7) h)}}
+.mi::before{background:color-mix(in srgb,var(--gc,var(--g)) 16%,transparent)}
+.mi:hover,.mi:focus-visible{color:var(--ink)}
+.mi:focus-visible{outline:2px solid var(--gc,var(--g));outline-offset:-2px}
+.mi:hover .chip,.mi:focus-visible .chip{background:var(--sunk);color:var(--ink)}
